@@ -119,21 +119,22 @@ https://evomics.org/wp-content/uploads/2022/06/Population-Genomics-Lab-1.pdf
 Output: Cakile_e-Admixture_downsampled17721_rn_poly_edentula.vcf
 
 - Check number of samples match
-``$ bcftools query -l Cakile_e-Admixture_downsampled17721_rn_poly_edentula | wc -l`
+`$ bcftools query -l Cakile_e-Admixture_downsampled17721_rn_poly_edentula | wc -l`
 Ouput: 90
 Output matches number of samples in 'keep_edentula.txt'
 
 #### **Now** filter for monomophic sites with bcftools:
--  `$ bcftools filter -e 'AC==0 || AC==AN'   Cakile_e-Admixture_downsampled17721_rn_poly_edentula >  Cakile_e-Admixture_downsampled17721_edentula_abc'
-	- Edentula before:
-	`/mnt/c/Users/Sam/Documents/Monash/BIO3990$ bcftools view -H  Cakile_e-Admixture_downsampled17721_rn_poly_edentula | wc -l`
-	10000
-	- Edentula after
-	`/mnt/c/Users/Sam/Documents/Monash/BIO3990$ bcftools view -H  Cakile_e-Admixture_downsampled17721_edentula_abc | wc -l`
-	3877
-	- Visualise before and after with:
-	- `$bcftools view -H Cakile_e-Admixture_downsampled17721_rn_poly_edentula | less -S`
-	- ``$ bcftools view -H Cakile_e-Admixture_downsampled17721_edentula_abc | less -S`
+`$ bcftools filter -e 'AC==0 || AC==AN'   Cakile_e-Admixture_downsampled17721_rn_poly_edentula >  Cakile_e-Admixture_downsampled17721_edentula_abc'
+- Edentula before:
+`/mnt/c/Users/Sam/Documents/Monash/BIO3990$ bcftools view -H  Cakile_e-Admixture_downsampled17721_rn_poly_edentula | wc -l`
+10000
+- Edentula after
+`/mnt/c/Users/Sam/Documents/Monash/BIO3990$ bcftools view -H  Cakile_e-Admixture_downsampled17721_edentula_abc | wc -l`
+3877
+- Visualise before and after with:
+- `$bcftools view -H Cakile_e-Admixture_downsampled17721_rn_poly_edentula | less -S`
+- `$ bcftools view -H Cakile_e-Admixture_downsampled17721_edentula_abc | less -S`
+
 Source: https://evomics.org/learning/population-and-speciation-genomics/2020-population-and-speciation-genomics/first-steps-in-genomic-data-analysis/
 
 
@@ -149,22 +150,22 @@ Source: https://evomics.org/learning/population-and-speciation-genomics/2020-pop
 
 ### Filtering vcf for C. maritima
 - Filtered using 'keep_maritima.txt' which is a one-sample-per-line text file taken from spreadsheet 'ABC_maritima' in Popfile
-``$ bcftools view -S keep_maritima.txt Cakile_e-Admixture_downsampled17721_rn_poly > Cakile_e-Admixture_downsampled17721_rn_poly_maritima`
+`$ bcftools view -S keep_maritima.txt Cakile_e-Admixture_downsampled17721_rn_poly > Cakile_e-Admixture_downsampled17721_rn_poly_maritima`
 Output:  Cakile_e-Admixture_downsampled17721_rn_poly_maritima.vcf
 
 - Checking number of lines
-``$ bcftools query -l Cakile_e-Admixture_downsampled17721_rn_poly_maritima | wc -l`
+`$ bcftools query -l Cakile_e-Admixture_downsampled17721_rn_poly_maritima | wc -l`
 Output: 101
 Output matches number of samples in 'keep_maritima.txt'
 
 #### Filtering for monomorphic sites
-- - `$ bcftools filter -e 'AC==0 || AC==AN'   Cakile_e-Admixture_downsampled17721_rn_poly_maritima >  Cakile_e-Admixture_downsampled17721_maritima_abc`
-	- Maritima before
-	`/mnt/c/Users/Sam/Documents/Monash/BIO3990$ bcftools view -H  Cakile_e-Admixture_downsampled17721_rn_poly_maritima | wc -l
-	10000`
-	- Maritima after
-	``$ bcftools view -H  Cakile_e Admixture_downsampled17721_maritima_abc | wc -l
-	9793
+`$ bcftools filter -e 'AC==0 || AC==AN'   Cakile_e-Admixture_downsampled17721_rn_poly_maritima >  Cakile_e-Admixture_downsampled17721_maritima_abc`
+- Maritima before
+`/mnt/c/Users/Sam/Documents/Monash/BIO3990$ bcftools view -H  Cakile_e-Admixture_downsampled17721_rn_poly_maritima | wc -l`
+- 10000
+- Maritima after
+`$ bcftools view -H  Cakile_e Admixture_downsampled17721_maritima_abc | wc -l`
+ 9793
 	
 
 
@@ -176,7 +177,7 @@ Output matches number of samples in 'keep_maritima.txt'
 ### Finally using vcf2diyabc.py
 - Make copies of each final output file label 'cp' at end
 - Use bcftools to convert files into vcf using: 
-	- `$ bcftools convert --output-type v Cakile_e-Admixture_downsampled17721_edentula_abc_cp > Cakile_e-Admixture_downsampled17721_edentula_abc_cp.vcf `
+`$ bcftools convert --output-type v Cakile_e-Admixture_downsampled17721_edentula_abc_cp > Cakile_e-Admixture_downsampled17721_edentula_abc_cp.vcf `
 - Then get the path or `pwd` to where these files are (and where the information files are), make a copy of the path.
 - return home with `cd`
 - Then `$ cd vcf2DIYABC.snp`
@@ -210,9 +211,9 @@ From the manual:
 #### Correcting scenarii
 - if using a time such as `t1-db` the condition setting will read the dash as a minus sign `-`, this will screw up your condition setting. To undo, change any dashes to underscores, i.e. `t1>t1_db`
 - Corrected for scenarii 0 & 1 is now:
-`tanc>t1
-`t1>t1_db
-`t1_db<tanc
+`tanc>t1`
+`t1>t1_db`
+`t1_db<tanc`
 This means that effective population at time ancestral `tanc>t1` is **always** less than the effective population  at time 1 (divergence, `t1`). `t1_db` is always less than `t1` and `tanc`.
 
 
@@ -227,12 +228,11 @@ This means that effective population at time ancestral `tanc>t1` is **always** l
 	- 156 generations/years between 1863-2019
 	- 176 generations/years between 1843-2019
 - So divergence time of novel AUS _C. edentula_ population is 156-176
--
-- "Because of the lack of knowledge of natural and plantation population sizes of _M. ulei_, a uniform distribution with large interval (10–100 000) was chosen as the prior distribution for effective population sizes of the ancestral population (_N_, black in [Figure 2](https://www.nature.com/articles/hdy201237#Fig2)), of the different source populations in the endemism area (_NO_., dark gray in [Figure 2](https://www.nature.com/articles/hdy201237#Fig2)) and of the sampled populations (_N_., light gray in [Figure 2](https://www.nature.com/articles/hdy201237#Fig2))." (Barrès et al. 2012)
-- ^ [re-written for edenula] Given the paucity of information regarding the natural population sizes of _C. edentula_, a prior distribution characterized by a uniform distribution with a wide interval (10-10,000) was adopted for effective population sizes pertaining to the ancestral population, the various source populations within the endemism area, and the sampled populations. (Barrès et al. 2012)
+
+- Given the paucity of information regarding the natural population sizes of _C. edentula_, a prior distribution characterized by a uniform distribution with a wide interval (10-10,000) was adopted for effective population sizes pertaining to the ancestral population, the various source populations within the endemism area, and the sampled populations. (Barrès et al. 2012)
 - # All priors will be first set to uniform distributions but final models should be simulated under a range of different distributions a la (Barrès et al. 2012) e.g. divergence time should be simulated under a log-uniform distribution.
 - "Other distributions (a log-uniform distribution on interval (10–100 000) and a normal distribution with mean 10 000 and standard deviation 20 000) were tested and all results were similar" (Barrès et al. 2012)
-- (dummsumm) "Using a log-uniform distribution also has the advantage that it can help avoid the bias that can result from using a uniform distribution, especially when the range of possible values spans several orders of magnitude. In a uniform distribution, the range of possible values is divided into equal intervals on a linear scale, which can result in an overemphasis on the lower end of the range and an underemphasis on the higher end of the range." <- this isn't really a problem for us as our range doesn't span orders of magnitude as (Barrès et al. 2012)'s did (16-500).
+- (Barrès et al. 2012): Using a log-uniform distribution also has the advantage that it can help avoid the bias that can result from using a uniform distribution, especially when the range of possible values spans several orders of magnitude. In a uniform distribution, the range of possible values is divided into equal intervals on a linear scale, which can result in an overemphasis on the lower end of the range and an underemphasis on the higher end of the range. <- this isn't really a problem for us as our range doesn't span orders of magnitude as (Barrès et al. 2012)'s did (16-500).
 - Question the need for '`tadm`' the time of admixture, it may be necessary if we consider admixture occurring a certain amount of time prior to the divergence of the novel population, but not if the admixture event gives rise to the novel population? In which case the admixture rate would simply occur at the time otherwise reserved for the divergence of the Australian population (`t1` in the old model, `taus` in the new)
 
 
@@ -241,7 +241,7 @@ This means that effective population at time ancestral `tanc>t1` is **always** l
 - Cakile_e-Admixture_edentula_abc_test.DIYABC.snp
 
 #### Edentula simulation Pool A: Polytomy and ladderised, single and double bottlenecks
-![[Pasted image 20230420135422.png]]
+![[Pasted image 20230420135422.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230420135422.png "edentula pool A scenarii")
 ![[Pasted image 20230420140540.png]]
 ![[Pasted image 20230420140558.png]]
 ![[Pasted image 20230420140619.png]]
