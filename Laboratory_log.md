@@ -82,7 +82,7 @@
 	- Checked in Excel with 'sample_ids' and sample_renames in adjacent columns and command:
 	- `=IF(ISNA(MATCH(LEFT(B2,4), LEFT($A$2:$A$399, 4),0)), "No Match", B2)`
 	- [![Pasted image 20230417130417.png](https://github.com/samuel-craig/ABC_cakile/blob/main/DIYABC_screengrabs/Pasted%20image%2020230417130417.png "Checking sample_ids in Excel")]
-	- Checked by counting samples in bcftools:![[Pasted image 20230417130831.png]]
+	- Checked by counting samples in bcftools:![[Pasted image 20230417130831.png](https://github.com/samuel-craig/ABC_cakile/blob/main/DIYABC_screengrabs/Pasted%20image%20230417130831.png "Couting samples in bcftools")]
 ### Check for monomorphic
 - To remove monomorphic SNPs, used  `bcftools filter`  to exclude `-e` all sites at which no alternative alleles are called for any of the samples `AC==0` and all sites at which only alternative alleles are called `AC==AN`.
 - AC="Allele count in genotypes"
