@@ -8,6 +8,7 @@
 - [19APR13](#19APR23)
 	- [DIYABC](#DIYABC)
 - [20APR13](#20APR23)
+	- [*C. edentula* Priors](#_C. edentula_ Priors)
 - [21APR13](#21APR23)
 - [22APR13](#22APR23)
 - [24APR13](#24APR23)
@@ -217,6 +218,7 @@ This means that effective population at time ancestral `tanc>t1` is **always** l
 
 
 ## 20APR23
+### _C. edentula_ Priors <a name="edentula_priors"></a>
 #### Working out plausible priors
 - "In Australia, _C. edentula_ was first recorded in Victoria in 1863 and subsequently spread along the coastline of Australia (Rodman, [1986](https://onlinelibrary.wiley.com/doi/full/10.1111/mec.15768#mec15768-bib-0058))." (Rosinger et al. 2020)
 -  The divergence time of the novel population is set to be no later than 1863 and not earlier than 1843. This gives the possibility that _C. edentula_ had arrived two decades earlier, but had not been recorded. (After Byrne et al. 2022 "Bitou")
