@@ -3,7 +3,53 @@
 ## Index
 - [14APR13](#14APR23)
 	- [Data](#Data)
+- [16APR13](#16APR23)
+- [19APR13](#19APR23)
+- [20APR13](#20APR23)
+- [21APR13](#21APR23)
+- [22APR13](#22APR23)
+- [24APR13](#24APR23)
+- [25APR13](#25APR23)
+- [26APR13](#26APR23)
+- [27APR13](#27APR23)
+- [28APR13](#28APR23)
+- [29APR13](#29APR23)
+- [30APR13](#30APR23)
+- [01MAY23](#01MAY23)
+- [02MAY23](#02MAY23)
+- [03MAY23](#03MAY23)
+- [04MAY23](#04MAY23)
+- [05MAY23](#05MAY23)
+- [06MAY23](#06MAY23)
+- [07MAY23](#07MAY23)
+- [08MAY23](#08MAY23)
+- [09MAY23](#09MAY23)
+- [10MAY23](#10MAY23)
+- [11MAY23](#11MAY23)
+- [12MAY23](#12MAY23)
+- [13MAY23](#13MAY23)
+- [14MAY23](#14MAY23)
+- [15MAY23](#15MAY23)
+- [16MAY23](#16MAY23)
+- [17MAY23](#17MAY23)
+- [18MAY23](#18MAY23)
+- [19MAY23](#19MAY23)
 - [20MAY23](#20MAY23)
+- [21MAY23](#21MAY23)
+- [22MAY23](#22MAY23)
+- [23MAY23](#23MAY23)
+- [24MAY23](#24MAY23)
+- [25MAY23](#25MAY23)
+- [26MAY23](#26MAY23)
+- [27MAY23](#27MAY23)
+- [28MAY23](#28MAY23)
+- [29MAY23](#29MAY23)
+- [30MAY23](#30MAY23)
+- [31MAY23](#31MAY23)
+- [01JUN23](#01JUN23)
+- [02JUN23](#01JUN23)
+- [03JUN23](#01JUN23)
+- [04JUN23](#01JUN23)
 
 
 
@@ -13,9 +59,9 @@
 
 
 
-## 14APR23
----
-### Data  <a name="Data"></a>
+
+## 14APR23 <a name="14APR23"></a>
+### Data <a name="Data"></a>
 
 
 
@@ -23,7 +69,7 @@
 
 
 
-## 16APR23
+## 16APR23 <a name="16APR23"></a>
 ### bcftools command log
 - Installed ubuntu, bcftools
 
@@ -144,7 +190,7 @@ Output matches number of samples in 'keep_maritima.txt'
 - Cakile_e-Admixture_downsampled17721_maritima_abc_cp.DIYABC.snp
 
 
-## 19APR23
+## 19APR23 <a name="19APR23"></a>
 
 ### Entering .snp files into DIYABC
 #### Question what is the sex ratio?
@@ -172,7 +218,7 @@ This means that effective population at time ancestral `tanc>t1` is **always** l
 
 
 
-## 20APR23
+## 20APR23 <a name="20APR23"></a>
 #### Working out plausible priors
 - "In Australia, _C. edentula_ was first recorded in Victoria in 1863 and subsequently spread along the coastline of Australia (Rodman, [1986](https://onlinelibrary.wiley.com/doi/full/10.1111/mec.15768#mec15768-bib-0058))." (Rosinger et al. 2020)
 -  The divergence time of the novel population is set to be no later than 1863 and not earlier than 1843. This gives the possibility that _C. edentula_ had arrived two decades earlier, but had not been recorded. (After Byrne et al. 2022 "Bitou")
