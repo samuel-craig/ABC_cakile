@@ -4,7 +4,7 @@
 - [14APR13](#14APR23)
 	- [Data](#Data)
 - [16APR13](#16APR23)
-	- [Using bcftools](#Using bcftools)
+	- [bcftools](#bcftools)
 - [19APR13](#19APR23)
 	- [DIYABC](#DIYABC)
 - [20APR13](#20APR23)
@@ -68,7 +68,7 @@
 
 
 ## 16APR23
-### Using bcftools<a name="Using bcftools"></a>
+### Using bcftools<a name="bcftools"></a>
 - Installed ubuntu, bcftools
 
 - Duplicated file:  Cakile_e-Admixture_downsampled17721.vcf
