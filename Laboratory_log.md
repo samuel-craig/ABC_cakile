@@ -4,9 +4,9 @@
 - [14APR13](#14APR23)
 	- [Data](#Data)
 - [16APR13](#16APR23)
-	- [Using bcftools](#subhead_3)
+	- [Using bcftools](#Using bcftools)
 - [19APR13](#19APR23)
-	- [DIYABC](#subhead_3)
+	- [DIYABC](#DIYABC)
 - [20APR13](#20APR23)
 - [21APR13](#21APR23)
 - [22APR13](#22APR23)
@@ -190,7 +190,7 @@ Output matches number of samples in 'keep_maritima.txt'
 
 ## 19APR23
 
-### DIYABC
+### DIYABC <a name="DIYABC"></a>
 #### Question what is the sex ratio?
 - DIYABC requires the .snp file header to contain a sex ratio. For C. edentula, I have written this as ``<NM=1NF>``, which - hopefully - means that I expect an equal sex ratio. This has been copied from the majority of the toy datasets within DIYABC, the majority of which seem to specify `<NM=1NF>` and which I interpret as "number of males equals number of females"
 - Manual: "or a balanced sex ratio one should write <NM=1.0NF>"
