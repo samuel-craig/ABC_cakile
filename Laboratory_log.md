@@ -242,11 +242,11 @@ This means that effective population at time ancestral `tanc>t1` is **always** l
 
 #### Edentula simulation Pool A: Polytomy and ladderised, single and double bottlenecks
 ![[Pasted image 20230420135422.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230420135422.png "edentula pool A scenarii")
-![[Pasted image 20230420140540.png]]
-![[Pasted image 20230420140558.png]]
-![[Pasted image 20230420140619.png]]
+![[Pasted image 20230420140540.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230420140540.png "Priors")
+![[Pasted image 20230420140558.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230420140558.png)
+![[Pasted image 20230420140619.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230420140619.png)
 Condition setting
-![[Pasted image 20230420140848.png]]
+![[Pasted image 20230420140848.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230420140848.png "Conditions")
 #### Simulate 100,000
 - Initial simulation of edentula_pool_A
 	- Start: 1410 20APR23
