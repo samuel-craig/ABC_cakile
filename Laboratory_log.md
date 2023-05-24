@@ -15,6 +15,7 @@
 	- [Error](#error1)
 - [22APR13](#22APR23)
 - [24APR13](#24APR23)
+	- [Scenario Choice: *C. edentula* pool A](#edentula_sc_24)
 - [25APR13](#25APR23)
 - [26APR13](#26APR23)
 - [27APR13](#27APR23)
@@ -354,7 +355,7 @@ Interpretation: The expected scenario was scenario 2, which was that the Austral
 
 
 ## 24APR23
-### Scenario Choice: *C. edentula* Pool A
+### Scenario Choice: *C. edentula* Pool A<a name="edentula_sc_24"></a>
 
 ![[Pasted image 20230424084022.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230424084022.png "Number of simulated datasets and parameters")
 
