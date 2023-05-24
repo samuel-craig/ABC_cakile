@@ -9,8 +9,10 @@
 	- [DIYABC](#DIYABC)
 - [20APR13](#20APR23)
 	- [*C. edentula* Priors](#edentula_priors)
+	- [Dataset Simulation: *C. edentula* Pool A](#edentula_sim_A1)
 - [21APR13](#21APR23)
-	- [Scenario choice: *C. edentula* pool A](#edentula_sc_a)
+	- [Scenario Choice: *C. edentula* pool A](#edentula_sc_a)
+	- [Error](#error1)
 - [22APR13](#22APR23)
 - [24APR13](#24APR23)
 - [25APR13](#25APR23)
@@ -241,7 +243,7 @@ This means that effective population at time ancestral `tanc>t1` is **always** l
 - Cakile_e-Admixture_maritima_abc_test.DIYABC.snp
 - Cakile_e-Admixture_edentula_abc_test.DIYABC.snp
 
-#### Edentula simulation Pool A: Polytomy and ladderised, single and double bottlenecks
+#### Edentula simulation Pool A: Polytomy and ladderised, single and double bottlenecks<a name="edentula_sim_A1"></a>
 ![[Pasted image 20230420135422.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230420135422.png "edentula pool A scenarii")
 ![[Pasted image 20230420140540.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230420140540.png "Priors")
 ![[Pasted image 20230420140558.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230420140558.png)
@@ -298,7 +300,7 @@ Interpretation: The expected scenario was scenario 2, which was that the Austral
 ##### Model 1, tanc
 - edentula_pool_A_paramter_est_tanc
 
-### Error
+### ERROR<a name="error1"></a>
 - DIYABC manual: "**samples are considered in the same order as they appear in the data file**"
 - So in the previous simulation
 	Pop1 = AUS
