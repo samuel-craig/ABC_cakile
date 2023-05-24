@@ -1,7 +1,7 @@
 # Laboratory Log
 
 ## Index
-- [14APR13](#14APR23)
+- [14APR13](#2_heading)
 	- [Data](#Data)
 - [16APR13](#16APR23)
 	- [Using bcftools](#Using bcftools)
@@ -57,7 +57,7 @@
 
 
 
-## 14APR23
+## 14APR23 <a name="2_heading"></a>
 ### Data
 
 
