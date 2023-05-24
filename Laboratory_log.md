@@ -14,7 +14,7 @@
 	- 'rn' = replaced names
 	- Checked in Excel with 'sample_ids' and sample_renames in adjacent columns and command:
 	- `=IF(ISNA(MATCH(LEFT(B2,4), LEFT($A$2:$A$399, 4),0)), "No Match", B2)`
-	- ![Pasted image 20230417130417.png](https://github.com/samuel-craig/ABC_cakile/tree/main/DIYABC_screengrabs/Pasted image 20230417130417.png)
+	- [![Pasted image 20230417130417.png](https://github.com/samuel-craig/ABC_cakile/tree/main/DIYABC_screengrabs/Pasted image 20230417130417.png)]
 	- Checked by counting samples in bcftools:![[Pasted image 20230417130831.png]]
 ### Check for monomorphic
 - To remove monomorphic SNPs, used  `bcftools filter`  to exclude `-e` all sites at which no alternative alleles are called for any of the samples `AC==0` and all sites at which only alternative alleles are called `AC==AN`.
