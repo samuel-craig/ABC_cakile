@@ -8,7 +8,7 @@
 - [19APR13](#19APR23)
 	- [DIYABC](#DIYABC)
 - [20APR13](#20APR23)
-	- [*C. edentula* Priors](#_C. edentula_ Priors)
+	- [*C. edentula* Priors](#edentula_priors)
 - [21APR13](#21APR23)
 - [22APR13](#22APR23)
 - [24APR13](#24APR23)
