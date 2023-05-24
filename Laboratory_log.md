@@ -1,5 +1,12 @@
 # Laboratory Log
 
+## Index
+- [14APR13](#14APR23)
+
+## 14APR23 <a name="14APR23"></a>
+
+
+
 ## 16APR23
 ### bcftools command log
 - Installed ubuntu, bcftools
