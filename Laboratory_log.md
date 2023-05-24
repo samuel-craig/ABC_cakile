@@ -68,7 +68,7 @@
 
 
 ## 16APR23
-### Using bcftools <a name="Using bcftools"></a>
+### Using bcftools<a name="Using bcftools"></a>
 - Installed ubuntu, bcftools
 
 - Duplicated file:  Cakile_e-Admixture_downsampled17721.vcf
