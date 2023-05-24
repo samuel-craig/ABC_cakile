@@ -10,7 +10,7 @@
 - [20APR13](#20APR23)
 	- [*C. edentula* Priors](#edentula_priors)
 - [21APR13](#21APR23)
-	- [Scenario choice: *edentula* pool A](<a name="edentula_sc_a"></a>
+	- [Scenario choice: *edentula* pool A](<a name="edentula_sc_a"></a>)
 - [22APR13](#22APR23)
 - [24APR13](#24APR23)
 - [25APR13](#25APR23)
