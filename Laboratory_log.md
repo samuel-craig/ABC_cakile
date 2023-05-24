@@ -92,9 +92,9 @@
 - Verify the above by counting lines (not including the header)
 `$ bcftools view -H  Cakile_e-Admixture_downsampled17721.vcf | wc -l`
 Output: 10000
-``$ bcftools view -H  Cakile_e-Admixture_downsampled17721_rn | wc -l`
+`$ bcftools view -H  Cakile_e-Admixture_downsampled17721_rn | wc -l`
 Output: 10000
-``$ bcftools view -H  Cakile_e-Admixture_downsampled17721_rn_poly | wc -l`
+`$ bcftools view -H  Cakile_e-Admixture_downsampled17721_rn_poly | wc -l`
 Output: 10000
 
 ? Does this above indicate that monomorphic loci were already filtered out? (this is likely?)
