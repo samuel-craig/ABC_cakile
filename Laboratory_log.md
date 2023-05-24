@@ -11,11 +11,13 @@
 	- [*C. edentula* Priors](#edentula_priors)
 	- [Dataset Simulation: *C. edentula* Pool A](#edentula_sim_A1)
 - [21APR13](#21APR23)
-	- [Scenario Choice: *C. edentula* pool A](#edentula_sc_a)
+	- [Scenario Choice: *C. edentula* Pool A](#edentula_sc_a)
 	- [Error](#error1)
 - [22APR13](#22APR23)
 - [24APR13](#24APR23)
-	- [Scenario Choice: *C. edentula* pool A](#edentula_sc_24)
+	- [Scenario Choice: *C. edentula* Pool A](#edentula_sc_24)
+	- [Parameter Estimation: *C. edntula* Pool A](#edentula_pe_24)
+	- [Error](#error2)
 - [25APR13](#25APR23)
 - [26APR13](#26APR23)
 - [27APR13](#27APR23)
@@ -384,7 +386,7 @@ Model 3 description: same as above but with a double bottleneck.
 ![[modelchoice_out_graph_error_versus_ntrees 1.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/edentula_pool_A_v2.JPG)
 - Interpretation: 1000 trees seems sufficient/OOB error becomes constant (and small) even around 500 trees.
 
-### Parameter Estimation
+### Parameter Estimation<a name="edentula_pe_24"></a>
 - We have 39822 simulated datasets for scenario 2. The recommended number of simulated datasets is 1,000 to 100,000 so we will proceed with parameter estimation, but may return later with **just** scenario 2 in order to boost this.
 - DIYABC manual "In practice, it might be useful to generate a (second) training set including only the selected scenario to process parameter estimation from a larger number of simulated datasets (e.g. 10000 as in Collin et al. 2020)."
 
@@ -501,7 +503,7 @@ Model 3 description: same as above but with a double bottleneck.
 - Stone 2017 "Parameter estimates are presented as median values (with 95% confidence intervals in brackets)"
 - Need to compare summary statistics values predicted by the model and those observed by Rosinger et al. 2022.
 
-- # ERROR
+- # ERROR<a name="error2"></a>
 	- # 1. The prior interval for the Australian bottleneck is not wide enough. If you wanted to say that you think that the bottleneck could have gone from the introduction of edentula through to the present, the max value should be 176, as this is the latest point at which the introduction is thought to have occurred.
 	- # 2. You did not include any scenarios with which there were *no* bottlenecks present. These are essentially the null models.
 
