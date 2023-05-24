@@ -270,7 +270,8 @@ This means that effective population at time ancestral `tanc>t1` is **always** l
 	- DIYABC user manual: "According to our experience, a forest made of 500 to 2,000 trees often constitutes an interesting trade-off between computation efficiency and statistical precision (Breiman, 2001; Chapuis et al. 2020; Pudlo et al. 2016; Raynal et al. 2019). To evaluate whether or not this number is sufficient, we recommend plotting error/accuracy metrics as a function of the number of trees in the forest. The shapes of the curves provide a visual diagnostic of whether such key metrics stabilize when the number of trees tends to a given value. DIYABC-RF provides such a plot-figure as output."
 	- 1000 trees chosen
 	- modelchoice_out_graph_error_vs_ntrees (edentula Pool A):
-	- ![[modelchoice_out_graph_error_versus_ntrees 1.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/edentula_pool_A_v1.JPG "modelchoice_out_graph_error_vs_ntrees")
+![[modelchoice_out_graph_error_versus_ntrees 1.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/edentula_pool_A_v1.JPG "modelchoice_out_graph_error_vs_ntrees")
+
 - Random forest analysis
 	- Start: 1119 21APR23
 	- End: 1138 21APR23
@@ -279,12 +280,12 @@ This means that effective population at time ancestral `tanc>t1` is **always** l
 model1 | model2 | model3 | model4 | model5 | selected model | post probality 
     577                   6                   1                   314             102                           1                                   0.820
 - Model 1 selected
-- ![[Pasted image 20230421114847.png]]
+- ![[Pasted image 20230421114847.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230421114847.png "Model 1, Pool A)
 #### Interpretation
 Interpretation: The expected scenario was scenario 2, which was that the Australian novel population [pop 3] diverged from the Nova Scotian population [pop 1]. This received little support:
 ![[Pasted image 20230421114952.png]]
 - The next highest support was for model 4 (below). This scenario was that the Australian novel population [pop 3] diverged from the Great Lakes population [pop 2]. :
-![[Pasted image 20230421115318.png]]
+![[Pasted image 20230421115318.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230421114952.png "Model 4, Pool A)
 
 
 ### Parameter Estimation
@@ -312,8 +313,10 @@ Interpretation: The expected scenario was scenario 2, which was that the Austral
 	edentula_pool_A
 
 #### All edentula scenarios corrected, priors as per prior spreadsheet
-![[Pasted image 20230421194615.png]]
-![[Pasted image 20230421194556.png]]
+
+![[Pasted image 20230421194615.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230421194615.png)
+![[Pasted image v.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230421194556.png)
+
 #### Simulation of 200K edentula_Pool_A
 - Start: 1947 21APR23
 - End: ~2230 22APR23
