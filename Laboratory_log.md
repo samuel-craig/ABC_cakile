@@ -4,7 +4,7 @@
 - [14APR13](#14APR23)
 	- [Data](#Data)
 - [16APR13](#16APR23)
-	- [Using bcftools](#Using bcftools)
+	- [Using bcftools](#subhead_3)
 - [19APR13](#19APR23)
 - [20APR13](#20APR23)
 - [21APR13](#21APR23)
@@ -57,8 +57,8 @@
 
 
 
-## 14APR23 <a name="2_heading"></a>
-### Data
+## 14APR23 
+### Data <a name="subhead_3"></a>
 
 
 
