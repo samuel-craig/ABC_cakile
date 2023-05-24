@@ -4,7 +4,7 @@
 - [14APR13](#14APR23)
 	- [Data](#Data)
 - [16APR13](#16APR23)
-	- ['Using bcftools'](#'Using bcftools')
+	- [Using bcftools](#Using bcftools)
 - [19APR13](#19APR23)
 	- [DIYABC](#DIYABC)
 - [20APR13](#20APR23)
