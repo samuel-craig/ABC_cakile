@@ -281,8 +281,10 @@ This means that effective population at time ancestral `tanc>t1` is **always** l
 	- End: 1138 21APR23
 #### Results
 - edentula_pool_A_scenario_choice > modelchoice_out:
-model1 | model2 | model3 | model4 | model5 | selected model | post probality 
-    577                   6                   1                   314             102                           1                                   0.820
+|model1 | model2 | model3 | model4 | model5 | selected model | post probality |
+|-------|--------|--------|--------|--------|----------------|----------------|
+|  577  |    6   |   1    |   314  | 102    |      1         |      0.820     |
+
 - Model 1 selected
 - ![[Pasted image 20230421114847.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230421114847.png "Model 1, Pool A)
 #### Interpretation
