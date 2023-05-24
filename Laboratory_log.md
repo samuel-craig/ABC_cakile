@@ -265,7 +265,7 @@ This means that effective population at time ancestral `tanc>t1` is **always** l
 	- End: 1113
 	- Duration: ~2hrs
 #### Initial investigations of edentula Pool A dataset and priors
-### Scenario choice<a name="edentula_sc_a"></a> 
+### Scenario choice: *C. edentula* Pool A<a name="edentula_sc_a"></a> 
 - Save analysis (sub-project) as:
 	edentula_pool_A_scenario_choice
 - Number of trees
