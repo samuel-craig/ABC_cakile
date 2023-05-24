@@ -287,12 +287,12 @@ This means that effective population at time ancestral `tanc>t1` is **always** l
 |  577  |    6   |   1    |   314  | 102    |      1         |      0.820     |
 
 - Model 1 selected
-- ![[Pasted image 20230421114847.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230421114847.png "Model 1, Pool A)
+- ![[Pasted image 20230421114847.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230421114847.png "Model 1, Pool A")
 #### Interpretation
 Interpretation: The expected scenario was scenario 2, which was that the Australian novel population [pop 3] diverged from the Nova Scotian population [pop 1]. This received little support:
 ![[Pasted image 20230421114952.png]]
 - The next highest support was for model 4 (below). This scenario was that the Australian novel population [pop 3] diverged from the Great Lakes population [pop 2]. :
-![[Pasted image 20230421115318.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230421114952.png "Model 4, Pool A)
+![[Pasted image 20230421115318.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230421114952.png "Model 4, Pool A")
 
 
 ### Parameter Estimation
