@@ -60,8 +60,8 @@
 
 
 
-## 14APR23 <a name="14APR23"></a>
-### Data <a name="Data"></a>
+## 14APR23
+### Data
 
 
 
@@ -69,7 +69,7 @@
 
 
 
-## 16APR23 <a name="16APR23"></a>
+## 16APR23
 ### bcftools command log
 - Installed ubuntu, bcftools
 
@@ -190,7 +190,7 @@ Output matches number of samples in 'keep_maritima.txt'
 - Cakile_e-Admixture_downsampled17721_maritima_abc_cp.DIYABC.snp
 
 
-## 19APR23 <a name="19APR23"></a>
+## 19APR23
 
 ### Entering .snp files into DIYABC
 #### Question what is the sex ratio?
@@ -218,7 +218,7 @@ This means that effective population at time ancestral `tanc>t1` is **always** l
 
 
 
-## 20APR23 <a name="20APR23"></a>
+## 20APR23
 #### Working out plausible priors
 - "In Australia, _C. edentula_ was first recorded in Victoria in 1863 and subsequently spread along the coastline of Australia (Rodman, [1986](https://onlinelibrary.wiley.com/doi/full/10.1111/mec.15768#mec15768-bib-0058))." (Rosinger et al. 2020)
 -  The divergence time of the novel population is set to be no later than 1863 and not earlier than 1843. This gives the possibility that _C. edentula_ had arrived two decades earlier, but had not been recorded. (After Byrne et al. 2022 "Bitou")
@@ -976,7 +976,7 @@ Results:
 ![[Pasted image 20230523084808.png]]
 Model 1 selected by only 1 vote.
 
-## 23MAY23  <a name="20MAY23"></a>
+## 23MAY23
 Tournament between winners (and scenarios within 10 votes of the winning scenario - too close to differentiate) of poll A, B, C
 - File name: 'maritima_A_B_C'
 1. Scenario 2 Pool A;
