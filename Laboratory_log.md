@@ -2,7 +2,7 @@
 
 ## Index
 - [14APR13](#14APR23)
-- 20MAY23 <a name="20MAY23"></a>
+- [20MAY23](#20MAY23)
 
 
 
@@ -914,7 +914,7 @@ Results:
 ![[Pasted image 20230523084808.png]]
 Model 1 selected by only 1 vote.
 
-## 23MAY23
+## 23MAY23  <a name="20MAY23"></a>
 Tournament between winners (and scenarios within 10 votes of the winning scenario - too close to differentiate) of poll A, B, C
 - File name: 'maritima_A_B_C'
 1. Scenario 2 Pool A;
