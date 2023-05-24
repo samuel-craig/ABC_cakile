@@ -10,6 +10,7 @@
 - [20APR13](#20APR23)
 	- [*C. edentula* Priors](#edentula_priors)
 - [21APR13](#21APR23)
+	- [Scenario choice: *edentula* pool A](<a name="edentula_sc_a"></a>
 - [22APR13](#22APR23)
 - [24APR13](#24APR23)
 - [25APR13](#25APR23)
@@ -250,20 +251,21 @@ This means that effective population at time ancestral `tanc>t1` is **always** l
 
 ![[Pasted image 20230420140848.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230420140848.png "Conditions")
 
-#### Simulate 100,000
+#### Dataset Simulation
 - Initial simulation of edentula_pool_A
+- 100,000 datasets
 	- Start: 1410 20APR23
 	- End: approx midnight
 	- Duration: ~ 10 hours
 
 ## 21APR23
-#### Simulate more
+#### Dataset Simulation cont.
 - Simulate up to 120,000 to ensure >20,000 for each model.
-	Start: 0927 21APR23
-	End: 1113
-	Duration: ~2hrs
+	- Start: 0927 21APR23
+	- End: 1113
+	- Duration: ~2hrs
 #### Initial investigations of edentula Pool A dataset and priors
-### Scenario choice
+### Scenario choice<a name="edentula_sc_a"></a> 
 - Save analysis (sub-project) as:
 	edentula_pool_A_scenario_choice
 - Number of trees
