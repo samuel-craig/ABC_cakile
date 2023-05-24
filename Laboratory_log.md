@@ -287,11 +287,16 @@ This means that effective population at time ancestral `tanc>t1` is **always** l
 |  577  |    6   |   1    |   314  | 102    |      1         |      0.820     |
 
 - Model 1 selected
-- ![[Pasted image 20230421114847.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230421114847.png "Model 1, Pool A")
+
+![[Pasted image 20230421114847.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230421114847.png "Model 1, Pool A")
+
 #### Interpretation
 Interpretation: The expected scenario was scenario 2, which was that the Australian novel population [pop 3] diverged from the Nova Scotian population [pop 1]. This received little support:
+
 ![[Pasted image 20230421114952.png]]
-- The next highest support was for model 4 (below). This scenario was that the Australian novel population [pop 3] diverged from the Great Lakes population [pop 2]. :
+
+- The next highest support was for model 4 (below). This scenario was that the Australian novel population [pop 3] diverged from the Great Lakes population [pop 2].:
+
 ![[Pasted image 20230421115318.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230421114952.png "Model 4, Pool A")
 
 
@@ -322,6 +327,7 @@ Interpretation: The expected scenario was scenario 2, which was that the Austral
 #### All edentula scenarios corrected, priors as per prior spreadsheet
 
 ![[Pasted image 20230421194615.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230421194615.png)
+
 ![[Pasted image v.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230421194556.png)
 
 #### Simulation of 200K edentula_Pool_A
@@ -348,8 +354,10 @@ Interpretation: The expected scenario was scenario 2, which was that the Austral
 
 
 ## 24APR23
-### Scenario Choice
-![[Pasted image 20230424084022.png]]
+### Scenario Choice: *C. edentula* Pool A
+
+![[Pasted image 20230424084022.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230424084022.png "Number of simulated datasets and parameters")
+
 - Edentula pool A
 - Saved as subfolder: 'edentula_pool_A_scenario_choice'
 - 1000 trees, check graphical output: 'modelchoice_out_graph_error_vs_ntrees'
@@ -522,7 +530,7 @@ Model 3 description: same as above but with a double bottleneck.
 	- N Max.: 2.5 million
 	3. Take the posterior probability of each model run on each prior set
 	4.  Calculate the Bayes Factor
-```GPT
+```
 give the prior sets 1, 2 and 3 with their respective posterior probabilities 0.930, 0.066, 0.005 calculate the Bayes factor in favor of the most strongly supported prior set.
 
 To calculate the Bayes factor in favor of the most strongly supported prior set, we need to compare the marginal likelihoods of each prior set. We can do this using the posterior probabilities given:
