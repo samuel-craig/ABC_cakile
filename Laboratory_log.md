@@ -80,7 +80,7 @@
 - [04JUN23](#01JUN23)
 
 
-###### FILE
+
 
 
 
@@ -92,7 +92,7 @@
 ### Using bcftools<a name="bcftools"></a>
 - Installed ubuntu, bcftools
 - Duplicate file: Cakile_e-Admixture_downsampled17721.vcf
--
+
 - Location: sam@DESKTOP-1PAPBN0:/mnt/c/Users/Sam/Documents/Monash/BIO3990$
 ### Changing sample names
 - Edited duplicated names using : 
@@ -1135,7 +1135,7 @@ Tournament between winners (and scenarios within 10 votes of the winning scenari
 
 ## 25MAY23
 Scenario Choice: *C. maritima*<a name="maritima_sc_25"></a>
-###### RF Analysis Settings: 
+###### RF ANALYSIS SETTINGS: 
 - File: maritima_A_B_C_scenario_choice
 - <28,000 datasets per scenario
 - 2000 trees
@@ -1143,15 +1143,15 @@ Scenario Choice: *C. maritima*<a name="maritima_sc_25"></a>
 	- End: 1038 25MAY23
 	- Duration: 59 minutes
 
-###### Results:
+###### RESULTS:
 
 ![[maritimatourn]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/lasttourn.JPG)
 
 
-###### Model Image:
+###### MODEL IMAGE:
 
 ![[PoolCmodel4.jpg]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/PoolCmodel4.JPG)
 
-###### Model Description:
+###### MODEL DESCRIPTION:
 At time [tanc], there is an ancestral population which has a effective population [Nanc], pop2[med],  pop1[balt] and pop6[gst3] split. At time [twna] pop4 [gst1] splits off pop6[gst3] and is bottlenecked for time [tBwna] resulting in Ne of [NBgst1]. Later (more recently) at time [tBwna2] pop 5[gst2] splits off pop1[balt] and is bottlenecked for time [tBwna2] resulting in a Ne of [NBgst2]. Then at time [tpost] pop3 [wna] is given rise to from the admixture of pop5[gst2] and pop4[gst1] at a rate of [ra].
 
