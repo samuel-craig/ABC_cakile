@@ -105,13 +105,13 @@
 	- Checked by counting samples in bcftools:![Pasted image 20230417130831.png](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230417130831.png)
 ### Check for monomorphic
 - To remove monomorphic SNPs, used  `bcftools filter`  to exclude `-e` all sites at which no alternative alleles are called for any of the samples `AC==0` and all sites at which only alternative alleles are called `AC==AN`.
-- AC="Allele count in genotypes"
-- AN="Total number of alleles in called genotypes"
-	- `$ bcftools filter -e 'AC==0 || AC==AN'  Cakile_e-Admixture_downsampled17721_rn >  Cakile_e-Admixture_downsampled17721_rn_poly''
+- `AC`="Allele count in genotypes"
+- `AN`="Total number of alleles in called genotypes"
+	- `$ bcftools filter -e 'AC==0 || AC==AN'  Cakile_e-Admixture_downsampled17721_rn >  Cakile_e-Admixture_downsampled17721_rn_poly`
 	- Ouput: Cakile_e-Admixture_downsampled17721_rn_poly
-	- 'poly' = polymorphic
+	- `poly` = polymorphic
 
-- Verify the above by counting lines (not including the header)
+### Verify the above by counting lines (not including the header)
 `$ bcftools view -H  Cakile_e-Admixture_downsampled17721.vcf | wc -l`
 Output: 10000
 `$ bcftools view -H  Cakile_e-Admixture_downsampled17721_rn | wc -l`
@@ -119,7 +119,7 @@ Output: 10000
 `$ bcftools view -H  Cakile_e-Admixture_downsampled17721_rn_poly | wc -l`
 Output: 10000
 
-? Does this above indicate that monomorphic loci were already filtered out? (this is likely?)
+#### ? Does this above indicate that monomorphic loci were already filtered out? (this is likely?)
 #### ^We will conduct something similar again because the removal of individuals from the VCF file will have led to some sites becoming monomorphic/invariant.
 https://evomics.org/wp-content/uploads/2022/06/Population-Genomics-Lab-1.pdf
 
