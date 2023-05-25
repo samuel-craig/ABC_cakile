@@ -1,0 +1,3059 @@
+debut
+headerRF.txt found, choosing it over header.txt
+simulating data sets with all summary statistics
+I have read RNGs' states from file ./RNG_state_0000.bin
+debut de l'action r
+./Cakile_e-Admixture_edentula_abc_test.DIYABC.snp.bin
+edentula_test <NM=1NF> <MAF=hudson>
+Fichier ./Cakile_e-Admixture_edentula_abc_test.DIYABC.snp : SNP
+lecture du fichier binaire
+smaf=hudson's algorithm
+THIS->MAF=0
+sexratio=0.5
+nloc=3877
+nsample=3
+ type 0   catexist =1
+ type 1   catexist =0
+ type 2   catexist =0
+ type 3   catexist =0
+ type 4   catexist =0
+type 0
+100   40   40   
+this->maf=0
+dans libin     
+this->locus[0].haplosnp[0][0]=1
+sexratio=0.5
+fin de la lecture du fichier binaire
+avant missingdata
+apres missingdata
+nparamtot=16
+nstat=50
+----------------------------------------apres readHeaderDebut
+9 scenario(s)
+----------------------------------------apres readHeaderScenarios
+historical parameters priors (16,13)
+----------------------------------------apres readHeaderHistParam
+fichier SNP dans redheaderLoci
+3877 <A> G1 from 1
+prem = 0
+groupe[1].nloc=3877
+avant recopie des locus
+dataobs.locus.size()=3877
+dataobs.nloc = 3877
+----------------------------------------apres readHeaderLoci
+----------------------------------------apres readHeaderGroupPrior
+----------------------------------------apres buildSuperScen
+debut de readHeaderAllStat
+nsamp=3    nstat=50   nparamut=0
+./headerRFRF.txt
+nstat=50
+
+
+this->entete=
+scenario NBgst2 NBgst1 Nanc Naus Nns Ngl Ngst1 Ngst2 Ngst3 tpost tBaus2 taus2 tBaus taus tanc ra    ML1p_1        ML1p_2        ML1p_3       ML2p_1.2      ML2p_1.3      ML2p_2.3       HWm_1         HWm_2         HWm_3         HWv_1         HWv_2         HWv_3        HBm_1.2       HBm_1.3       HBm_2.3       HBv_1.2       HBv_1.3       HBv_2.3       FST1m_1       FST1m_2       FST1m_3       FST1v_1       FST1v_2       FST1v_3      FST2m_1.2     FST2m_1.3     FST2m_2.3     FST2v_1.2     FST2v_1.3     FST2v_2.3      NEIm_1.2      NEIm_1.3      NEIm_2.3      NEIv_1.2      NEIv_1.3      NEIv_2.3     AMLm_1.2.3    AMLm_2.1.3    AMLm_3.1.2    AMLv_1.2.3    AMLv_2.1.3    AMLv_3.1.2   FST3m_1.2.3   FST3v_1.2.3    F3m_1.2.3     F3m_2.1.3     F3m_3.1.2     F3v_1.2.3     F3v_2.1.3     F3v_3.1.2   
+----------------------------------------apres readHeaderAllStat
+----------------------------------------apres buildMutParam
+fin de readheader  nloc retenus=3877
+Renaming headerRFRF.txt to headerRF.txt
+calstatobs (./statobsRF.txt)
+stat_obs[0]=0.304101
+stat_obs[1]=0.733815
+stat_obs[2]=0.734847
+stat_obs[3]=0.140831
+stat_obs[4]=0.0972401
+   .../...
+stat_obs[44]=0.04966
+stat_obs[45]=-0.00322767
+stat_obs[46]=0.0583966
+stat_obs[47]=0.0335864
+stat_obs[48]=0.00461536
+stat_obs[49]=0.0336918
+
+verification de l'integrite de la table de reference 
+fichier./reftableRF.bin
+nrec = 24480
+nrecscen[0] = 2898
+nrecscen[1] = 2726
+nrecscen[2] = 2647
+nrecscen[3] = 2723
+nrecscen[4] = 2665
+nrecscen[5] = 2701
+nrecscen[6] = 2775
+nrecscen[7] = 2685
+nrecscen[8] = 2660
+nparam[0] = 15
+nparam[1] = 15
+nparam[2] = 15
+nparam[3] = 16
+nparam[4] = 16
+nparam[5] = 16
+nparam[6] = 15
+nparam[7] = 16
+nparam[8] = 16
+nstat = 50
+9 scenario(s)
+601201802403003604204805406006607207808409009601020108011401200126013201380144015001560162016801740180018601920198020402100216022202280234024002460252025802640270027602820288029403000306031203180324033003360342034803540360036603720378038403900396040204080414042004260432043804440450045604620468047404800486049204980504051005160522052805340540054605520558056405700576058205880594060006060612061806240630063606420648065406600666067206780684069006960702070807140720072607320738074407500756076207680774078007860792079808040810081608220828083408400846085208580864087008760882088808940900090609120918092409300936094209480954096009660972097809840990099601002010080101401020010260103201038010440105001056010620106801074010800108601092010980110401110011160112201128011340114001146011520115801164011700117601182011880119401200012060121201218012240123001236012420124801254012600126601272012780128401290012960130201308013140132001326013320133801344013500135601362013680137401380013860139201398014040141001416014220142801434014400144601452014580146401470014760148201488014940150001506015120151801524015300153601542015480155401560015660157201578015840159001596016020160801614016200162601632016380164401650016560166201668016740168001686016920169801704017100171601722017280173401740017460175201758017640177001776017820178801794018000180601812018180182401830018360184201848018540186001866018720187801884018900189601902019080191401920019260193201938019440195001956019620196801974019800198601992019980200402010020160202202028020340204002046020520205802064020700207602082020880209402100021060211202118021240213002136021420214802154021600216602172021780218402190021960220202208022140222002226022320223802244022500225602262022680227402280022860229202298023040231002316023220232802334023400234602352023580236402370023760238202388023940240002406024120241802424024300243602442024480
+fichier reftable OK
+
+dans rt.readheader this->filerefscen = ./reftabscen.txt
+nparam[0] = 15
+nparam[1] = 15
+nparam[2] = 15
+nparam[3] = 16
+nparam[4] = 16
+nparam[5] = 16
+nparam[6] = 15
+nparam[7] = 16
+nparam[8] = 16
+debut de sethistparamname
+nparamut=0    nscenarios=9
+avant la boucle des scenarios  nscenarios =9
+scenario 0   scenario[i].nparam=15  nparamvar=15
+scenario 1   scenario[i].nparam=15  nparamvar=15
+scenario 2   scenario[i].nparam=15  nparamvar=15
+scenario 3   scenario[i].nparam=16  nparamvar=16
+scenario 4   scenario[i].nparam=16  nparamvar=16
+scenario 5   scenario[i].nparam=16  nparamvar=16
+scenario 6   scenario[i].nparam=15  nparamvar=15
+scenario 7   scenario[i].nparam=16  nparamvar=16
+scenario 8   scenario[i].nparam=16  nparamvar=16
+fin de sethistparamname
+apres readheader   k=0
+
+ nloc = 3877   nsample = 3   k=0
+DEBUT  nrecneeded=200000   rt.nrec=24480    rt.nstat=50   nscenarios=9
+
+Ouverture du fichier
+./reftableRF.bin
+
+nparammax=19
+n simu data = 24540
+n simu data = 24600
+n simu data = 24660
+n simu data = 24720
+n simu data = 24780
+n simu data = 24840
+n simu data = 24900
+n simu data = 24960
+n simu data = 25020
+n simu data = 25080
+n simu data = 25140
+n simu data = 25200
+n simu data = 25260
+n simu data = 25320
+n simu data = 25380
+n simu data = 25440
+n simu data = 25500
+n simu data = 25560
+n simu data = 25620
+n simu data = 25680
+n simu data = 25740
+n simu data = 25800
+n simu data = 25860
+n simu data = 25920
+n simu data = 25980
+n simu data = 26040
+n simu data = 26100
+n simu data = 26160
+n simu data = 26220
+n simu data = 26280
+n simu data = 26340
+n simu data = 26400
+n simu data = 26460
+n simu data = 26520
+n simu data = 26580
+n simu data = 26640
+n simu data = 26700
+n simu data = 26760
+n simu data = 26820
+n simu data = 26880
+n simu data = 26940
+n simu data = 27000   (13 h 59 min )
+n simu data = 27060
+n simu data = 27120
+n simu data = 27180
+n simu data = 27240
+n simu data = 27300
+n simu data = 27360
+n simu data = 27420
+n simu data = 27480
+n simu data = 27540
+n simu data = 27600
+n simu data = 27660
+n simu data = 27720
+n simu data = 27780
+n simu data = 27840
+n simu data = 27900
+n simu data = 27960
+n simu data = 28020
+n simu data = 28080
+n simu data = 28140
+n simu data = 28200
+n simu data = 28260
+n simu data = 28320
+n simu data = 28380
+n simu data = 28440
+n simu data = 28500
+n simu data = 28560
+n simu data = 28620
+n simu data = 28680
+n simu data = 28740
+n simu data = 28800
+n simu data = 28860
+n simu data = 28920
+n simu data = 28980
+n simu data = 29040
+n simu data = 29100
+n simu data = 29160
+n simu data = 29220
+n simu data = 29280
+n simu data = 29340
+n simu data = 29400
+n simu data = 29460
+n simu data = 29520
+n simu data = 29580
+n simu data = 29640
+n simu data = 29700
+n simu data = 29760
+n simu data = 29820
+n simu data = 29880
+n simu data = 29940
+n simu data = 30000   (13 h 19 min )
+n simu data = 30060
+n simu data = 30120
+n simu data = 30180
+n simu data = 30240
+n simu data = 30300
+n simu data = 30360
+n simu data = 30420
+n simu data = 30480
+n simu data = 30540
+n simu data = 30600
+n simu data = 30660
+n simu data = 30720
+n simu data = 30780
+n simu data = 30840
+n simu data = 30900
+n simu data = 30960
+n simu data = 31020
+n simu data = 31080
+n simu data = 31140
+n simu data = 31200
+n simu data = 31260
+n simu data = 31320
+n simu data = 31380
+n simu data = 31440
+n simu data = 31500
+n simu data = 31560
+n simu data = 31620
+n simu data = 31680
+n simu data = 31740
+n simu data = 31800
+n simu data = 31860
+n simu data = 31920
+n simu data = 31980
+n simu data = 32040
+n simu data = 32100
+n simu data = 32160
+n simu data = 32220
+n simu data = 32280
+n simu data = 32340
+n simu data = 32400
+n simu data = 32460
+n simu data = 32520
+n simu data = 32580
+n simu data = 32640
+n simu data = 32700
+n simu data = 32760
+n simu data = 32820
+n simu data = 32880
+n simu data = 32940
+n simu data = 33000   (12 h 48 min )
+n simu data = 33060
+n simu data = 33120
+n simu data = 33180
+n simu data = 33240
+n simu data = 33300
+n simu data = 33360
+n simu data = 33420
+n simu data = 33480
+n simu data = 33540
+n simu data = 33600
+n simu data = 33660
+n simu data = 33720
+n simu data = 33780
+n simu data = 33840
+n simu data = 33900
+n simu data = 33960
+n simu data = 34020
+n simu data = 34080
+n simu data = 34140
+n simu data = 34200
+n simu data = 34260
+n simu data = 34320
+n simu data = 34380
+n simu data = 34440
+n simu data = 34500
+n simu data = 34560
+n simu data = 34620
+n simu data = 34680
+n simu data = 34740
+n simu data = 34800
+n simu data = 34860
+n simu data = 34920
+n simu data = 34980
+n simu data = 35040
+n simu data = 35100
+n simu data = 35160
+n simu data = 35220
+n simu data = 35280
+n simu data = 35340
+n simu data = 35400
+n simu data = 35460
+n simu data = 35520
+n simu data = 35580
+n simu data = 35640
+n simu data = 35700
+n simu data = 35760
+n simu data = 35820
+n simu data = 35880
+n simu data = 35940
+n simu data = 36000   (12 h 29 min )
+n simu data = 36060
+n simu data = 36120
+n simu data = 36180
+n simu data = 36240
+n simu data = 36300
+n simu data = 36360
+n simu data = 36420
+n simu data = 36480
+n simu data = 36540
+n simu data = 36600
+n simu data = 36660
+n simu data = 36720
+n simu data = 36780
+n simu data = 36840
+n simu data = 36900
+n simu data = 36960
+n simu data = 37020
+n simu data = 37080
+n simu data = 37140
+n simu data = 37200
+n simu data = 37260
+n simu data = 37320
+n simu data = 37380
+n simu data = 37440
+n simu data = 37500
+n simu data = 37560
+n simu data = 37620
+n simu data = 37680
+n simu data = 37740
+n simu data = 37800
+n simu data = 37860
+n simu data = 37920
+n simu data = 37980
+n simu data = 38040
+n simu data = 38100
+n simu data = 38160
+n simu data = 38220
+n simu data = 38280
+n simu data = 38340
+n simu data = 38400
+n simu data = 38460
+n simu data = 38520
+n simu data = 38580
+n simu data = 38640
+n simu data = 38700
+n simu data = 38760
+n simu data = 38820
+n simu data = 38880
+n simu data = 38940
+n simu data = 39000   (12 h 16 min )
+n simu data = 39060
+n simu data = 39120
+n simu data = 39180
+n simu data = 39240
+n simu data = 39300
+n simu data = 39360
+n simu data = 39420
+n simu data = 39480
+n simu data = 39540
+n simu data = 39600
+n simu data = 39660
+n simu data = 39720
+n simu data = 39780
+n simu data = 39840
+n simu data = 39900
+n simu data = 39960
+n simu data = 40020
+n simu data = 40080
+n simu data = 40140
+n simu data = 40200
+n simu data = 40260
+n simu data = 40320
+n simu data = 40380
+n simu data = 40440
+n simu data = 40500
+n simu data = 40560
+n simu data = 40620
+n simu data = 40680
+n simu data = 40740
+n simu data = 40800
+n simu data = 40860
+n simu data = 40920
+n simu data = 40980
+n simu data = 41040
+n simu data = 41100
+n simu data = 41160
+n simu data = 41220
+n simu data = 41280
+n simu data = 41340
+n simu data = 41400
+n simu data = 41460
+n simu data = 41520
+n simu data = 41580
+n simu data = 41640
+n simu data = 41700
+n simu data = 41760
+n simu data = 41820
+n simu data = 41880
+n simu data = 41940
+n simu data = 42000   (12 h 1 min )
+n simu data = 42060
+n simu data = 42120
+n simu data = 42180
+n simu data = 42240
+n simu data = 42300
+n simu data = 42360
+n simu data = 42420
+n simu data = 42480
+n simu data = 42540
+n simu data = 42600
+n simu data = 42660
+n simu data = 42720
+n simu data = 42780
+n simu data = 42840
+n simu data = 42900
+n simu data = 42960
+n simu data = 43020
+n simu data = 43080
+n simu data = 43140
+n simu data = 43200
+n simu data = 43260
+n simu data = 43320
+n simu data = 43380
+n simu data = 43440
+n simu data = 43500
+n simu data = 43560
+n simu data = 43620
+n simu data = 43680
+n simu data = 43740
+n simu data = 43800
+n simu data = 43860
+n simu data = 43920
+n simu data = 43980
+n simu data = 44040
+n simu data = 44100
+n simu data = 44160
+n simu data = 44220
+n simu data = 44280
+n simu data = 44340
+n simu data = 44400
+n simu data = 44460
+n simu data = 44520
+n simu data = 44580
+n simu data = 44640
+n simu data = 44700
+n simu data = 44760
+n simu data = 44820
+n simu data = 44880
+n simu data = 44940
+n simu data = 45000   (11 h 47 min )
+n simu data = 45060
+n simu data = 45120
+n simu data = 45180
+n simu data = 45240
+n simu data = 45300
+n simu data = 45360
+n simu data = 45420
+n simu data = 45480
+n simu data = 45540
+n simu data = 45600
+n simu data = 45660
+n simu data = 45720
+n simu data = 45780
+n simu data = 45840
+n simu data = 45900
+n simu data = 45960
+n simu data = 46020
+n simu data = 46080
+n simu data = 46140
+n simu data = 46200
+n simu data = 46260
+n simu data = 46320
+n simu data = 46380
+n simu data = 46440
+n simu data = 46500
+n simu data = 46560
+n simu data = 46620
+n simu data = 46680
+n simu data = 46740
+n simu data = 46800
+n simu data = 46860
+n simu data = 46920
+n simu data = 46980
+n simu data = 47040
+n simu data = 47100
+n simu data = 47160
+n simu data = 47220
+n simu data = 47280
+n simu data = 47340
+n simu data = 47400
+n simu data = 47460
+n simu data = 47520
+n simu data = 47580
+n simu data = 47640
+n simu data = 47700
+n simu data = 47760
+n simu data = 47820
+n simu data = 47880
+n simu data = 47940
+n simu data = 48000   (11 h 34 min )
+n simu data = 48060
+n simu data = 48120
+n simu data = 48180
+n simu data = 48240
+n simu data = 48300
+n simu data = 48360
+n simu data = 48420
+n simu data = 48480
+n simu data = 48540
+n simu data = 48600
+n simu data = 48660
+n simu data = 48720
+n simu data = 48780
+n simu data = 48840
+n simu data = 48900
+n simu data = 48960
+n simu data = 49020
+n simu data = 49080
+n simu data = 49140
+n simu data = 49200
+n simu data = 49260
+n simu data = 49320
+n simu data = 49380
+n simu data = 49440
+n simu data = 49500
+n simu data = 49560
+n simu data = 49620
+n simu data = 49680
+n simu data = 49740
+n simu data = 49800
+n simu data = 49860
+n simu data = 49920
+n simu data = 49980
+n simu data = 50040
+n simu data = 50100
+n simu data = 50160
+n simu data = 50220
+n simu data = 50280
+n simu data = 50340
+n simu data = 50400
+n simu data = 50460
+n simu data = 50520
+n simu data = 50580
+n simu data = 50640
+n simu data = 50700
+n simu data = 50760
+n simu data = 50820
+n simu data = 50880
+n simu data = 50940
+n simu data = 51000   (11 h 21 min )
+n simu data = 51060
+n simu data = 51120
+n simu data = 51180
+n simu data = 51240
+n simu data = 51300
+n simu data = 51360
+n simu data = 51420
+n simu data = 51480
+n simu data = 51540
+n simu data = 51600
+n simu data = 51660
+n simu data = 51720
+n simu data = 51780
+n simu data = 51840
+n simu data = 51900
+n simu data = 51960
+n simu data = 52020
+n simu data = 52080
+n simu data = 52140
+n simu data = 52200
+n simu data = 52260
+n simu data = 52320
+n simu data = 52380
+n simu data = 52440
+n simu data = 52500
+n simu data = 52560
+n simu data = 52620
+n simu data = 52680
+n simu data = 52740
+n simu data = 52800
+n simu data = 52860
+n simu data = 52920
+n simu data = 52980
+n simu data = 53040
+n simu data = 53100
+n simu data = 53160
+n simu data = 53220
+n simu data = 53280
+n simu data = 53340
+n simu data = 53400
+n simu data = 53460
+n simu data = 53520
+n simu data = 53580
+n simu data = 53640
+n simu data = 53700
+n simu data = 53760
+n simu data = 53820
+n simu data = 53880
+n simu data = 53940
+n simu data = 54000   (11 h 9 min )
+n simu data = 54060
+n simu data = 54120
+n simu data = 54180
+n simu data = 54240
+n simu data = 54300
+n simu data = 54360
+n simu data = 54420
+n simu data = 54480
+n simu data = 54540
+n simu data = 54600
+n simu data = 54660
+n simu data = 54720
+n simu data = 54780
+n simu data = 54840
+n simu data = 54900
+n simu data = 54960
+n simu data = 55020
+n simu data = 55080
+n simu data = 55140
+n simu data = 55200
+n simu data = 55260
+n simu data = 55320
+n simu data = 55380
+n simu data = 55440
+n simu data = 55500
+n simu data = 55560
+n simu data = 55620
+n simu data = 55680
+n simu data = 55740
+n simu data = 55800
+n simu data = 55860
+n simu data = 55920
+n simu data = 55980
+n simu data = 56040
+n simu data = 56100
+n simu data = 56160
+n simu data = 56220
+n simu data = 56280
+n simu data = 56340
+n simu data = 56400
+n simu data = 56460
+n simu data = 56520
+n simu data = 56580
+n simu data = 56640
+n simu data = 56700
+n simu data = 56760
+n simu data = 56820
+n simu data = 56880
+n simu data = 56940
+n simu data = 57000   (10 h 55 min )
+n simu data = 57060
+n simu data = 57120
+n simu data = 57180
+n simu data = 57240
+n simu data = 57300
+n simu data = 57360
+n simu data = 57420
+n simu data = 57480
+n simu data = 57540
+n simu data = 57600
+n simu data = 57660
+n simu data = 57720
+n simu data = 57780
+n simu data = 57840
+n simu data = 57900
+n simu data = 57960
+n simu data = 58020
+n simu data = 58080
+n simu data = 58140
+n simu data = 58200
+n simu data = 58260
+n simu data = 58320
+n simu data = 58380
+n simu data = 58440
+n simu data = 58500
+n simu data = 58560
+n simu data = 58620
+n simu data = 58680
+n simu data = 58740
+n simu data = 58800
+n simu data = 58860
+n simu data = 58920
+n simu data = 58980
+n simu data = 59040
+n simu data = 59100
+n simu data = 59160
+n simu data = 59220
+n simu data = 59280
+n simu data = 59340
+n simu data = 59400
+n simu data = 59460
+n simu data = 59520
+n simu data = 59580
+n simu data = 59640
+n simu data = 59700
+n simu data = 59760
+n simu data = 59820
+n simu data = 59880
+n simu data = 59940
+n simu data = 60000   (10 h 40 min )
+n simu data = 60060
+n simu data = 60120
+n simu data = 60180
+n simu data = 60240
+n simu data = 60300
+n simu data = 60360
+n simu data = 60420
+n simu data = 60480
+n simu data = 60540
+n simu data = 60600
+n simu data = 60660
+n simu data = 60720
+n simu data = 60780
+n simu data = 60840
+n simu data = 60900
+n simu data = 60960
+n simu data = 61020
+n simu data = 61080
+n simu data = 61140
+n simu data = 61200
+n simu data = 61260
+n simu data = 61320
+n simu data = 61380
+n simu data = 61440
+n simu data = 61500
+n simu data = 61560
+n simu data = 61620
+n simu data = 61680
+n simu data = 61740
+n simu data = 61800
+n simu data = 61860
+n simu data = 61920
+n simu data = 61980
+n simu data = 62040
+n simu data = 62100
+n simu data = 62160
+n simu data = 62220
+n simu data = 62280
+n simu data = 62340
+n simu data = 62400
+n simu data = 62460
+n simu data = 62520
+n simu data = 62580
+n simu data = 62640
+n simu data = 62700
+n simu data = 62760
+n simu data = 62820
+n simu data = 62880
+n simu data = 62940
+n simu data = 63000   (10 h 25 min )
+n simu data = 63060
+n simu data = 63120
+n simu data = 63180
+n simu data = 63240
+n simu data = 63300
+n simu data = 63360
+n simu data = 63420
+n simu data = 63480
+n simu data = 63540
+n simu data = 63600
+n simu data = 63660
+n simu data = 63720
+n simu data = 63780
+n simu data = 63840
+n simu data = 63900
+n simu data = 63960
+n simu data = 64020
+n simu data = 64080
+n simu data = 64140
+n simu data = 64200
+n simu data = 64260
+n simu data = 64320
+n simu data = 64380
+n simu data = 64440
+n simu data = 64500
+n simu data = 64560
+n simu data = 64620
+n simu data = 64680
+n simu data = 64740
+n simu data = 64800
+n simu data = 64860
+n simu data = 64920
+n simu data = 64980
+n simu data = 65040
+n simu data = 65100
+n simu data = 65160
+n simu data = 65220
+n simu data = 65280
+n simu data = 65340
+n simu data = 65400
+n simu data = 65460
+n simu data = 65520
+n simu data = 65580
+n simu data = 65640
+n simu data = 65700
+n simu data = 65760
+n simu data = 65820
+n simu data = 65880
+n simu data = 65940
+n simu data = 66000   (10 h 12 min )
+n simu data = 66060
+n simu data = 66120
+n simu data = 66180
+n simu data = 66240
+n simu data = 66300
+n simu data = 66360
+n simu data = 66420
+n simu data = 66480
+n simu data = 66540
+n simu data = 66600
+n simu data = 66660
+n simu data = 66720
+n simu data = 66780
+n simu data = 66840
+n simu data = 66900
+n simu data = 66960
+n simu data = 67020
+n simu data = 67080
+n simu data = 67140
+n simu data = 67200
+n simu data = 67260
+n simu data = 67320
+n simu data = 67380
+n simu data = 67440
+n simu data = 67500
+n simu data = 67560
+n simu data = 67620
+n simu data = 67680
+n simu data = 67740
+n simu data = 67800
+n simu data = 67860
+n simu data = 67920
+n simu data = 67980
+n simu data = 68040
+n simu data = 68100
+n simu data = 68160
+n simu data = 68220
+n simu data = 68280
+n simu data = 68340
+n simu data = 68400
+n simu data = 68460
+n simu data = 68520
+n simu data = 68580
+n simu data = 68640
+n simu data = 68700
+n simu data = 68760
+n simu data = 68820
+n simu data = 68880
+n simu data = 68940
+n simu data = 69000   (9 h 58 min )
+n simu data = 69060
+n simu data = 69120
+n simu data = 69180
+n simu data = 69240
+n simu data = 69300
+n simu data = 69360
+n simu data = 69420
+n simu data = 69480
+n simu data = 69540
+n simu data = 69600
+n simu data = 69660
+n simu data = 69720
+n simu data = 69780
+n simu data = 69840
+n simu data = 69900
+n simu data = 69960
+n simu data = 70020
+n simu data = 70080
+n simu data = 70140
+n simu data = 70200
+n simu data = 70260
+n simu data = 70320
+n simu data = 70380
+n simu data = 70440
+n simu data = 70500
+n simu data = 70560
+n simu data = 70620
+n simu data = 70680
+n simu data = 70740
+n simu data = 70800
+n simu data = 70860
+n simu data = 70920
+n simu data = 70980
+n simu data = 71040
+n simu data = 71100
+n simu data = 71160
+n simu data = 71220
+n simu data = 71280
+n simu data = 71340
+n simu data = 71400
+n simu data = 71460
+n simu data = 71520
+n simu data = 71580
+n simu data = 71640
+n simu data = 71700
+n simu data = 71760
+n simu data = 71820
+n simu data = 71880
+n simu data = 71940
+n simu data = 72000   (9 h 44 min )
+n simu data = 72060
+n simu data = 72120
+n simu data = 72180
+n simu data = 72240
+n simu data = 72300
+n simu data = 72360
+n simu data = 72420
+n simu data = 72480
+n simu data = 72540
+n simu data = 72600
+n simu data = 72660
+n simu data = 72720
+n simu data = 72780
+n simu data = 72840
+n simu data = 72900
+n simu data = 72960
+n simu data = 73020
+n simu data = 73080
+n simu data = 73140
+n simu data = 73200
+n simu data = 73260
+n simu data = 73320
+n simu data = 73380
+n simu data = 73440
+n simu data = 73500
+n simu data = 73560
+n simu data = 73620
+n simu data = 73680
+n simu data = 73740
+n simu data = 73800
+n simu data = 73860
+n simu data = 73920
+n simu data = 73980
+n simu data = 74040
+n simu data = 74100
+n simu data = 74160
+n simu data = 74220
+n simu data = 74280
+n simu data = 74340
+n simu data = 74400
+n simu data = 74460
+n simu data = 74520
+n simu data = 74580
+n simu data = 74640
+n simu data = 74700
+n simu data = 74760
+n simu data = 74820
+n simu data = 74880
+n simu data = 74940
+n simu data = 75000   (9 h 30 min )
+n simu data = 75060
+n simu data = 75120
+n simu data = 75180
+n simu data = 75240
+n simu data = 75300
+n simu data = 75360
+n simu data = 75420
+n simu data = 75480
+n simu data = 75540
+n simu data = 75600
+n simu data = 75660
+n simu data = 75720
+n simu data = 75780
+n simu data = 75840
+n simu data = 75900
+n simu data = 75960
+n simu data = 76020
+n simu data = 76080
+n simu data = 76140
+n simu data = 76200
+n simu data = 76260
+n simu data = 76320
+n simu data = 76380
+n simu data = 76440
+n simu data = 76500
+n simu data = 76560
+n simu data = 76620
+n simu data = 76680
+n simu data = 76740
+n simu data = 76800
+n simu data = 76860
+n simu data = 76920
+n simu data = 76980
+n simu data = 77040
+n simu data = 77100
+n simu data = 77160
+n simu data = 77220
+n simu data = 77280
+n simu data = 77340
+n simu data = 77400
+n simu data = 77460
+n simu data = 77520
+n simu data = 77580
+n simu data = 77640
+n simu data = 77700
+n simu data = 77760
+n simu data = 77820
+n simu data = 77880
+n simu data = 77940
+n simu data = 78000   (9 h 17 min )
+n simu data = 78060
+n simu data = 78120
+n simu data = 78180
+n simu data = 78240
+n simu data = 78300
+n simu data = 78360
+n simu data = 78420
+n simu data = 78480
+n simu data = 78540
+n simu data = 78600
+n simu data = 78660
+n simu data = 78720
+n simu data = 78780
+n simu data = 78840
+n simu data = 78900
+n simu data = 78960
+n simu data = 79020
+n simu data = 79080
+n simu data = 79140
+n simu data = 79200
+n simu data = 79260
+n simu data = 79320
+n simu data = 79380
+n simu data = 79440
+n simu data = 79500
+n simu data = 79560
+n simu data = 79620
+n simu data = 79680
+n simu data = 79740
+n simu data = 79800
+n simu data = 79860
+n simu data = 79920
+n simu data = 79980
+n simu data = 80040
+n simu data = 80100
+n simu data = 80160
+n simu data = 80220
+n simu data = 80280
+n simu data = 80340
+n simu data = 80400
+n simu data = 80460
+n simu data = 80520
+n simu data = 80580
+n simu data = 80640
+n simu data = 80700
+n simu data = 80760
+n simu data = 80820
+n simu data = 80880
+n simu data = 80940
+n simu data = 81000   (9 h 3 min )
+n simu data = 81060
+n simu data = 81120
+n simu data = 81180
+n simu data = 81240
+n simu data = 81300
+n simu data = 81360
+n simu data = 81420
+n simu data = 81480
+n simu data = 81540
+n simu data = 81600
+n simu data = 81660
+n simu data = 81720
+n simu data = 81780
+n simu data = 81840
+n simu data = 81900
+n simu data = 81960
+n simu data = 82020
+n simu data = 82080
+n simu data = 82140
+n simu data = 82200
+n simu data = 82260
+n simu data = 82320
+n simu data = 82380
+n simu data = 82440
+n simu data = 82500
+n simu data = 82560
+n simu data = 82620
+n simu data = 82680
+n simu data = 82740
+n simu data = 82800
+n simu data = 82860
+n simu data = 82920
+n simu data = 82980
+n simu data = 83040
+n simu data = 83100
+n simu data = 83160
+n simu data = 83220
+n simu data = 83280
+n simu data = 83340
+n simu data = 83400
+n simu data = 83460
+n simu data = 83520
+n simu data = 83580
+n simu data = 83640
+n simu data = 83700
+n simu data = 83760
+n simu data = 83820
+n simu data = 83880
+n simu data = 83940
+n simu data = 84000   (8 h 50 min )
+n simu data = 84060
+n simu data = 84120
+n simu data = 84180
+n simu data = 84240
+n simu data = 84300
+n simu data = 84360
+n simu data = 84420
+n simu data = 84480
+n simu data = 84540
+n simu data = 84600
+n simu data = 84660
+n simu data = 84720
+n simu data = 84780
+n simu data = 84840
+n simu data = 84900
+n simu data = 84960
+n simu data = 85020
+n simu data = 85080
+n simu data = 85140
+n simu data = 85200
+n simu data = 85260
+n simu data = 85320
+n simu data = 85380
+n simu data = 85440
+n simu data = 85500
+n simu data = 85560
+n simu data = 85620
+n simu data = 85680
+n simu data = 85740
+n simu data = 85800
+n simu data = 85860
+n simu data = 85920
+n simu data = 85980
+n simu data = 86040
+n simu data = 86100
+n simu data = 86160
+n simu data = 86220
+n simu data = 86280
+n simu data = 86340
+n simu data = 86400
+n simu data = 86460
+n simu data = 86520
+n simu data = 86580
+n simu data = 86640
+n simu data = 86700
+n simu data = 86760
+n simu data = 86820
+n simu data = 86880
+n simu data = 86940
+n simu data = 87000   (8 h 37 min )
+n simu data = 87060
+n simu data = 87120
+n simu data = 87180
+n simu data = 87240
+n simu data = 87300
+n simu data = 87360
+n simu data = 87420
+n simu data = 87480
+n simu data = 87540
+n simu data = 87600
+n simu data = 87660
+n simu data = 87720
+n simu data = 87780
+n simu data = 87840
+n simu data = 87900
+n simu data = 87960
+n simu data = 88020
+n simu data = 88080
+n simu data = 88140
+n simu data = 88200
+n simu data = 88260
+n simu data = 88320
+n simu data = 88380
+n simu data = 88440
+n simu data = 88500
+n simu data = 88560
+n simu data = 88620
+n simu data = 88680
+n simu data = 88740
+n simu data = 88800
+n simu data = 88860
+n simu data = 88920
+n simu data = 88980
+n simu data = 89040
+n simu data = 89100
+n simu data = 89160
+n simu data = 89220
+n simu data = 89280
+n simu data = 89340
+n simu data = 89400
+n simu data = 89460
+n simu data = 89520
+n simu data = 89580
+n simu data = 89640
+n simu data = 89700
+n simu data = 89760
+n simu data = 89820
+n simu data = 89880
+n simu data = 89940
+n simu data = 90000   (8 h 24 min )
+n simu data = 90060
+n simu data = 90120
+n simu data = 90180
+n simu data = 90240
+n simu data = 90300
+n simu data = 90360
+n simu data = 90420
+n simu data = 90480
+n simu data = 90540
+n simu data = 90600
+n simu data = 90660
+n simu data = 90720
+n simu data = 90780
+n simu data = 90840
+n simu data = 90900
+n simu data = 90960
+n simu data = 91020
+n simu data = 91080
+n simu data = 91140
+n simu data = 91200
+n simu data = 91260
+n simu data = 91320
+n simu data = 91380
+n simu data = 91440
+n simu data = 91500
+n simu data = 91560
+n simu data = 91620
+n simu data = 91680
+n simu data = 91740
+n simu data = 91800
+n simu data = 91860
+n simu data = 91920
+n simu data = 91980
+n simu data = 92040
+n simu data = 92100
+n simu data = 92160
+n simu data = 92220
+n simu data = 92280
+n simu data = 92340
+n simu data = 92400
+n simu data = 92460
+n simu data = 92520
+n simu data = 92580
+n simu data = 92640
+n simu data = 92700
+n simu data = 92760
+n simu data = 92820
+n simu data = 92880
+n simu data = 92940
+n simu data = 93000   (8 h 11 min )
+n simu data = 93060
+n simu data = 93120
+n simu data = 93180
+n simu data = 93240
+n simu data = 93300
+n simu data = 93360
+n simu data = 93420
+n simu data = 93480
+n simu data = 93540
+n simu data = 93600
+n simu data = 93660
+n simu data = 93720
+n simu data = 93780
+n simu data = 93840
+n simu data = 93900
+n simu data = 93960
+n simu data = 94020
+n simu data = 94080
+n simu data = 94140
+n simu data = 94200
+n simu data = 94260
+n simu data = 94320
+n simu data = 94380
+n simu data = 94440
+n simu data = 94500
+n simu data = 94560
+n simu data = 94620
+n simu data = 94680
+n simu data = 94740
+n simu data = 94800
+n simu data = 94860
+n simu data = 94920
+n simu data = 94980
+n simu data = 95040
+n simu data = 95100
+n simu data = 95160
+n simu data = 95220
+n simu data = 95280
+n simu data = 95340
+n simu data = 95400
+n simu data = 95460
+n simu data = 95520
+n simu data = 95580
+n simu data = 95640
+n simu data = 95700
+n simu data = 95760
+n simu data = 95820
+n simu data = 95880
+n simu data = 95940
+n simu data = 96000   (7 h 58 min )
+n simu data = 96060
+n simu data = 96120
+n simu data = 96180
+n simu data = 96240
+n simu data = 96300
+n simu data = 96360
+n simu data = 96420
+n simu data = 96480
+n simu data = 96540
+n simu data = 96600
+n simu data = 96660
+n simu data = 96720
+n simu data = 96780
+n simu data = 96840
+n simu data = 96900
+n simu data = 96960
+n simu data = 97020
+n simu data = 97080
+n simu data = 97140
+n simu data = 97200
+n simu data = 97260
+n simu data = 97320
+n simu data = 97380
+n simu data = 97440
+n simu data = 97500
+n simu data = 97560
+n simu data = 97620
+n simu data = 97680
+n simu data = 97740
+n simu data = 97800
+n simu data = 97860
+n simu data = 97920
+n simu data = 97980
+n simu data = 98040
+n simu data = 98100
+n simu data = 98160
+n simu data = 98220
+n simu data = 98280
+n simu data = 98340
+n simu data = 98400
+n simu data = 98460
+n simu data = 98520
+n simu data = 98580
+n simu data = 98640
+n simu data = 98700
+n simu data = 98760
+n simu data = 98820
+n simu data = 98880
+n simu data = 98940
+n simu data = 99000   (7 h 43 min )
+n simu data = 99060
+n simu data = 99120
+n simu data = 99180
+n simu data = 99240
+n simu data = 99300
+n simu data = 99360
+n simu data = 99420
+n simu data = 99480
+n simu data = 99540
+n simu data = 99600
+n simu data = 99660
+n simu data = 99720
+n simu data = 99780
+n simu data = 99840
+n simu data = 99900
+n simu data = 99960
+n simu data = 100020
+n simu data = 100080
+n simu data = 100140
+n simu data = 100200
+n simu data = 100260
+n simu data = 100320
+n simu data = 100380
+n simu data = 100440
+n simu data = 100500
+n simu data = 100560
+n simu data = 100620
+n simu data = 100680
+n simu data = 100740
+n simu data = 100800
+n simu data = 100860
+n simu data = 100920
+n simu data = 100980
+n simu data = 101040
+n simu data = 101100
+n simu data = 101160
+n simu data = 101220
+n simu data = 101280
+n simu data = 101340
+n simu data = 101400
+n simu data = 101460
+n simu data = 101520
+n simu data = 101580
+n simu data = 101640
+n simu data = 101700
+n simu data = 101760
+n simu data = 101820
+n simu data = 101880
+n simu data = 101940
+n simu data = 102000   (7 h 29 min )
+n simu data = 102060
+n simu data = 102120
+n simu data = 102180
+n simu data = 102240
+n simu data = 102300
+n simu data = 102360
+n simu data = 102420
+n simu data = 102480
+n simu data = 102540
+n simu data = 102600
+n simu data = 102660
+n simu data = 102720
+n simu data = 102780
+n simu data = 102840
+n simu data = 102900
+n simu data = 102960
+n simu data = 103020
+n simu data = 103080
+n simu data = 103140
+n simu data = 103200
+n simu data = 103260
+n simu data = 103320
+n simu data = 103380
+n simu data = 103440
+n simu data = 103500
+n simu data = 103560
+n simu data = 103620
+n simu data = 103680
+n simu data = 103740
+n simu data = 103800
+n simu data = 103860
+n simu data = 103920
+n simu data = 103980
+n simu data = 104040
+n simu data = 104100
+n simu data = 104160
+n simu data = 104220
+n simu data = 104280
+n simu data = 104340
+n simu data = 104400
+n simu data = 104460
+n simu data = 104520
+n simu data = 104580
+n simu data = 104640
+n simu data = 104700
+n simu data = 104760
+n simu data = 104820
+n simu data = 104880
+n simu data = 104940
+n simu data = 105000   (7 h 15 min )
+n simu data = 105060
+n simu data = 105120
+n simu data = 105180
+n simu data = 105240
+n simu data = 105300
+n simu data = 105360
+n simu data = 105420
+n simu data = 105480
+n simu data = 105540
+n simu data = 105600
+n simu data = 105660
+n simu data = 105720
+n simu data = 105780
+n simu data = 105840
+n simu data = 105900
+n simu data = 105960
+n simu data = 106020
+n simu data = 106080
+n simu data = 106140
+n simu data = 106200
+n simu data = 106260
+n simu data = 106320
+n simu data = 106380
+n simu data = 106440
+n simu data = 106500
+n simu data = 106560
+n simu data = 106620
+n simu data = 106680
+n simu data = 106740
+n simu data = 106800
+n simu data = 106860
+n simu data = 106920
+n simu data = 106980
+n simu data = 107040
+n simu data = 107100
+n simu data = 107160
+n simu data = 107220
+n simu data = 107280
+n simu data = 107340
+n simu data = 107400
+n simu data = 107460
+n simu data = 107520
+n simu data = 107580
+n simu data = 107640
+n simu data = 107700
+n simu data = 107760
+n simu data = 107820
+n simu data = 107880
+n simu data = 107940
+n simu data = 108000   (7 h 1 min )
+n simu data = 108060
+n simu data = 108120
+n simu data = 108180
+n simu data = 108240
+n simu data = 108300
+n simu data = 108360
+n simu data = 108420
+n simu data = 108480
+n simu data = 108540
+n simu data = 108600
+n simu data = 108660
+n simu data = 108720
+n simu data = 108780
+n simu data = 108840
+n simu data = 108900
+n simu data = 108960
+n simu data = 109020
+n simu data = 109080
+n simu data = 109140
+n simu data = 109200
+n simu data = 109260
+n simu data = 109320
+n simu data = 109380
+n simu data = 109440
+n simu data = 109500
+n simu data = 109560
+n simu data = 109620
+n simu data = 109680
+n simu data = 109740
+n simu data = 109800
+n simu data = 109860
+n simu data = 109920
+n simu data = 109980
+n simu data = 110040
+n simu data = 110100
+n simu data = 110160
+n simu data = 110220
+n simu data = 110280
+n simu data = 110340
+n simu data = 110400
+n simu data = 110460
+n simu data = 110520
+n simu data = 110580
+n simu data = 110640
+n simu data = 110700
+n simu data = 110760
+n simu data = 110820
+n simu data = 110880
+n simu data = 110940
+n simu data = 111000   (6 h 47 min )
+n simu data = 111060
+n simu data = 111120
+n simu data = 111180
+n simu data = 111240
+n simu data = 111300
+n simu data = 111360
+n simu data = 111420
+n simu data = 111480
+n simu data = 111540
+n simu data = 111600
+n simu data = 111660
+n simu data = 111720
+n simu data = 111780
+n simu data = 111840
+n simu data = 111900
+n simu data = 111960
+n simu data = 112020
+n simu data = 112080
+n simu data = 112140
+n simu data = 112200
+n simu data = 112260
+n simu data = 112320
+n simu data = 112380
+n simu data = 112440
+n simu data = 112500
+n simu data = 112560
+n simu data = 112620
+n simu data = 112680
+n simu data = 112740
+n simu data = 112800
+n simu data = 112860
+n simu data = 112920
+n simu data = 112980
+n simu data = 113040
+n simu data = 113100
+n simu data = 113160
+n simu data = 113220
+n simu data = 113280
+n simu data = 113340
+n simu data = 113400
+n simu data = 113460
+n simu data = 113520
+n simu data = 113580
+n simu data = 113640
+n simu data = 113700
+n simu data = 113760
+n simu data = 113820
+n simu data = 113880
+n simu data = 113940
+n simu data = 114000   (6 h 33 min )
+n simu data = 114060
+n simu data = 114120
+n simu data = 114180
+n simu data = 114240
+n simu data = 114300
+n simu data = 114360
+n simu data = 114420
+n simu data = 114480
+n simu data = 114540
+n simu data = 114600
+n simu data = 114660
+n simu data = 114720
+n simu data = 114780
+n simu data = 114840
+n simu data = 114900
+n simu data = 114960
+n simu data = 115020
+n simu data = 115080
+n simu data = 115140
+n simu data = 115200
+n simu data = 115260
+n simu data = 115320
+n simu data = 115380
+n simu data = 115440
+n simu data = 115500
+n simu data = 115560
+n simu data = 115620
+n simu data = 115680
+n simu data = 115740
+n simu data = 115800
+n simu data = 115860
+n simu data = 115920
+n simu data = 115980
+n simu data = 116040
+n simu data = 116100
+n simu data = 116160
+n simu data = 116220
+n simu data = 116280
+n simu data = 116340
+n simu data = 116400
+n simu data = 116460
+n simu data = 116520
+n simu data = 116580
+n simu data = 116640
+n simu data = 116700
+n simu data = 116760
+n simu data = 116820
+n simu data = 116880
+n simu data = 116940
+n simu data = 117000   (6 h 21 min )
+n simu data = 117060
+n simu data = 117120
+n simu data = 117180
+n simu data = 117240
+n simu data = 117300
+n simu data = 117360
+n simu data = 117420
+n simu data = 117480
+n simu data = 117540
+n simu data = 117600
+n simu data = 117660
+n simu data = 117720
+n simu data = 117780
+n simu data = 117840
+n simu data = 117900
+n simu data = 117960
+n simu data = 118020
+n simu data = 118080
+n simu data = 118140
+n simu data = 118200
+n simu data = 118260
+n simu data = 118320
+n simu data = 118380
+n simu data = 118440
+n simu data = 118500
+n simu data = 118560
+n simu data = 118620
+n simu data = 118680
+n simu data = 118740
+n simu data = 118800
+n simu data = 118860
+n simu data = 118920
+n simu data = 118980
+n simu data = 119040
+n simu data = 119100
+n simu data = 119160
+n simu data = 119220
+n simu data = 119280
+n simu data = 119340
+n simu data = 119400
+n simu data = 119460
+n simu data = 119520
+n simu data = 119580
+n simu data = 119640
+n simu data = 119700
+n simu data = 119760
+n simu data = 119820
+n simu data = 119880
+n simu data = 119940
+n simu data = 120000   (6 h 7 min )
+n simu data = 120060
+n simu data = 120120
+n simu data = 120180
+n simu data = 120240
+n simu data = 120300
+n simu data = 120360
+n simu data = 120420
+n simu data = 120480
+n simu data = 120540
+n simu data = 120600
+n simu data = 120660
+n simu data = 120720
+n simu data = 120780
+n simu data = 120840
+n simu data = 120900
+n simu data = 120960
+n simu data = 121020
+n simu data = 121080
+n simu data = 121140
+n simu data = 121200
+n simu data = 121260
+n simu data = 121320
+n simu data = 121380
+n simu data = 121440
+n simu data = 121500
+n simu data = 121560
+n simu data = 121620
+n simu data = 121680
+n simu data = 121740
+n simu data = 121800
+n simu data = 121860
+n simu data = 121920
+n simu data = 121980
+n simu data = 122040
+n simu data = 122100
+n simu data = 122160
+n simu data = 122220
+n simu data = 122280
+n simu data = 122340
+n simu data = 122400
+n simu data = 122460
+n simu data = 122520
+n simu data = 122580
+n simu data = 122640
+n simu data = 122700
+n simu data = 122760
+n simu data = 122820
+n simu data = 122880
+n simu data = 122940
+n simu data = 123000   (5 h 53 min )
+n simu data = 123060
+n simu data = 123120
+n simu data = 123180
+n simu data = 123240
+n simu data = 123300
+n simu data = 123360
+n simu data = 123420
+n simu data = 123480
+n simu data = 123540
+n simu data = 123600
+n simu data = 123660
+n simu data = 123720
+n simu data = 123780
+n simu data = 123840
+n simu data = 123900
+n simu data = 123960
+n simu data = 124020
+n simu data = 124080
+n simu data = 124140
+n simu data = 124200
+n simu data = 124260
+n simu data = 124320
+n simu data = 124380
+n simu data = 124440
+n simu data = 124500
+n simu data = 124560
+n simu data = 124620
+n simu data = 124680
+n simu data = 124740
+n simu data = 124800
+n simu data = 124860
+n simu data = 124920
+n simu data = 124980
+n simu data = 125040
+n simu data = 125100
+n simu data = 125160
+n simu data = 125220
+n simu data = 125280
+n simu data = 125340
+n simu data = 125400
+n simu data = 125460
+n simu data = 125520
+n simu data = 125580
+n simu data = 125640
+n simu data = 125700
+n simu data = 125760
+n simu data = 125820
+n simu data = 125880
+n simu data = 125940
+n simu data = 126000   (5 h 39 min )
+n simu data = 126060
+n simu data = 126120
+n simu data = 126180
+n simu data = 126240
+n simu data = 126300
+n simu data = 126360
+n simu data = 126420
+n simu data = 126480
+n simu data = 126540
+n simu data = 126600
+n simu data = 126660
+n simu data = 126720
+n simu data = 126780
+n simu data = 126840
+n simu data = 126900
+n simu data = 126960
+n simu data = 127020
+n simu data = 127080
+n simu data = 127140
+n simu data = 127200
+n simu data = 127260
+n simu data = 127320
+n simu data = 127380
+n simu data = 127440
+n simu data = 127500
+n simu data = 127560
+n simu data = 127620
+n simu data = 127680
+n simu data = 127740
+n simu data = 127800
+n simu data = 127860
+n simu data = 127920
+n simu data = 127980
+n simu data = 128040
+n simu data = 128100
+n simu data = 128160
+n simu data = 128220
+n simu data = 128280
+n simu data = 128340
+n simu data = 128400
+n simu data = 128460
+n simu data = 128520
+n simu data = 128580
+n simu data = 128640
+n simu data = 128700
+n simu data = 128760
+n simu data = 128820
+n simu data = 128880
+n simu data = 128940
+n simu data = 129000   (5 h 26 min )
+n simu data = 129060
+n simu data = 129120
+n simu data = 129180
+n simu data = 129240
+n simu data = 129300
+n simu data = 129360
+n simu data = 129420
+n simu data = 129480
+n simu data = 129540
+n simu data = 129600
+n simu data = 129660
+n simu data = 129720
+n simu data = 129780
+n simu data = 129840
+n simu data = 129900
+n simu data = 129960
+n simu data = 130020
+n simu data = 130080
+n simu data = 130140
+n simu data = 130200
+n simu data = 130260
+n simu data = 130320
+n simu data = 130380
+n simu data = 130440
+n simu data = 130500
+n simu data = 130560
+n simu data = 130620
+n simu data = 130680
+n simu data = 130740
+n simu data = 130800
+n simu data = 130860
+n simu data = 130920
+n simu data = 130980
+n simu data = 131040
+n simu data = 131100
+n simu data = 131160
+n simu data = 131220
+n simu data = 131280
+n simu data = 131340
+n simu data = 131400
+n simu data = 131460
+n simu data = 131520
+n simu data = 131580
+n simu data = 131640
+n simu data = 131700
+n simu data = 131760
+n simu data = 131820
+n simu data = 131880
+n simu data = 131940
+n simu data = 132000   (5 h 12 min )
+n simu data = 132060
+n simu data = 132120
+n simu data = 132180
+n simu data = 132240
+n simu data = 132300
+n simu data = 132360
+n simu data = 132420
+n simu data = 132480
+n simu data = 132540
+n simu data = 132600
+n simu data = 132660
+n simu data = 132720
+n simu data = 132780
+n simu data = 132840
+n simu data = 132900
+n simu data = 132960
+n simu data = 133020
+n simu data = 133080
+n simu data = 133140
+n simu data = 133200
+n simu data = 133260
+n simu data = 133320
+n simu data = 133380
+n simu data = 133440
+n simu data = 133500
+n simu data = 133560
+n simu data = 133620
+n simu data = 133680
+n simu data = 133740
+n simu data = 133800
+n simu data = 133860
+n simu data = 133920
+n simu data = 133980
+n simu data = 134040
+n simu data = 134100
+n simu data = 134160
+n simu data = 134220
+n simu data = 134280
+n simu data = 134340
+n simu data = 134400
+n simu data = 134460
+n simu data = 134520
+n simu data = 134580
+n simu data = 134640
+n simu data = 134700
+n simu data = 134760
+n simu data = 134820
+n simu data = 134880
+n simu data = 134940
+n simu data = 135000   (4 h 59 min )
+n simu data = 135060
+n simu data = 135120
+n simu data = 135180
+n simu data = 135240
+n simu data = 135300
+n simu data = 135360
+n simu data = 135420
+n simu data = 135480
+n simu data = 135540
+n simu data = 135600
+n simu data = 135660
+n simu data = 135720
+n simu data = 135780
+n simu data = 135840
+n simu data = 135900
+n simu data = 135960
+n simu data = 136020
+n simu data = 136080
+n simu data = 136140
+n simu data = 136200
+n simu data = 136260
+n simu data = 136320
+n simu data = 136380
+n simu data = 136440
+n simu data = 136500
+n simu data = 136560
+n simu data = 136620
+n simu data = 136680
+n simu data = 136740
+n simu data = 136800
+n simu data = 136860
+n simu data = 136920
+n simu data = 136980
+n simu data = 137040
+n simu data = 137100
+n simu data = 137160
+n simu data = 137220
+n simu data = 137280
+n simu data = 137340
+n simu data = 137400
+n simu data = 137460
+n simu data = 137520
+n simu data = 137580
+n simu data = 137640
+n simu data = 137700
+n simu data = 137760
+n simu data = 137820
+n simu data = 137880
+n simu data = 137940
+n simu data = 138000   (4 h 45 min )
+n simu data = 138060
+n simu data = 138120
+n simu data = 138180
+n simu data = 138240
+n simu data = 138300
+n simu data = 138360
+n simu data = 138420
+n simu data = 138480
+n simu data = 138540
+n simu data = 138600
+n simu data = 138660
+n simu data = 138720
+n simu data = 138780
+n simu data = 138840
+n simu data = 138900
+n simu data = 138960
+n simu data = 139020
+n simu data = 139080
+n simu data = 139140
+n simu data = 139200
+n simu data = 139260
+n simu data = 139320
+n simu data = 139380
+n simu data = 139440
+n simu data = 139500
+n simu data = 139560
+n simu data = 139620
+n simu data = 139680
+n simu data = 139740
+n simu data = 139800
+n simu data = 139860
+n simu data = 139920
+n simu data = 139980
+n simu data = 140040
+n simu data = 140100
+n simu data = 140160
+n simu data = 140220
+n simu data = 140280
+n simu data = 140340
+n simu data = 140400
+n simu data = 140460
+n simu data = 140520
+n simu data = 140580
+n simu data = 140640
+n simu data = 140700
+n simu data = 140760
+n simu data = 140820
+n simu data = 140880
+n simu data = 140940
+n simu data = 141000   (4 h 32 min )
+n simu data = 141060
+n simu data = 141120
+n simu data = 141180
+n simu data = 141240
+n simu data = 141300
+n simu data = 141360
+n simu data = 141420
+n simu data = 141480
+n simu data = 141540
+n simu data = 141600
+n simu data = 141660
+n simu data = 141720
+n simu data = 141780
+n simu data = 141840
+n simu data = 141900
+n simu data = 141960
+n simu data = 142020
+n simu data = 142080
+n simu data = 142140
+n simu data = 142200
+n simu data = 142260
+n simu data = 142320
+n simu data = 142380
+n simu data = 142440
+n simu data = 142500
+n simu data = 142560
+n simu data = 142620
+n simu data = 142680
+n simu data = 142740
+n simu data = 142800
+n simu data = 142860
+n simu data = 142920
+n simu data = 142980
+n simu data = 143040
+n simu data = 143100
+n simu data = 143160
+n simu data = 143220
+n simu data = 143280
+n simu data = 143340
+n simu data = 143400
+n simu data = 143460
+n simu data = 143520
+n simu data = 143580
+n simu data = 143640
+n simu data = 143700
+n simu data = 143760
+n simu data = 143820
+n simu data = 143880
+n simu data = 143940
+n simu data = 144000   (4 h 18 min )
+n simu data = 144060
+n simu data = 144120
+n simu data = 144180
+n simu data = 144240
+n simu data = 144300
+n simu data = 144360
+n simu data = 144420
+n simu data = 144480
+n simu data = 144540
+n simu data = 144600
+n simu data = 144660
+n simu data = 144720
+n simu data = 144780
+n simu data = 144840
+n simu data = 144900
+n simu data = 144960
+n simu data = 145020
+n simu data = 145080
+n simu data = 145140
+n simu data = 145200
+n simu data = 145260
+n simu data = 145320
+n simu data = 145380
+n simu data = 145440
+n simu data = 145500
+n simu data = 145560
+n simu data = 145620
+n simu data = 145680
+n simu data = 145740
+n simu data = 145800
+n simu data = 145860
+n simu data = 145920
+n simu data = 145980
+n simu data = 146040
+n simu data = 146100
+n simu data = 146160
+n simu data = 146220
+n simu data = 146280
+n simu data = 146340
+n simu data = 146400
+n simu data = 146460
+n simu data = 146520
+n simu data = 146580
+n simu data = 146640
+n simu data = 146700
+n simu data = 146760
+n simu data = 146820
+n simu data = 146880
+n simu data = 146940
+n simu data = 147000   (4 h 5 min )
+n simu data = 147060
+n simu data = 147120
+n simu data = 147180
+n simu data = 147240
+n simu data = 147300
+n simu data = 147360
+n simu data = 147420
+n simu data = 147480
+n simu data = 147540
+n simu data = 147600
+n simu data = 147660
+n simu data = 147720
+n simu data = 147780
+n simu data = 147840
+n simu data = 147900
+n simu data = 147960
+n simu data = 148020
+n simu data = 148080
+n simu data = 148140
+n simu data = 148200
+n simu data = 148260
+n simu data = 148320
+n simu data = 148380
+n simu data = 148440
+n simu data = 148500
+n simu data = 148560
+n simu data = 148620
+n simu data = 148680
+n simu data = 148740
+n simu data = 148800
+n simu data = 148860
+n simu data = 148920
+n simu data = 148980
+n simu data = 149040
+n simu data = 149100
+n simu data = 149160
+n simu data = 149220
+n simu data = 149280
+n simu data = 149340
+n simu data = 149400
+n simu data = 149460
+n simu data = 149520
+n simu data = 149580
+n simu data = 149640
+n simu data = 149700
+n simu data = 149760
+n simu data = 149820
+n simu data = 149880
+n simu data = 149940
+n simu data = 150000   (3 h 51 min )
+n simu data = 150060
+n simu data = 150120
+n simu data = 150180
+n simu data = 150240
+n simu data = 150300
+n simu data = 150360
+n simu data = 150420
+n simu data = 150480
+n simu data = 150540
+n simu data = 150600
+n simu data = 150660
+n simu data = 150720
+n simu data = 150780
+n simu data = 150840
+n simu data = 150900
+n simu data = 150960
+n simu data = 151020
+n simu data = 151080
+n simu data = 151140
+n simu data = 151200
+n simu data = 151260
+n simu data = 151320
+n simu data = 151380
+n simu data = 151440
+n simu data = 151500
+n simu data = 151560
+n simu data = 151620
+n simu data = 151680
+n simu data = 151740
+n simu data = 151800
+n simu data = 151860
+n simu data = 151920
+n simu data = 151980
+n simu data = 152040
+n simu data = 152100
+n simu data = 152160
+n simu data = 152220
+n simu data = 152280
+n simu data = 152340
+n simu data = 152400
+n simu data = 152460
+n simu data = 152520
+n simu data = 152580
+n simu data = 152640
+n simu data = 152700
+n simu data = 152760
+n simu data = 152820
+n simu data = 152880
+n simu data = 152940
+n simu data = 153000   (3 h 38 min )
+n simu data = 153060
+n simu data = 153120
+n simu data = 153180
+n simu data = 153240
+n simu data = 153300
+n simu data = 153360
+n simu data = 153420
+n simu data = 153480
+n simu data = 153540
+n simu data = 153600
+n simu data = 153660
+n simu data = 153720
+n simu data = 153780
+n simu data = 153840
+n simu data = 153900
+n simu data = 153960
+n simu data = 154020
+n simu data = 154080
+n simu data = 154140
+n simu data = 154200
+n simu data = 154260
+n simu data = 154320
+n simu data = 154380
+n simu data = 154440
+n simu data = 154500
+n simu data = 154560
+n simu data = 154620
+n simu data = 154680
+n simu data = 154740
+n simu data = 154800
+n simu data = 154860
+n simu data = 154920
+n simu data = 154980
+n simu data = 155040
+n simu data = 155100
+n simu data = 155160
+n simu data = 155220
+n simu data = 155280
+n simu data = 155340
+n simu data = 155400
+n simu data = 155460
+n simu data = 155520
+n simu data = 155580
+n simu data = 155640
+n simu data = 155700
+n simu data = 155760
+n simu data = 155820
+n simu data = 155880
+n simu data = 155940
+n simu data = 156000   (3 h 24 min )
+n simu data = 156060
+n simu data = 156120
+n simu data = 156180
+n simu data = 156240
+n simu data = 156300
+n simu data = 156360
+n simu data = 156420
+n simu data = 156480
+n simu data = 156540
+n simu data = 156600
+n simu data = 156660
+n simu data = 156720
+n simu data = 156780
+n simu data = 156840
+n simu data = 156900
+n simu data = 156960
+n simu data = 157020
+n simu data = 157080
+n simu data = 157140
+n simu data = 157200
+n simu data = 157260
+n simu data = 157320
+n simu data = 157380
+n simu data = 157440
+n simu data = 157500
+n simu data = 157560
+n simu data = 157620
+n simu data = 157680
+n simu data = 157740
+n simu data = 157800
+n simu data = 157860
+n simu data = 157920
+n simu data = 157980
+n simu data = 158040
+n simu data = 158100
+n simu data = 158160
+n simu data = 158220
+n simu data = 158280
+n simu data = 158340
+n simu data = 158400
+n simu data = 158460
+n simu data = 158520
+n simu data = 158580
+n simu data = 158640
+n simu data = 158700
+n simu data = 158760
+n simu data = 158820
+n simu data = 158880
+n simu data = 158940
+n simu data = 159000   (3 h 11 min )
+n simu data = 159060
+n simu data = 159120
+n simu data = 159180
+n simu data = 159240
+n simu data = 159300
+n simu data = 159360
+n simu data = 159420
+n simu data = 159480
+n simu data = 159540
+n simu data = 159600
+n simu data = 159660
+n simu data = 159720
+n simu data = 159780
+n simu data = 159840
+n simu data = 159900
+n simu data = 159960
+n simu data = 160020
+n simu data = 160080
+n simu data = 160140
+n simu data = 160200
+n simu data = 160260
+n simu data = 160320
+n simu data = 160380
+n simu data = 160440
+n simu data = 160500
+n simu data = 160560
+n simu data = 160620
+n simu data = 160680
+n simu data = 160740
+n simu data = 160800
+n simu data = 160860
+n simu data = 160920
+n simu data = 160980
+n simu data = 161040
+n simu data = 161100
+n simu data = 161160
+n simu data = 161220
+n simu data = 161280
+n simu data = 161340
+n simu data = 161400
+n simu data = 161460
+n simu data = 161520
+n simu data = 161580
+n simu data = 161640
+n simu data = 161700
+n simu data = 161760
+n simu data = 161820
+n simu data = 161880
+n simu data = 161940
+n simu data = 162000   (2 h 57 min )
+n simu data = 162060
+n simu data = 162120
+n simu data = 162180
+n simu data = 162240
+n simu data = 162300
+n simu data = 162360
+n simu data = 162420
+n simu data = 162480
+n simu data = 162540
+n simu data = 162600
+n simu data = 162660
+n simu data = 162720
+n simu data = 162780
+n simu data = 162840
+n simu data = 162900
+n simu data = 162960
+n simu data = 163020
+n simu data = 163080
+n simu data = 163140
+n simu data = 163200
+n simu data = 163260
+n simu data = 163320
+n simu data = 163380
+n simu data = 163440
+n simu data = 163500
+n simu data = 163560
+n simu data = 163620
+n simu data = 163680
+n simu data = 163740
+n simu data = 163800
+n simu data = 163860
+n simu data = 163920
+n simu data = 163980
+n simu data = 164040
+n simu data = 164100
+n simu data = 164160
+n simu data = 164220
+n simu data = 164280
+n simu data = 164340
+n simu data = 164400
+n simu data = 164460
+n simu data = 164520
+n simu data = 164580
+n simu data = 164640
+n simu data = 164700
+n simu data = 164760
+n simu data = 164820
+n simu data = 164880
+n simu data = 164940
+n simu data = 165000   (2 h 43 min )
+n simu data = 165060
+n simu data = 165120
+n simu data = 165180
+n simu data = 165240
+n simu data = 165300
+n simu data = 165360
+n simu data = 165420
+n simu data = 165480
+n simu data = 165540
+n simu data = 165600
+n simu data = 165660
+n simu data = 165720
+n simu data = 165780
+n simu data = 165840
+n simu data = 165900
+n simu data = 165960
+n simu data = 166020
+n simu data = 166080
+n simu data = 166140
+n simu data = 166200
+n simu data = 166260
+n simu data = 166320
+n simu data = 166380
+n simu data = 166440
+n simu data = 166500
+n simu data = 166560
+n simu data = 166620
+n simu data = 166680
+n simu data = 166740
+n simu data = 166800
+n simu data = 166860
+n simu data = 166920
+n simu data = 166980
+n simu data = 167040
+n simu data = 167100
+n simu data = 167160
+n simu data = 167220
+n simu data = 167280
+n simu data = 167340
+n simu data = 167400
+n simu data = 167460
+n simu data = 167520
+n simu data = 167580
+n simu data = 167640
+n simu data = 167700
+n simu data = 167760
+n simu data = 167820
+n simu data = 167880
+n simu data = 167940
+n simu data = 168000   (2 h 29 min )
+n simu data = 168060
+n simu data = 168120
+n simu data = 168180
+n simu data = 168240
+n simu data = 168300
+n simu data = 168360
+n simu data = 168420
+n simu data = 168480
+n simu data = 168540
+n simu data = 168600
+n simu data = 168660
+n simu data = 168720
+n simu data = 168780
+n simu data = 168840
+n simu data = 168900
+n simu data = 168960
+n simu data = 169020
+n simu data = 169080
+n simu data = 169140
+n simu data = 169200
+n simu data = 169260
+n simu data = 169320
+n simu data = 169380
+n simu data = 169440
+n simu data = 169500
+n simu data = 169560
+n simu data = 169620
+n simu data = 169680
+n simu data = 169740
+n simu data = 169800
+n simu data = 169860
+n simu data = 169920
+n simu data = 169980
+n simu data = 170040
+n simu data = 170100
+n simu data = 170160
+n simu data = 170220
+n simu data = 170280
+n simu data = 170340
+n simu data = 170400
+n simu data = 170460
+n simu data = 170520
+n simu data = 170580
+n simu data = 170640
+n simu data = 170700
+n simu data = 170760
+n simu data = 170820
+n simu data = 170880
+n simu data = 170940
+n simu data = 171000   (2 h 16 min )
+n simu data = 171060
+n simu data = 171120
+n simu data = 171180
+n simu data = 171240
+n simu data = 171300
+n simu data = 171360
+n simu data = 171420
+n simu data = 171480
+n simu data = 171540
+n simu data = 171600
+n simu data = 171660
+n simu data = 171720
+n simu data = 171780
+n simu data = 171840
+n simu data = 171900
+n simu data = 171960
+n simu data = 172020
+n simu data = 172080
+n simu data = 172140
+n simu data = 172200
+n simu data = 172260
+n simu data = 172320
+n simu data = 172380
+n simu data = 172440
+n simu data = 172500
+n simu data = 172560
+n simu data = 172620
+n simu data = 172680
+n simu data = 172740
+n simu data = 172800
+n simu data = 172860
+n simu data = 172920
+n simu data = 172980
+n simu data = 173040
+n simu data = 173100
+n simu data = 173160
+n simu data = 173220
+n simu data = 173280
+n simu data = 173340
+n simu data = 173400
+n simu data = 173460
+n simu data = 173520
+n simu data = 173580
+n simu data = 173640
+n simu data = 173700
+n simu data = 173760
+n simu data = 173820
+n simu data = 173880
+n simu data = 173940
+n simu data = 174000   (2 h 2 min )
+n simu data = 174060
+n simu data = 174120
+n simu data = 174180
+n simu data = 174240
+n simu data = 174300
+n simu data = 174360
+n simu data = 174420
+n simu data = 174480
+n simu data = 174540
+n simu data = 174600
+n simu data = 174660
+n simu data = 174720
+n simu data = 174780
+n simu data = 174840
+n simu data = 174900
+n simu data = 174960
+n simu data = 175020
+n simu data = 175080
+n simu data = 175140
+n simu data = 175200
+n simu data = 175260
+n simu data = 175320
+n simu data = 175380
+n simu data = 175440
+n simu data = 175500
+n simu data = 175560
+n simu data = 175620
+n simu data = 175680
+n simu data = 175740
+n simu data = 175800
+n simu data = 175860
+n simu data = 175920
+n simu data = 175980
+n simu data = 176040
+n simu data = 176100
+n simu data = 176160
+n simu data = 176220
+n simu data = 176280
+n simu data = 176340
+n simu data = 176400
+n simu data = 176460
+n simu data = 176520
+n simu data = 176580
+n simu data = 176640
+n simu data = 176700
+n simu data = 176760
+n simu data = 176820
+n simu data = 176880
+n simu data = 176940
+n simu data = 177000   (1 h 48 min )
+n simu data = 177060
+n simu data = 177120
+n simu data = 177180
+n simu data = 177240
+n simu data = 177300
+n simu data = 177360
+n simu data = 177420
+n simu data = 177480
+n simu data = 177540
+n simu data = 177600
+n simu data = 177660
+n simu data = 177720
+n simu data = 177780
+n simu data = 177840
+n simu data = 177900
+n simu data = 177960
+n simu data = 178020
+n simu data = 178080
+n simu data = 178140
+n simu data = 178200
+n simu data = 178260
+n simu data = 178320
+n simu data = 178380
+n simu data = 178440
+n simu data = 178500
+n simu data = 178560
+n simu data = 178620
+n simu data = 178680
+n simu data = 178740
+n simu data = 178800
+n simu data = 178860
+n simu data = 178920
+n simu data = 178980
+n simu data = 179040
+n simu data = 179100
+n simu data = 179160
+n simu data = 179220
+n simu data = 179280
+n simu data = 179340
+n simu data = 179400
+n simu data = 179460
+n simu data = 179520
+n simu data = 179580
+n simu data = 179640
+n simu data = 179700
+n simu data = 179760
+n simu data = 179820
+n simu data = 179880
+n simu data = 179940
+n simu data = 180000   (1 h 34 min )
+n simu data = 180060
+n simu data = 180120
+n simu data = 180180
+n simu data = 180240
+n simu data = 180300
+n simu data = 180360
+n simu data = 180420
+n simu data = 180480
+n simu data = 180540
+n simu data = 180600
+n simu data = 180660
+n simu data = 180720
+n simu data = 180780
+n simu data = 180840
+n simu data = 180900
+n simu data = 180960
+n simu data = 181020
+n simu data = 181080
+n simu data = 181140
+n simu data = 181200
+n simu data = 181260
+n simu data = 181320
+n simu data = 181380
+n simu data = 181440
+n simu data = 181500
+n simu data = 181560
+n simu data = 181620
+n simu data = 181680
+n simu data = 181740
+n simu data = 181800
+n simu data = 181860
+n simu data = 181920
+n simu data = 181980
+n simu data = 182040
+n simu data = 182100
+n simu data = 182160
+n simu data = 182220
+n simu data = 182280
+n simu data = 182340
+n simu data = 182400
+n simu data = 182460
+n simu data = 182520
+n simu data = 182580
+n simu data = 182640
+n simu data = 182700
+n simu data = 182760
+n simu data = 182820
+n simu data = 182880
+n simu data = 182940
+n simu data = 183000   (1 h 20 min )
+n simu data = 183060
+n simu data = 183120
+n simu data = 183180
+n simu data = 183240
+n simu data = 183300
+n simu data = 183360
+n simu data = 183420
+n simu data = 183480
+n simu data = 183540
+n simu data = 183600
+n simu data = 183660
+n simu data = 183720
+n simu data = 183780
+n simu data = 183840
+n simu data = 183900
+n simu data = 183960
+n simu data = 184020
+n simu data = 184080
+n simu data = 184140
+n simu data = 184200
+n simu data = 184260
+n simu data = 184320
+n simu data = 184380
+n simu data = 184440
+n simu data = 184500
+n simu data = 184560
+n simu data = 184620
+n simu data = 184680
+n simu data = 184740
+n simu data = 184800
+n simu data = 184860
+n simu data = 184920
+n simu data = 184980
+n simu data = 185040
+n simu data = 185100
+n simu data = 185160
+n simu data = 185220
+n simu data = 185280
+n simu data = 185340
+n simu data = 185400
+n simu data = 185460
+n simu data = 185520
+n simu data = 185580
+n simu data = 185640
+n simu data = 185700
+n simu data = 185760
+n simu data = 185820
+n simu data = 185880
+n simu data = 185940
+n simu data = 186000   (1 h 5 min )
+n simu data = 186060
+n simu data = 186120
+n simu data = 186180
+n simu data = 186240
+n simu data = 186300
+n simu data = 186360
+n simu data = 186420
+n simu data = 186480
+n simu data = 186540
+n simu data = 186600
+n simu data = 186660
+n simu data = 186720
+n simu data = 186780
+n simu data = 186840
+n simu data = 186900
+n simu data = 186960
+n simu data = 187020
+n simu data = 187080
+n simu data = 187140
+n simu data = 187200
+n simu data = 187260
+n simu data = 187320
+n simu data = 187380
+n simu data = 187440
+n simu data = 187500
+n simu data = 187560
+n simu data = 187620
+n simu data = 187680
+n simu data = 187740
+n simu data = 187800
+n simu data = 187860
+n simu data = 187920
+n simu data = 187980
+n simu data = 188040
+n simu data = 188100
+n simu data = 188160
+n simu data = 188220
+n simu data = 188280
+n simu data = 188340
+n simu data = 188400
+n simu data = 188460
+n simu data = 188520
+n simu data = 188580
+n simu data = 188640
+n simu data = 188700
+n simu data = 188760
+n simu data = 188820
+n simu data = 188880
+n simu data = 188940
+n simu data = 189000   (51 min 49 s )
+n simu data = 189060
+n simu data = 189120
+n simu data = 189180
+n simu data = 189240
+n simu data = 189300
+n simu data = 189360
+n simu data = 189420
+n simu data = 189480
+n simu data = 189540
+n simu data = 189600
+n simu data = 189660
+n simu data = 189720
+n simu data = 189780
+n simu data = 189840
+n simu data = 189900
+n simu data = 189960
+n simu data = 190020
+n simu data = 190080
+n simu data = 190140
+n simu data = 190200
+n simu data = 190260
+n simu data = 190320
+n simu data = 190380
+n simu data = 190440
+n simu data = 190500
+n simu data = 190560
+n simu data = 190620
+n simu data = 190680
+n simu data = 190740
+n simu data = 190800
+n simu data = 190860
+n simu data = 190920
+n simu data = 190980
+n simu data = 191040
+n simu data = 191100
+n simu data = 191160
+n simu data = 191220
+n simu data = 191280
+n simu data = 191340
+n simu data = 191400
+n simu data = 191460
+n simu data = 191520
+n simu data = 191580
+n simu data = 191640
+n simu data = 191700
+n simu data = 191760
+n simu data = 191820
+n simu data = 191880
+n simu data = 191940
+n simu data = 192000   (37 min 43 s )
+n simu data = 192060
+n simu data = 192120
+n simu data = 192180
+n simu data = 192240
+n simu data = 192300
+n simu data = 192360
+n simu data = 192420
+n simu data = 192480
+n simu data = 192540
+n simu data = 192600
+n simu data = 192660
+n simu data = 192720
+n simu data = 192780
+n simu data = 192840
+n simu data = 192900
+n simu data = 192960
+n simu data = 193020
+n simu data = 193080
+n simu data = 193140
+n simu data = 193200
+n simu data = 193260
+n simu data = 193320
+n simu data = 193380
+n simu data = 193440
+n simu data = 193500
+n simu data = 193560
+n simu data = 193620
+n simu data = 193680
+n simu data = 193740
+n simu data = 193800
+n simu data = 193860
+n simu data = 193920
+n simu data = 193980
+n simu data = 194040
+n simu data = 194100
+n simu data = 194160
+n simu data = 194220
+n simu data = 194280
+n simu data = 194340
+n simu data = 194400
+n simu data = 194460
+n simu data = 194520
+n simu data = 194580
+n simu data = 194640
+n simu data = 194700
+n simu data = 194760
+n simu data = 194820
+n simu data = 194880
+n simu data = 194940
+n simu data = 195000   (23 min 35 s )
+n simu data = 195060
+n simu data = 195120
+n simu data = 195180
+n simu data = 195240
+n simu data = 195300
+n simu data = 195360
+n simu data = 195420
+n simu data = 195480
+n simu data = 195540
+n simu data = 195600
+n simu data = 195660
+n simu data = 195720
+n simu data = 195780
+n simu data = 195840
+n simu data = 195900
+n simu data = 195960
+n simu data = 196020
+n simu data = 196080
+n simu data = 196140
+n simu data = 196200
+n simu data = 196260
+n simu data = 196320
+n simu data = 196380
+n simu data = 196440
+n simu data = 196500
+n simu data = 196560
+n simu data = 196620
+n simu data = 196680
+n simu data = 196740
+n simu data = 196800
+n simu data = 196860
+n simu data = 196920
+n simu data = 196980
+n simu data = 197040
+n simu data = 197100
+n simu data = 197160
+n simu data = 197220
+n simu data = 197280
+n simu data = 197340
+n simu data = 197400
+n simu data = 197460
+n simu data = 197520
+n simu data = 197580
+n simu data = 197640
+n simu data = 197700
+n simu data = 197760
+n simu data = 197820
+n simu data = 197880
+n simu data = 197940
+n simu data = 198000   (9 min 26 s )
+n simu data = 198060
+n simu data = 198120
+n simu data = 198180
+n simu data = 198240
+n simu data = 198300
+n simu data = 198360
+n simu data = 198420
+n simu data = 198480
+n simu data = 198540
+n simu data = 198600
+n simu data = 198660
+n simu data = 198720
+n simu data = 198780
+n simu data = 198840
+n simu data = 198900
+n simu data = 198960
+n simu data = 199020
+n simu data = 199080
+n simu data = 199140
+n simu data = 199200
+n simu data = 199260
+n simu data = 199320
+n simu data = 199380
+n simu data = 199440
+n simu data = 199500
+n simu data = 199560
+n simu data = 199620
+n simu data = 199680
+n simu data = 199740
+n simu data = 199800
+n simu data = 199860
+n simu data = 199920
+n simu data = 199980
+n simu data = 200040
+Total number of simulated loci : 680646120
+
+fermeture du fichier ./reftableRF.bin taille=53255112
+

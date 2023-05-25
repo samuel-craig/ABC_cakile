@@ -1,0 +1,175 @@
+Cakile_e-Admixture_edentula_abc_test.DIYABC.snp
+16 parameters and 50 summary statistics
+
+9 scenarios: 11 11 11 12 12 12 11 12 12
+scenario 1 [0.11111] (15)
+Naus Nns Ngl Ngst1 Ngst2
+0 sample 1
+0 sample 2
+0 sample 3
+tpost split 1 5 4 ra
+tBaus2 varNe 5 NBgst2
+taus2 merge 3 5
+tBaus varNe 4 NBgst1
+taus merge 3 4
+tanc merge 2 3
+tanc varNe 2 Nanc
+scenario 2 [0.11111] (15)
+Naus Nns Ngl Ngst1 Ngst2
+0 sample 1
+0 sample 2
+0 sample 3
+tpost split 1 5 4 ra
+tBaus2 varNe 5 NBgst2
+taus2 merge 2 5
+tBaus varNe 4 NBgst1
+taus merge 3 4
+tanc merge 2 3
+tanc varNe 2 Nanc
+scenario 3 [0.11111] (15)
+Naus Nns Ngl Ngst1 Ngst2
+0 sample 1
+0 sample 2
+0 sample 3
+tpost split 1 4 5 ra
+tBaus2 varNe 4 NBgst1
+taus2 merge 2 4
+tBaus varNe 5 NBgst2
+taus merge 3 5
+tanc merge 2 3
+tanc varNe 2 Nanc
+scenario 4 [0.11111] (16)
+Naus Nns Ngl Ngst1 Ngst2 Ngst3
+0 sample 1
+0 sample 2
+0 sample 3
+tpost split 1 5 4 ra
+tBaus2 varNe 5 NBgst2
+taus2 merge 3 5
+tBaus varNe 4 NBgst1
+taus merge 6 4
+tanc merge 2 6
+tanc merge 2 3
+tanc varNe 2 Nanc
+scenario 5 [0.11111] (16)
+Naus Nns Ngl Ngst1 Ngst2 Ngst3
+0 sample 1
+0 sample 2
+0 sample 3
+tpost split 1 5 4 ra
+tBaus2 varNe 5 NBgst2
+taus2 merge 6 5
+tBaus varNe 4 NBgst1
+taus merge 3 4
+tanc merge 2 6
+tanc merge 2 3
+tanc varNe 2 Nanc
+scenario 6 [0.11111] (16)
+Naus Nns Ngl Ngst1 Ngst2 Ngst3
+0 sample 1
+0 sample 2
+0 sample 3
+tpost split 1 5 4 ra
+tBaus2 varNe 5 NBgst2
+taus2 merge 6 5
+tBaus varNe 4 NBgst1
+taus merge 6 4
+tanc merge 2 6
+tanc merge 2 3
+tanc varNe 2 Nanc
+scenario 7 [0.11111] (15)
+Naus Nns Ngl Ngst1 Ngst2
+0 sample 1
+0 sample 2
+0 sample 3
+tpost split 1 5 4 ra
+tBaus2 varNe 5 NBgst2
+taus2 merge 2 5
+tBaus varNe 4 NBgst1
+taus merge 2 4
+tanc merge 2 3
+tanc varNe 2 Nanc
+scenario 8 [0.11111] (16)
+Naus Nns Ngl Ngst1 Ngst2 Ngst3
+0 sample 1
+0 sample 2
+0 sample 3
+tpost split 1 5 4 ra
+tBaus2 varNe 5 NBgst2
+taus2 merge 2 5
+tBaus varNe 4 NBgst1
+taus merge 6 4
+tanc merge 2 6
+tanc merge 2 3
+tanc varNe 2 Nanc
+scenario 9 [0.11111] (16)
+Naus Nns Ngl Ngst1 Ngst2 Ngst3
+0 sample 1
+0 sample 2
+0 sample 3
+tpost split 1 5 4 ra
+tBaus2 varNe 5 NBgst2
+taus2 merge 6 5
+tBaus varNe 4 NBgst1
+taus merge 2 4
+tanc merge 2 6
+tanc merge 2 3
+tanc varNe 2 Nanc
+
+historical parameters priors (16,13)
+NBgst2 N UN[1,1000,0,0]
+NBgst1 N UN[1,1000,0,0]
+Nanc N UN[1,10000,0,0]
+Naus N UN[1,10000,0,0]
+Nns N UN[1,10000,0,0]
+Ngl N UN[1,10000,0,0]
+Ngst1 N UN[1,10000,0,0]
+Ngst2 N UN[1,10000,0,0]
+Ngst3 N UN[1,10000,0,0]
+tpost T UN[0,176,0,0]
+tBaus2 T UN[0,176,0,0]
+taus2 T UN[0,176,0,0]
+tBaus T UN[0,176,0,0]
+taus T UN[156,176,0,0]
+tanc T UN[177,10000,0,0]
+ra A UN[0.001,0.999,0,0]
+tanc>taus
+tanc>tBaus
+tanc>taus2
+tanc>tBaus2
+tanc>tpost
+taus>tBaus
+taus>taus2
+taus>tBaus2
+taus>tpost
+taus2>tBaus2
+taus2>tpost
+NBgst1<Ngst1
+NBgst2<Ngst2
+DRAW UNTIL
+
+loci description (1)
+3877 <A> G1 from 1
+
+group summary statistics (50)
+group G1 (50)
+ML1p 1 2 3
+ML2p 1.2 1.3 2.3
+HWm 1 2 3
+HWv 1 2 3
+HBm 1.2 1.3 2.3
+HBv 1.2 1.3 2.3
+FST1m 1 2 3
+FST1v 1 2 3
+FST2m 1.2 1.3 2.3
+FST2v 1.2 1.3 2.3
+NEIm 1.2 1.3 2.3
+NEIv 1.2 1.3 2.3
+AMLm 1.2.3 2.1.3 3.1.2
+AMLv 1.2.3 2.1.3 3.1.2
+FST3m 1.2.3
+FST3v 1.2.3
+F3m 1.2.3 2.1.3 3.1.2
+F3v 1.2.3 2.1.3 3.1.2
+
+scenario NBgst2 NBgst1 Nanc Naus Nns Ngl Ngst1 Ngst2 Ngst3 tpost tBaus2 taus2 tBaus taus tanc ra    ML1p_1        ML1p_2        ML1p_3       ML2p_1.2      ML2p_1.3      ML2p_2.3       HWm_1         HWm_2         HWm_3         HWv_1         HWv_2         HWv_3        HBm_1.2       HBm_1.3       HBm_2.3       HBv_1.2       HBv_1.3       HBv_2.3       FST1m_1       FST1m_2       FST1m_3       FST1v_1       FST1v_2       FST1v_3      FST2m_1.2     FST2m_1.3     FST2m_2.3     FST2v_1.2     FST2v_1.3     FST2v_2.3      NEIm_1.2      NEIm_1.3      NEIm_2.3      NEIv_1.2      NEIv_1.3      NEIv_2.3     AMLm_1.2.3    AMLm_2.1.3    AMLm_3.1.2    AMLv_1.2.3    AMLv_2.1.3    AMLv_3.1.2   FST3m_1.2.3   FST3v_1.2.3    F3m_1.2.3     F3m_2.1.3     F3m_3.1.2     F3v_1.2.3     F3v_2.1.3     F3v_3.1.2   
