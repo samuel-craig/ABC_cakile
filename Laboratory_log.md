@@ -86,18 +86,12 @@
 
 ## 14APR23 
 ### Data<a name="Data"></a>
-
-
-
-
-
-
+- Received vcf files, converted from plink by Kay, and Popfile spreadsheet from Hanna. 
 
 ## 16APR23
 ### Using bcftools<a name="bcftools"></a>
 - Installed ubuntu, bcftools
-
-- Duplicated file:  Cakile_e-Admixture_downsampled17721.vcf
+- Duplicate file: Cakile_e-Admixture_downsampled17721.vcf
 -
 - Location: sam@DESKTOP-1PAPBN0:/mnt/c/Users/Sam/Documents/Monash/BIO3990$
 ### Changing sample names
