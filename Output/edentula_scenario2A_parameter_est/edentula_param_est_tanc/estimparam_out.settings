@@ -1,0 +1,10 @@
+Parameter estimation analyses proceeded using: 
+- Parameter name: tanc
+- Scenario 1
+- 200010 simulated datasets
+- 1000 trees
+- Minimum node size of 5
+- 50 summary statistics
+- 16 axes of summary statistics PLS linear combination
+- 5 noise variables
+- 1000 out-of-band samples used as test
