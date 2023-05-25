@@ -1,0 +1,8 @@
+debut
+headerRF.txt found, choosing it over header.txt
+Beginning of doinitRNG  options : t:3
+Maximal number of threads per computer is set to 3
+End of doinitRNG options
+Beginning of RNGs initializations
+End of RNGs initializations
+0-th batch of RNGs' states are saved into ./RNG_state_0000.bin
