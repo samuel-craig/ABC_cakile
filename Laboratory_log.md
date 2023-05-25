@@ -689,9 +689,9 @@ In *C. edentula* the most strongly supported scenario involved the bottlenecked 
 
 ## 29APR23
 ### Parameter Estimation: *C. edentula* Scenario 2 Pool A<a name="edentula_pe_29"></a>
+#### FILE: [edentula_scenario2A_parameter_est](https://github.com/samuel-craig/ABC_cakile/tree/main/Output/edentula_scenario2A_parameter_est)
 - 100,000 simulations under the scenario of interest are needed for parameter estimation.
 - I will run this in a new project that just contains one scenario, scenario 2 Pool A.
-- Project name: 'edentula_scenario2A_param_est'
 - Condition NBaus< Nns added to prior conditions. The bottlenecked effective population cannot be larger than the source population.
 ###### SIMULATION SETTINGS:
 - 200,000 simulated datasets
@@ -708,8 +708,8 @@ In *C. edentula* the most strongly supported scenario involved the bottlenecked 
 - Number of trees: 1000
 
 ### Ancestral Effective Population (Nanc)
-###### FILE: edentula_param_est_Nanc
-###### Settings: 
+#### FILE: [edentula_param_est_Nanc](https://github.com/samuel-craig/ABC_cakile/tree/main/Output/edentula_scenario2A_parameter_est/edentula_param_est_Nanc)
+###### RF ANALYSIS SETTINGS:
 - Number of trees = 1000
 - Scenario: 2 (Pool A)
 - Parameter: Nanc
@@ -723,12 +723,12 @@ In *C. edentula* the most strongly supported scenario involved the bottlenecked 
 
 ![[Pasted image 20230430123107.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230430123107.png)
 
-###### Interpretation:
+###### INTERPRETATION:
 - The effective population of the ancestral *C. edentula* has a median value of 596 and a 90% confidence interval that ranges from 59 to 1858, with the lower and upper bounds corresponding to the 0.05 and 0.95 quantiles, respectively.
 ---
 
 ### Australian Effective Population
-###### FILE: edentula_param_est_Naus
+###### FILE: [edentula_param_est_Naus](https://github.com/samuel-craig/ABC_cakile/tree/main/Output/edentula_scenario2A_parameter_est/edentula_param_est_Naus)
 ###### RF ANALYSIS SETTINGS:
 - Number of trees = 1000
 - Scenario: 2
@@ -741,7 +741,7 @@ In *C. edentula* the most strongly supported scenario involved the bottlenecked 
 
 ![[Pasted image 20230430150650.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230430150650.png)
 
-###### Interpretation:
+###### INTERPRETATION:
 - The effective population of the Australian *C. edentula* has a median value of 6780 and a 90% confidence interval that ranges from 2509 to 9789.
 - ## Why is this so high relative to the native populations?
 - Rosinger et al. 2022, p. 39:
@@ -753,7 +753,7 @@ In *C. edentula* the most strongly supported scenario involved the bottlenecked 
 
 
 ### Bottlenecked Australian Effective Population
-###### FILE: edentula_param_est_NBaus
+#### FILE: edentula_param_est_NBaus(https://github.com/samuel-craig/ABC_cakile/tree/main/Output/edentula_scenario2A_parameter_est/edentula_param_est_NBaus)
 ###### RF ANALYSIS SETTINGS:
 - Number of trees = 1000
 - Scenario: 2
@@ -767,12 +767,12 @@ In *C. edentula* the most strongly supported scenario involved the bottlenecked 
 ![[Pasted image 20230430171423.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230430171423.png)
 
 
-###### Interpretation
+###### INTERPRETATION:
 -  The effective population of the bottlenecked Australian *C. edentula* has a median value of 15 and a 90% confidence interval that ranges from 3 to 69.
 ---
 
 ### Great Lakes Effective Population
-###### FILE: edentula_param_est_Ngl
+###### FILE: [edentula_param_est_Ngl](https://github.com/samuel-craig/ABC_cakile/tree/main/Output/edentula_scenario2A_parameter_est/edentula_param_est_Ngl)
 ###### RF ANALYSIS SETTINGS:
 - Number of trees = 1000
 - Scenario: 2
@@ -785,13 +785,13 @@ In *C. edentula* the most strongly supported scenario involved the bottlenecked 
 
 ![[Pasted image 20230430190640.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230430190640.png)
 
-###### Interpretation:
+###### INTERPRETATION:
 - The Great Lakes effective population has a median value of 914 and a 90% confidence interval that ranges from 298 to 1903.
 ---
 
 
 ### Nova Scotia Effective Population
-###### FILE: edentula_param_est_Nns
+#### FILE: [edentula_param_est_Nns](https://github.com/samuel-craig/ABC_cakile/tree/main/Output/edentula_scenario2A_parameter_est/edentula_param_est_Nns)
 ###### RF ANALYSIS SETTINGS:
 - Number of trees = 1000
 - Scenario: 2
@@ -805,12 +805,12 @@ In *C. edentula* the most strongly supported scenario involved the bottlenecked 
 
 ![[Pasted image 20230501080053.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230501080053.png)
 
-###### Interpretation
+###### INTERPRETATION:
 - The Nova Scotian effective population has a median value of 1,273 and a 90% confidence interval that ranges from 500 to 3562. 
 ---
 01MAY23
 ### Time of Divergence b/n Nova Scotia and Great Lakes
-###### FILE: edentula_param_est_tanc
+#### FILE: [edentula_param_est_tanc](https://github.com/samuel-craig/ABC_cakile/tree/main/Output/edentula_scenario2A_parameter_est/edentula_param_est_tanc)
 ###### RF ANALYSIS SETTINGS:
 - Number of trees = 1000
 - Scenario: 2
@@ -829,7 +829,7 @@ In *C. edentula* the most strongly supported scenario involved the bottlenecked 
 
 
 ### Time of Divergence b/n Nova Scotia and Australia
-###### FILE: edentula_pool_A_param_est_taus
+#### FILE: [edentula_pool_A_param_est_taus](https://github.com/samuel-craig/ABC_cakile/tree/main/Output/edentula_scenario2A_parameter_est/edentula_param_est_taus)
 ###### RF ANALYSIS SETTINGS: 
 - Number of trees = 1000
 - Scenario: 2
@@ -848,7 +848,7 @@ In *C. edentula* the most strongly supported scenario involved the bottlenecked 
 
 
 ### Duration of Bottleneck in Australia
-###### FILE: edentula_param_est_tBaus
+#### FILE: [edentula_param_est_tBaus](https://github.com/samuel-craig/ABC_cakile/tree/main/Output/edentula_scenario2A_parameter_est/edentula_param_est_tBaus)
 ###### RF ANALYSIS SETTINGS:
 - Number of trees = 1000
 - Scenario: 2
@@ -858,7 +858,7 @@ In *C. edentula* the most strongly supported scenario involved the bottlenecked 
 
 ![[Pasted image 20230501143642.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230501143642.png)
 
-###### Interpretation:
+###### INTERPRETATION:
 - Assuming one generation per year for *C. edentula*, the novel Australian population was bottlenecked for 111 years, with 95% confidence interval of 46-157 years ago.
 ---
 
@@ -868,6 +868,7 @@ In *C. edentula* the most strongly supported scenario involved the bottlenecked 
 
 ## 05MAY23
 ### Dataset Simulation: *C. maritima* Pool A<a name="maritima_sim_05"></a>
+#### FILE:[maritima_pool_a_cont_1](https://github.com/samuel-craig/ABC_cakile/tree/main/Output/maritima_pool_a_cont_1)
 - Rosinger et al. 2022:
 >"Cakile maritima reached western North America in 1935 at Stinson Bay (close to San Francisco), and was first observed sympatric with C. edentula (Barbour & Rodman, 1970)"
 - 2019-1935 = 84, [84-104]
@@ -903,10 +904,10 @@ Ngst>NBwna
 
 ## 08MAY23
 ### Scenario Choice: *C. maritima* Pool A<a name="maritima_sc_08"></a>
+#### FILE: [maritima_pool_A_scenario_choice](https://github.com/samuel-craig/ABC_cakile/tree/main/Output/maritima_pool_a_cont_1/maritima_pool_A_scenario_choice)
 
 ![[Pasted image 20230511200816.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230511200816.png)
 
-###### FILE: maritima_pool_A_scenario_choice
 ###### RF Analysis Settings:
 - 1000 trees
 	- Start 2007 11MAY23
@@ -940,6 +941,7 @@ Ngst>NBwna
 
 ## 12MAY23
 Dataset Simulation: *C. maritima* Pool C<a name="maritima_sim_12"></a>
+#### FILE: [edentula_pool_C](https://github.com/samuel-craig/ABC_cakile/tree/main/Output/edentula_pool_C)
 ###### CONDITIONS:
 ```
 tanc>twna # the ancestral div is before the first intro
@@ -961,7 +963,6 @@ Start: 1519 12MAY23
 End:  paused 1617 12MAY23 - need to prioritise simulation of C. edentula Pool C
 
 ###### SIMULATION SETTINGS:
-- File: edentula_pool_C
 - 200,000 to get at least 20,000 per scenario
 	- Start: 1623 12MAY23
 	- End: 10:55 13MAY23
@@ -977,7 +978,7 @@ Introduction, aims, methods, results, conclusion written.
 
 
 ### Scenario Choice: *C. edentula* Pool C<a name="edentula_sc_13"></a>
-- File: edentula_pool_C_model_choice
+#### FILE: [edentula_pool_C_model_choice](https://github.com/samuel-craig/ABC_cakile/tree/main/Output/edentula_pool_C/edentula_pool_C_model_choice)
 - 1000 trees
 	- Start: 1428 13MAY23
 	- End: 1537 13MAY23
@@ -996,12 +997,13 @@ At time [tanc], there is an ancestral population which has a effective populatio
 
 
 ### Scenario Tournament: *C. edentula*<a name="edentula_tourn_13"></a>
+#### FILE: [edentula_A_B_C](https://github.com/samuel-craig/ABC_cakile/tree/main/Output/edentula_A_B_C)
 - Three scenarios: 
 	1. scenario 2 from Pool A
 	2. scenario 4 from Pool B
 	3. scenario 6 from Pool C
-- File: "edentula_A_B_C"
-###### Conditions:
+
+###### CONDITIONS:
 ```
 tanc>taus
 tanc>tgst
@@ -1027,6 +1029,8 @@ Nns>Ngst
 	- End: 2302 13MAY23
 	- Duration:
 
+### Scenario Choice: *C. edentula* Pool ABC 
+#### FILE: (https://github.com/samuel-craig/ABC_cakile/tree/main/Output/edentula_A_B_C/edentula_pool_ABC_scenario_choice)
 ###### RF Analysis Settings:
 - Run 1000 trees
 	- Start 2306 13MAY23
@@ -1091,7 +1095,7 @@ At time [tanc], there is an ancestral population which has a effective populatio
 
 ## 20MAY23
 ### Dataset Simulation: *C. maritima* pool B<a name="maritima_sim_20"></a> 
-###### Conditions:
+###### CONDITIONS:
 ```
 tanc>tgst
 tanc>tadm
