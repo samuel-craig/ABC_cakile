@@ -1111,7 +1111,7 @@ Changed Pool C to reflect the possibility of pre-invasion admixture, allowing ad
 	
 ## 22MAY23
 ### Scenario Choice: *C. maritima* Pool B<a name="maritima_sc_22"></a>
-#### FILE: maritima_pool_B_scenario_choice
+#### FILE: [maritima_pool_B_scenario_choice](https://github.com/samuel-craig/ABC_cakile/tree/main/Output/maritima_pool_B/maritima_pool_B_scenario_choice)
 ![[Pasted image 20230522194550.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230522194550.png)
 
 ###### RF Analysis Settings:
