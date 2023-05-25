@@ -64,8 +64,10 @@
 - [22MAY23](#22MAY23)
 	- [Scenario Choice: *C. maritima* Pool B](#maritima_sc_22)
 - [23MAY23](#23MAY23)
+	- [Scenario Tournament: *C. maritima*](#maritima_tourn_23)
 - [24MAY23](#24MAY23)
 - [25MAY23](#25MAY23)
+	- [Scenario Choice: *C. maritima*](#maritima_sc_25)
 - [26MAY23](#26MAY23)
 - [27MAY23](#27MAY23)
 - [28MAY23](#28MAY23)
@@ -1116,22 +1118,46 @@ Results:
 Model 1 selected by only 1 vote.
 
 ## 23MAY23
-### Scenario Tournament: *C. maritima*
+### Scenario Tournament: *C. maritima*<a name="maritima_tourn_23"></a>
 Tournament between winners (and scenarios within 10 votes of the winning scenario - too close to differentiate) of poll A, B, C
 - File name: 'maritima_A_B_C'
 1. Scenario 2 Pool A;
 2. Scenario 1 Pool B;
 3. Scenario 2 Pool B;
 4. Scenario 4 Pool C;
-5. Scenario 5 Pool C
-6. Scenario 6 Pool C
-7. Scenario 9 Pool C
+5. Scenario 5 Pool C;
+6. Scenario 6 Pool C;
+7. Scenario 9 Pool C;
 
 ![[Pasted image 20230523090507.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230523090507.png)
 
+###### Simulation Settings:
 - Same priors as per each Pool's individual priors
 - Conditions in spreadsheet, tab 'Priors_maritima'
 - 150,000 datasets (at least 20,000 per scenario)
-- Start: 0932 23MAY23
-- End:
-- Duration:
+	- Start: 0932 23MAY23
+	- End: 0712 25MAY23
+	- Duration: 1 day, 21 hours, 40 minutes.
+
+## 25MAY23
+Scenario Choice: *C. maritima*<a name="maritima_sc_25"></a>
+###### RF Analysis Settings: 
+- File: maritima_A_B_C_scenario_choice
+- <28,000 datasets per scenario
+- 2000 trees
+	- Start: 0939 25MAY23
+	- End: 1038 25MAY23
+	- Duration: 59 minutes
+
+###### Results:
+
+![[maritimatourn]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/lasttourn.JPG)
+
+
+###### Model Image:
+
+![[PoolCmodel4.jpg]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/PoolCmodel4.JPG)
+
+###### Model Description:
+At time [tanc], there is an ancestral population which has a effective population [Nanc], pop2[med],  pop1[balt] and pop6[gst3] split. At time [twna] pop4 [gst1] splits off pop6[gst3] and is bottlenecked for time [tBwna] resulting in Ne of [NBgst1]. Later (more recently) at time [tBwna2] pop 5[gst2] splits off pop1[balt] and is bottlenecked for time [tBwna2] resulting in a Ne of [NBgst2]. Then at time [tpost] pop3 [wna] is given rise to from the admixture of pop5[gst2] and pop4[gst1] at a rate of [ra].
+
