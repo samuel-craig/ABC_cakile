@@ -36,13 +36,17 @@
 - [03MAY23](#03MAY23)
 - [04MAY23](#04MAY23)
 - [05MAY23](#05MAY23)
+	- [Dataset Simulation: *C. maritima* Pool A](#maritima_sim_05)
 - [06MAY23](#06MAY23)
 - [07MAY23](#07MAY23)
 - [08MAY23](#08MAY23)
+	- [Scenario Choice: *C. maritima* Pool A](#maritima_sc_08)
 - [09MAY23](#09MAY23)
+	- [Developing Scenario Pool C](#scenario_pool_c)
 - [10MAY23](#10MAY23)
 - [11MAY23](#11MAY23)
 - [12MAY23](#12MAY23)
+	- [Dataset Simulation: *C. maritima* Pool C](#maritima_sim_12)
 - [13MAY23](#13MAY23)
 - [14MAY23](#14MAY23)
 - [15MAY23](#15MAY23)
@@ -844,7 +848,7 @@ In *C. edentula* the most strongly supported scenario involved the bottlenecked 
 - Need to compare summary statistics values predicted by the model and those observed by Rosinger et al. 2022.
 
 ## 05MAY23
-### Maritima scenarios
+### Dataset Simulation: *C. maritima* Pool A<a name="maritima_sim_05"></a>
 - Rosinger et al. 2022:
 >"Cakile maritima reached western North America in 1935 at Stinson Bay (close to San Francisco), and was first observed sympatric with C. edentula (Barbour & Rodman, 1970)"
 - 2019-1935 = 84, [84-104]
@@ -877,19 +881,23 @@ In *C. edentula* the most strongly supported scenario involved the bottlenecked 
 ## 07MAY23
 
 ## 08MAY23
+### Scenario Choice: *C. maritima* Pool A<a name="maritima_sc_08"></a>
 
 ![[Pasted image 20230511200816.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230511200816.png)
 
-model choice: maritima_pool_A_scenario_choice
+###### Settings:
+File: maritima_pool_A_scenario_choice
 1000 trees
-start 2007 11MAY23
-end 0938
-duration:
-Result:
+	- Start 2007 11MAY23
+	- End 0938 11MAY23
+	- Duration:
+	
+###### Result:
 
 ![[Pasted image 20230511213853.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230511213853.png)
 
 ## 09MAY23
+### Developing Scenario Pool C<a name="scenario_pool_c"></a>
 - Should two sets of maritima admixture scenarios be separated into pool B and Pool C? Pool B with pre-introduction admixture and Pool C with post-introduction admixture?
 - # Error. You need to run edentula pool B scenarios again.
 	- # Why?
@@ -897,12 +905,12 @@ Result:
 	- This means that the admixture event either happened only immediately prior to transportation to Australia or immediately prior (within a 20 year window)
 	- You already had the solution to this, pre-introduction admixture was meant to be set to the parameter [tadm] with a U[177-10,000]. This would have allowed admixture to have occurred in the native range up until the divergence event that split away part of a population to Australia.
 - # Note:
-- For the edentula admixture scenarios you are only really saying that the admixture occurs between 156 and 176 years ago - that is that the admixture only occurred within the window of time the plant was recorded in Australia (so these are post-introduction admixture events that you are testing, not admixture prior to arrival in Australia) <- is that what you wanted to test? Because our prior belief was that there was only a single introduction of edentula and this tests that there were multiple introductions form different populations that then admixed <- also it doesn't really test that there were multiple introductions from the same source population at different points in time (are these capture by Pool A's single introduction scenarios?)
+- For the edentula admixture scenarios you are only really saying that the admixture occurs between 156 and 176 years ago - that is that the admixture only occurred within the window of time the plant was recorded in Australia (so these are post-introduction admixture events that you are testing, not admixture prior to arrival in Australia) <- is that what you wanted to test? Because our prior belief was that there was only a single introduction of edentula and this tests that there were multiple introductions from different populations that then admixed <- also it doesn't really test that there were multiple introductions from the same source population at different points in time (are these capture by Pool A's single introduction scenarios?)
 - Note on the above. Yes the scenarios for edentula are that there were separate populations in Nova Scotia, Great Lakes and Ghost and that within the 20 year window of the discovery of edentula in Australia, these separate populations may have been combined/admixed in Australia, resulting in a new, admixed population to be created in Australia. The admixture event occurs within the same 'window of time' as the divergence event. What *Should* have been included here is that population bottlenecks should have been introduced for the entirety of this window of time: ie. diverge from source (156-176 years ago) -> bottleneck (0-20 years long) -> admixture (156-176 years ago) -> bottleneck (0-176 years long)
-- # 
+
+
 ## 10MAY23
-- Lab meeting 1200
-- 3990 meeting 1400
+
 
 ## 11MAY23 
 
@@ -910,7 +918,7 @@ Result:
 
 
 ## 12MAY23
-Maritima pool C scenario writing
+Dataset Simulation: *C. maritima* Pool C<a name="maritima_sim_12"></a>
 
 
 
