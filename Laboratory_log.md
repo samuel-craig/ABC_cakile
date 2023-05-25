@@ -265,12 +265,13 @@ This means that effective population at time ancestral `tanc>t1` is **always** l
 ![[Pasted image 20230420140558.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230420140558.png)
 ![[Pasted image 20230420140619.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230420140619.png)
 
-#### Condition setting
+###### CONDTIONS:
 
 ![[Pasted image 20230420140848.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230420140848.png "Conditions")
 
 #### Dataset Simulation
 - Initial simulation of edentula_pool_A
+###### SIMULATION SETTINGS:
 - 100,000 datasets
 	- Start: 1410 20APR23
 	- End: approx midnight
@@ -278,6 +279,7 @@ This means that effective population at time ancestral `tanc>t1` is **always** l
 
 ## 21APR23
 #### Dataset Simulation cont.
+###### SIMULATION SETTINGS:
 - Simulate up to 120,000 to ensure >20,000 for each model.
 	- Start: 0927 21APR23
 	- End: 1113
@@ -292,10 +294,11 @@ This means that effective population at time ancestral `tanc>t1` is **always** l
 	- modelchoice_out_graph_error_vs_ntrees (edentula Pool A):
 ![[modelchoice_out_graph_error_versus_ntrees 1.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/edentula_pool_A_v1.JPG "modelchoice_out_graph_error_vs_ntrees")
 
-- Random forest analysis
+###### RF ANALYSIS SETTINGS:
+- 1000 trees
 	- Start: 1119 21APR23
 	- End: 1138 21APR23
-#### Results
+###### RESULTS:
 - edentula_pool_A_scenario_choice > modelchoice_out:
 
 |model1 | model2 | model3 | model4 | model5 | selected model | post probality |
@@ -318,9 +321,9 @@ Interpretation: The expected scenario was scenario 2, which was that the Austral
 
 ### Parameter Estimation
 - Due to ~24,000 simulations for parameter estimation for scenario 1, training set simulation increased to 200,000. This is because 1000-100,000 simulation under the scenario of interest are needed for parameter estimation. Alternatively this could have bee done with a new Project containing solely scenario 1.
-- Start: 1205 21APR23
-- End:
-- Duration:
+	- Start: 1205 21APR23
+	- End:
+	- Duration:
 ##### Model 1, tanc
 - edentula_pool_A_paramter_est_tanc
 
@@ -346,10 +349,11 @@ Interpretation: The expected scenario was scenario 2, which was that the Austral
 
 ![[Pasted image v.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230421194556.png)
 
-#### Simulation of 200K edentula_Pool_A
-- Start: 1947 21APR23
-- End: ~2230 22APR23
-- Duration: ~39.71 hours
+###### SIMULATION SETTINGS:
+- Simulation of 200K edentula_Pool_A
+	- Start: 1947 21APR23
+	- End: ~2230 22APR23
+	- Duration: ~39.71 hours
 
 ## 22APR23
 - Regarding maritima scenarios, what needs to be accounted for is that the divergence event resulting in the population that later is transported to WNA[pop3] may have occurred long prior to it's transport.
@@ -374,48 +378,53 @@ Interpretation: The expected scenario was scenario 2, which was that the Austral
 
 ![[Pasted image 20230424084022.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230424084022.png "Number of simulated datasets and parameters")
 
-- Edentula pool A
-- Saved as subfolder: 'edentula_pool_A_scenario_choice'
+
+###### FILE: edentula_pool_A_scenario_choice
+###### RF ANALYSIS SETTINGS:
 - 1000 trees, check graphical output: 'modelchoice_out_graph_error_vs_ntrees'
 	- Start: 0723 24APR23
 	- End: 0845 24ApR23
 	- Duration: ~82min
-### Results: Scenario Choice edentula_pool_A
+###### RESULTS:
+- Scenario Choice edentula_pool_A
 - Predictions File
 
 ![[Pasted image 20230424082838.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230424082838.png)
 
-- Interpretation: supports the Model 2 with a posterior probability of 0.703
+###### INTERPRETATION:
+- supports the Model 2 with a posterior probability of 0.703
 - Model 2 is the model in which the source population cluster is Nova Scotia.
 
 - Model 2
 
 ![[Pasted image 20230424082935.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230424082935.png "edentula pool A model 2")
 
-- Model 2 description: Population 1 [AUS] is derived from population 2[NS] at time [taus]. Population 2 [NS], like population 3 [GL] is the product of a divergence in an ancestral population of size [Nanc] at time [tanc]. At time [tBaus] there has been a demographic bottleneck in population 1 [AUS], resulting in a reduced effective popualtion [NBaus] for a given number of generations.
+###### MODEL DESCRIPTION: Population 1 [AUS] is derived from population 2[NS] at time [taus]. Population 2 [NS], like population 3 [GL] is the product of a divergence in an ancestral population of size [Nanc] at time [tanc]. At time [tBaus] there has been a demographic bottleneck in population 1 [AUS], resulting in a reduced effective popualtion [NBaus] for a given number of generations.
 - Model 3
 
 ![[Pasted image 20230424083050.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230424083050.png "edentula pool A model 3")
 
-Model 3 description: same as above but with a double bottleneck.
+###### MODEL DESCRIPTION:  
+- same as above but with a double bottleneck.
 
-- Error_vs_ntree
+#### Error_vs_ntree
 
 ![[modelchoice_out_graph_error_versus_ntrees 1.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/edentula_pool_A_v2.JPG)
 
-- Interpretation: 1000 trees seems sufficient/OOB error becomes constant (and small) even around 500 trees.
+###### INTERPRETATION: 
+- 1000 trees seems sufficient/OOB error becomes constant (and small) even around 500 trees.
 
 ### Parameter Estimation<a name="edentula_pe_24"></a>
 - We have 39822 simulated datasets for scenario 2. The recommended number of simulated datasets is 1,000 to 100,000 so we will proceed with parameter estimation, but may return later with **just** scenario 2 in order to boost this.
 - DIYABC manual "In practice, it might be useful to generate a (second) training set including only the selected scenario to process parameter estimation from a larger number of simulated datasets (e.g. 10000 as in Collin et al. 2020)."
 
 #### Ancestral Effective Population
-##### File: edentula_pool_A_param_est_Nanc
-###### Settings: 
+###### FILE: edentula_pool_A_param_est_Nanc
+###### RF ANALYSIS SETTINGS:
 - Number of trees = 1000
 - Scenario: 2
 - Parameter: Nanc
-###### Results
+###### RESULTS:
 - Expectation: 613.21
 
 ![[Pasted image 20230424093715.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230424093715.png)
@@ -425,12 +434,12 @@ Model 3 description: same as above but with a double bottleneck.
 ---
 
 #### Australian Effective Population
-##### File: edentula_pool_A_param_est_Naus
-###### Settings: 
+###### FILE: edentula_pool_A_param_est_Naus
+###### RF ANALYSIS SETTINGS:
 - Number of trees = 1000
 - Scenario: 2
 - Parameter: Naus
-###### Results
+###### RESULTS:
 - Expectation: 6032.93
 
 ![[Pasted image 20230424101119.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230424101119.png)
@@ -441,12 +450,12 @@ Model 3 description: same as above but with a double bottleneck.
 
 
 #### Bottlenecked Australian Effective Population
-##### File: edentula_pool_A_param_est_NBaus
-###### Settings: 
+###### FILE: edentula_pool_A_param_est_NBaus
+###### RF ANALYSIS SETTINGS:
 - Number of trees = 1000
 - Scenario: 2
 - Parameter: NBaus
-###### Results
+###### RESULTS:
 - Expectation 46.67
 - Parameter estimation (point estimates)
 
@@ -457,12 +466,12 @@ Model 3 description: same as above but with a double bottleneck.
 ---
 
 #### Great Lakes Effective Population
-##### File: edentula_pool_A_param_est_Ngl
-###### Settings: 
+###### FILE: edentula_pool_A_param_est_Ngl
+###### RF ANALYSIS SETTINGS:
 - Number of trees = 1000
 - Scenario: 2
 - Parameter: Ngl
-###### Results
+###### RESULTS:
 - Expectation: 899.373
 
 ![[Pasted image 20230424105520.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230424105520.png)
@@ -473,12 +482,12 @@ Model 3 description: same as above but with a double bottleneck.
 
 
 #### Nova Scotia Effective Population
-##### File: edentula_pool_A_param_est_Nns
-###### Settings: 
+###### FILE: edentula_pool_A_param_est_Nns
+###### RF ANALYSIS SETTINGS:
 - Number of trees = 1000
 - Scenario: 2
 - Parameter: Nns
-###### Results
+###### RESULTS:
 - Expectation: 1423.11
 
 ![[Pasted image 20230424110758.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230424110758.png)
@@ -488,12 +497,12 @@ Model 3 description: same as above but with a double bottleneck.
 ---
 
 #### Time of Divergence b/n Nova Scotia and Great Lakes
-##### File: edentula_pool_A_param_est_tanc
-###### Settings: 
+###### FILE: edentula_pool_A_param_est_tanc
+###### RF ANALYSIS SETTINGS:
 - Number of trees = 1000
 - Scenario: 2
 - Parameter: tanc
-###### Results
+###### RESULTS:
 - Expectation: 3467.62
 
 ![[Pasted image 20230424112804.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230424112804.png)
@@ -504,12 +513,12 @@ Model 3 description: same as above but with a double bottleneck.
 
 
 #### Time of Divergence b/n Nova Scotia and Australia
-##### File: edentula_pool_A_param_est_taus
-###### Settings: 
+###### FILE: edentula_pool_A_param_est_taus
+###### RF ANALYSIS SETTINGS:
 - Number of trees = 1000
 - Scenario: 2
 - Parameter: taus
-###### Results
+###### RESULTS:
 - Expectation: 165.816
 
 ![[Pasted image 20230424114433.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230424114433.png)
@@ -520,17 +529,17 @@ Model 3 description: same as above but with a double bottleneck.
 
 
 #### Duration of Bottleneck in Australia
-##### File: edentula_pool_A_param_est_tBaus
-###### Settings: 
+###### FILE: edentula_pool_A_param_est_tBaus
+###### RF ANALYSIS SETTINGS:
 - Number of trees = 1000
 - Scenario: 2
 - Parameter: tBaus
-###### Results
+###### RESULTS:
 - Expectation: 69.4684
 
 ![[Pasted image 20230424120247.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230424120247.png)
 
-###### Interpretation
+###### INTERPRETATION
 - Assuming one generation per year for *C. edentula*, the Australian populations underwent a demographic bottleneck with a median of 75 years ago, with 95% confidence limits of 26-98 years ago.
 ---
 
@@ -543,7 +552,8 @@ Model 3 description: same as above but with a double bottleneck.
 	- # 2. You did not include any scenarios with which there were *no* bottlenecks present. These are essentially the null models.
 
 ### Simulation attempt v.3<a name="edentula_sim_24"></a>
-- Project name: ''edentula_A"
+###### FILE: ''edentula_A"
+###### SIMULATION SETTINGS:
 - Scenarios 8: added scenario 6, 7, 8 (no bottleneck null models)
 - TBaus: Min.  =  1, Max. = 176. This prior was changed to allow for the duration of the bottleneck to have gone on anywhere from the latest/Maximum expected arrival date, 176 generation/years ago, to the present.
 - All else the same as previous run
@@ -598,24 +608,27 @@ Based on these calculations, the most strongly supported prior set is P1, and th
  ![[Pasted image 20230425170437.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230425170437.png)
 
 ### Scenario Choice: *C. edentula* Pool A (v.3)<a name="edentula_sc_25"></a>
-- Analysis (sub-project) name:
-	- 'edentula_pool_A_scenario_choice'
+###### FILE: edentula_pool_A_scenario_choice
+###### RF ANALYSIS SETTINGS:
 - 1000 trees
 	- Start: 1707 25APR23
 	- End:  25APR23
 	- Duration:
-### Results: Scenario Choice edentula_pool_A
+###### RESULTS:
+Scenario Choice edentula_pool_A
 - Predictions File
 
 ![[Pasted image 20230426004029.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230426004029.png)
 
-Interpretation: supports the Model 2 with a posterior probability of 0.63. Model 2 is the model in which the source population cluster is Nova Scotia.
+###### INTERPRETATION:
+Supports the Model 2 with a posterior probability of 0.63. Model 2 is the model in which the source population cluster is Nova Scotia.
 
-- Model Image
+###### MODEL IMAGE:
 
 ![[Pasted image 20230426004243.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230426004243.png "edentula Pool A model 2")
 
-Description: Population 1 [AUS] is derived from population 2[NS] at time [taus]. Population 2 [NS], like population 3 [GL] is the product of a divergence in an ancestral population of size [Nanc] at time [tanc]. At time [tBaus] there has been a demographic bottleneck in population 1 [AUS], resulting in a reduced effective popualtion [NBaus] for a given number of generations.
+###### MODEL DESCRIPTION:
+Population 1 [AUS] is derived from population 2[NS] at time [taus]. Population 2 [NS], like population 3 [GL] is the product of a divergence in an ancestral population of size [Nanc] at time [tanc]. At time [tBaus] there has been a demographic bottleneck in population 1 [AUS], resulting in a reduced effective popualtion [NBaus] for a given number of generations.
 
 
 ## 26APR23
@@ -628,14 +641,15 @@ Description: Population 1 [AUS] is derived from population 2[NS] at time [taus].
 
 
 ### Dataset Simulation: *C. edentula* Pool B<a name="edentula_sim_26"></a>
-- Project name: 'edentula_B'
+###### FILE: edentula_B
 - Data file: 'Cakile_e-Admixture_edentula_abc_test.DIYABC.snp'
 - Priors as per spreadsheet for pool B priors
-- 150,000 simulations (20,000 per model plus 10,000)
 
-- Start: 10:08 26APR23
-- End: Sometime around 03:00 27APR23
-- Duration: 16 hours and 52 minutes
+###### SIMULATION SETTINGS:
+- 150,000 simulations (20,000 per model plus 10,000)
+	- Start: 10:08 26APR23
+	- End: Sometime around 03:00 27APR23
+	- Duration: 16 hours and 52 minutes
 
 ## 27APR23
 - Continuation of edentula pool B project saved as
@@ -660,11 +674,12 @@ Description: Population 1 [AUS] is derived from population 2[NS] at time [taus].
 - Two scenarios: 
 	1. scenario 2 from Pool A
 	2. scenario 4 from Pool B
+###### SIMULATION SETTINGS:
 - 50,000 simulations (200,000 per scenario for model choice + 10,000)
 	- Start: 1345 28APR23
 	- End: 2244 28APR23
 	- Duration: 8 hours and 59 minutes.
-### Results
+###### RESULTS:
 
 ![[Pasted image 20230429084106.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230429084106.png)
 
@@ -678,7 +693,9 @@ In *C. edentula* the most strongly supported scenario involved the bottlenecked 
 - I will run this in a new project that just contains one scenario, scenario 2 Pool A.
 - Project name: 'edentula_scenario2A_param_est'
 - Condition NBaus< Nns added to prior conditions. The bottlenecked effective population cannot be larger than the source population.
-- 200,000 simulated datasets, 1 scenario
+###### SIMULATION SETTINGS:
+- 200,000 simulated datasets
+- 1 scenario
 	- Start: 0852 29APR23
 	- End: 0854 30APR23
 	- Duration: 25 hours and 2 minutes
@@ -691,7 +708,7 @@ In *C. edentula* the most strongly supported scenario involved the bottlenecked 
 - Number of trees: 1000
 
 ### Ancestral Effective Population (Nanc)
-###### File: edentula_param_est_Nanc
+###### FILE: edentula_param_est_Nanc
 ###### Settings: 
 - Number of trees = 1000
 - Scenario: 2 (Pool A)
@@ -701,7 +718,7 @@ In *C. edentula* the most strongly supported scenario involved the bottlenecked 
 	- End: 1225 30APR23
 	- Duration: 1 hour and 25 minutes
 
-###### Results:
+###### RESULTS:
 - Expectation: 739.613
 
 ![[Pasted image 20230430123107.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230430123107.png)
@@ -711,15 +728,15 @@ In *C. edentula* the most strongly supported scenario involved the bottlenecked 
 ---
 
 ### Australian Effective Population
-###### File: edentula_param_est_Naus
-###### Settings: 
+###### FILE: edentula_param_est_Naus
+###### RF ANALYSIS SETTINGS:
 - Number of trees = 1000
 - Scenario: 2
 - Parameter: Naus
 	- Start: 1235 30APR23
 	- End: 1430 30APR23
 	- Duration: 1 hour and 55 minutes
-###### Results:
+###### RESULTS:
 - Expectation: 6509.83
 
 ![[Pasted image 20230430150650.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230430150650.png)
@@ -736,15 +753,15 @@ In *C. edentula* the most strongly supported scenario involved the bottlenecked 
 
 
 ### Bottlenecked Australian Effective Population
-###### File: edentula_param_est_NBaus
-###### Settings: 
+###### FILE: edentula_param_est_NBaus
+###### RF ANALYSIS SETTINGS:
 - Number of trees = 1000
 - Scenario: 2
 - Parameter: NBaus
 	- Start: 1508 30APR23
 	- End: 1650 30APR23
 	- Duration: 1 hour and 42 minutes
-###### Results:
+###### RESULTS:
 - Expectation: 39.2744
 
 ![[Pasted image 20230430171423.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230430171423.png)
@@ -755,15 +772,15 @@ In *C. edentula* the most strongly supported scenario involved the bottlenecked 
 ---
 
 ### Great Lakes Effective Population
-###### File: edentula_param_est_Ngl
-###### Settings: 
+###### FILE: edentula_param_est_Ngl
+###### RF ANALYSIS SETTINGS:
 - Number of trees = 1000
 - Scenario: 2
 - Parameter: Ngl
 	- Start: 1715 30APR23
 	- End: 1834 30APR23
 	- Duration: 1 hour and 19 minutes
-###### Results:
+###### RESULTS:
 - Expectation: 997.109
 
 ![[Pasted image 20230430190640.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230430190640.png)
@@ -774,15 +791,15 @@ In *C. edentula* the most strongly supported scenario involved the bottlenecked 
 
 
 ### Nova Scotia Effective Population
-###### File: edentula_param_est_Nns
-###### Settings: 
+###### FILE: edentula_param_est_Nns
+###### RF ANALYSIS SETTINGS:
 - Number of trees = 1000
 - Scenario: 2
 - Parameter: Nns
 	- Start: ~1900 30APR23
 	- End: 2017 30APR23
 	- Duration: 1hrs 17min
-###### Results:
+###### RESULTS:
 - Expectation: 
 - 1562.72
 
@@ -793,34 +810,34 @@ In *C. edentula* the most strongly supported scenario involved the bottlenecked 
 ---
 01MAY23
 ### Time of Divergence b/n Nova Scotia and Great Lakes
-###### File: edentula_param_est_tanc
-###### Settings: 
+###### FILE: edentula_param_est_tanc
+###### RF ANALYSIS SETTINGS:
 - Number of trees = 1000
 - Scenario: 2
 - Parameter: tanc
 	- Start: 0802 01MAY23
 	- End: 0927 01MAY23
 	- Duration: 1 hour and 25min
-###### Results:
+###### RESULTS:
 - Expectation: 4979.95
 
 ![[Pasted image 20230501094213.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230501094213.png)
 
-###### Interpretation:
+###### INTERPRETATION:
 - The Nova Scotian and Great Lakes populations of _C. edentula_ diverged approximately 2,963 years ago (assuming one generation per year). The 90% confidence interval for this estimate ranges from 721 to 7,837 years ago.
 ---
 
 
 ### Time of Divergence b/n Nova Scotia and Australia
-###### File: edentula_pool_A_param_est_taus
-###### Settings: 
+###### FILE: edentula_pool_A_param_est_taus
+###### RF ANALYSIS SETTINGS: 
 - Number of trees = 1000
 - Scenario: 2
 - Parameter: taus
 	- Start: 0943 01MAY23
 	- End: 1207 01MAY23
 	- Duration: 2 hours and 24 minutes
-###### Results:
+###### RESULTS:
 - Expectation: 165.746
 
 ![[Pasted image 20230501121344.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230501121344.png)
@@ -831,12 +848,12 @@ In *C. edentula* the most strongly supported scenario involved the bottlenecked 
 
 
 ### Duration of Bottleneck in Australia
-###### File: edentula_param_est_tBaus
-###### Settings: 
+###### FILE: edentula_param_est_tBaus
+###### RF ANALYSIS SETTINGS:
 - Number of trees = 1000
 - Scenario: 2
 - Parameter: tBaus
-###### Results
+###### RESULTS:
 - Expectation: 108.152
 
 ![[Pasted image 20230501143642.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230501143642.png)
@@ -857,12 +874,12 @@ In *C. edentula* the most strongly supported scenario involved the bottlenecked 
 
 ### Maritima scenarios
 - Saved as: maritima_pool_A
-- Using file: Cakile_e-Admixture_maritima_abc_test.DIYABC
+- Using FILE: Cakile_e-Admixture_maritima_abc_test.DIYABC
 - 9 scenarios: see 'Scenarii_maritima' tab in 'Scenarii' workbook for details
 
 ![[Pasted image 20230508130359.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230508130359.png "maritima Pool A scenarios")
 
-###### Conditions:
+###### CONDITIONS:
 ```
 tanc>tgst
 tanc>twna
@@ -874,8 +891,8 @@ Nmd>NBwna
 Nbl>NBwna
 Ngst>NBwna
 ```
-###### Simulation Setings:
-9 scenarios, 200,000 simulated datasets
+###### SIMULATION SETTINGS:
+- 9 scenarios, 200,000 simulated datasets
 	- Start: 1336 05MAY23
 	- End: 2005 08MAY23
 	- Duration: 2 days, 6 hours, and 29 minutes.
@@ -889,14 +906,14 @@ Ngst>NBwna
 
 ![[Pasted image 20230511200816.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230511200816.png)
 
+###### FILE: maritima_pool_A_scenario_choice
 ###### RF Analysis Settings:
-- File: maritima_pool_A_scenario_choice
 - 1000 trees
 	- Start 2007 11MAY23
 	- End 0938 11MAY23
 	- Duration:
 	
-###### Result:
+###### RESULTS:
 
 ![[Pasted image 20230511213853.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230511213853.png)
 
@@ -923,7 +940,7 @@ Ngst>NBwna
 
 ## 12MAY23
 Dataset Simulation: *C. maritima* Pool C<a name="maritima_sim_12"></a>
-###### Conditions:
+###### CONDITIONS:
 ```
 tanc>twna # the ancestral div is before the first intro
 tanc>tBwna # the ancestral div is before the first intro DB
@@ -939,13 +956,13 @@ twna2>tpost # the secondary intro is before an admixture event
 NBgst1<Ngst1 # The DB population is less than the non-DB population
 NBgst2<Ngst2 # DB population is less than the non-DB population
 ```
-###### Simulation Settings:
+###### SIMULATION SETTINGS:
 Start: 1519 12MAY23
 End:  paused 1617 12MAY23 - need to prioritise simulation of C. edentula Pool C
 
-###### Simulation Settings:
-- 200,000 to get at least 20,000 per scenario
+###### SIMULATION SETTINGS:
 - File: edentula_pool_C
+- 200,000 to get at least 20,000 per scenario
 	- Start: 1623 12MAY23
 	- End: 10:55 13MAY23
 	- Duration: ~19 hours
@@ -966,7 +983,7 @@ Introduction, aims, methods, results, conclusion written.
 	- End: 1537 13MAY23
 	- Duration
 
-###### Result:
+###### RESULTS:
 
 ![[Pasted image 20230513153834.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230513153834.png)
 
@@ -1004,7 +1021,7 @@ NBgst2<Ngst2
 Nns>NBaus
 Nns>Ngst
 ```
-###### Simulation Settings:
+###### SIMULATION SETTINGS:
 - 50,000 simulations (20,000 per scenario for model choice + 10,000)
 	- Start: 1619 13MAY23  [ CRASH ] reset 1658 13MAY23
 	- End: 2302 13MAY23
@@ -1016,7 +1033,7 @@ Nns>Ngst
 	- End:23:56 13MAY23
 	- Duration: 56 minutes
 
-###### Result:
+###### RESULTS:
 
 ![[Pasted image 20230513235709.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230513235709.png)
 
@@ -1042,8 +1059,8 @@ Poster completion, submission 1837 15MAY23
 
 ![[Pasted image 20230516080750.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230516080750.png)
 
-###### Simulation Settings:
-Simulations: 200,000
+###### SIMULATION SETTINGS:
+- Simulations: 200,000
 	- Start 0808 16MAY23
 	- End: 1502 18MAY23
 	- Duration: 30 hours, 55 minutes
@@ -1056,17 +1073,17 @@ Simulations: 200,000
 	End: 1711 18MAY23
 	Duration: 36 minutes
 
-###### Result:
+###### RESULTS:
 
 ![[Pasted image 20230523085014.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230523085014.png)
 
 Model 4 chosen, very slim margin between models 4, 9, 5 and 6
 
-###### Model Image:
+###### MODEL IMAGE:
 
 ![[Pasted image 20230524143913.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230524143913.png)
 
-###### Model Description:
+###### MODEL DESCRIPTION:
 At time [tanc], there is an ancestral population which has a effective population [Nanc], pop2[med],  pop1[balt] and pop6[gst3] split. At time [twna] pop4 [gst1] splits off pop6[gst3] and is bottlenecked for time [tBwna] resulting in Ne of [NBgst1]. Later (more recently) at time [tBwna2] pop 5[gst2] splits off pop1[balt] and is bottlenecked for time [tBwna2] resulting in a Ne of [NBgst2]. Then at time [tpost] pop3 [wna] is given rise to from the admixture of pop5[gst2] and pop4[gst1] at a rate of [ra].
 
 ## 20MAY23
@@ -1087,7 +1104,7 @@ Ngst>NBwna
 ```
 Changed Pool C to reflect the possibility of pre-invasion admixture, allowing admixture to occur prior to likely invasion time [105-10,000].
 
-###### Simulation Settings:
+###### SIMULATION SETTINGS:
 	- Start: 2132 20MAY23
 	- End: 1939 22MAY 23
 	- Duration: 46 hours, 7 minutes
@@ -1105,7 +1122,7 @@ Changed Pool C to reflect the possibility of pre-invasion admixture, allowing ad
 	- End: 2041 22MAY 23
 	- Duration: 55 minutes
 
-Results:
+###### RESULTS:
 
 ![[Pasted image 20230523084808.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230523084808.png)
 
@@ -1125,7 +1142,7 @@ Tournament between winners (and scenarios within 10 votes of the winning scenari
 
 ![[Pasted image 20230523090507.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230523090507.png)
 
-###### Simulation Settings:
+###### SIMULATION SETTINGS:
 - Same priors as per each Pool's individual priors
 - Conditions in spreadsheet, tab 'Priors_maritima'
 - 150,000 datasets (at least 20,000 per scenario)
