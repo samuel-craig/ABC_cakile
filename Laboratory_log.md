@@ -68,7 +68,7 @@
 - [24MAY23](#24MAY23)
 - [25MAY23](#25MAY23)
 	- [Scenario Choice: *C. maritima*](#maritima_sc_25)
-	- [Parameter Estimation: *C. maritima*](maritima_pe_25)
+	- [Parameter Estimation: *C. maritima*](#maritima_pe_25)
 - [26MAY23](#26MAY23)
 - [27MAY23](#27MAY23)
 - [28MAY23](#28MAY23)
