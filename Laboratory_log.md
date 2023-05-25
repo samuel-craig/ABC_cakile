@@ -68,6 +68,7 @@
 - [24MAY23](#24MAY23)
 - [25MAY23](#25MAY23)
 	- [Scenario Choice: *C. maritima*](#maritima_sc_25)
+	- [Parameter Estimation: *C. maritima*](maritima_pe_25)
 - [26MAY23](#26MAY23)
 - [27MAY23](#27MAY23)
 - [28MAY23](#28MAY23)
@@ -1178,4 +1179,33 @@ Tournament between winners (and scenarios within 10 votes of the winning scenari
 
 ###### MODEL DESCRIPTION:
 At time [tanc], there is an ancestral population which has a effective population [Nanc], pop2[med],  pop1[balt] and pop6[gst3] split. At time [twna] pop4 [gst1] splits off pop6[gst3] and is bottlenecked for time [tBwna] resulting in Ne of [NBgst1]. Later (more recently) at time [tBwna2] pop 5[gst2] splits off pop1[balt] and is bottlenecked for time [tBwna2] resulting in a Ne of [NBgst2]. Then at time [tpost] pop3 [wna] is given rise to from the admixture of pop5[gst2] and pop4[gst1] at a rate of [ra].
+
+
+### Parameter Estimation: *C. maritima*<a name="maritima_pe_25"></a>
+#### FILE: [maritima_scenario4C_param_est]()
+###### SIMULATION SETTINGS:
+-  simulated datasets
+-  Conditons as per 'Priors_maritima tab' in 'Scenarii' Spreadsheet
+- 1 scenario
+	- Start: 1719 25MAY23
+	- End:
+	- Duration:
+
+
+---
+
+#### Parameter Name
+###### FILE:
+###### RF ANALYSIS SETTINGS:
+- Number of trees = 
+- Scenario: 4C 
+- Parameter: 
+###### RESULTS:
+- Expectation: 
+
+![[]]()
+
+###### INTERPRETATION
+
+---
 
