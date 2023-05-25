@@ -242,14 +242,14 @@ This means that effective population at time ancestral `tanc>t1` is **always** l
 ### _C. edentula_ Priors<a name="edentula_priors"></a>
 #### Working out plausible priors
 - "In Australia, _C. edentula_ was first recorded in Victoria in 1863 and subsequently spread along the coastline of Australia (Rodman, [1986](https://onlinelibrary.wiley.com/doi/full/10.1111/mec.15768#mec15768-bib-0058))." (Rosinger et al. 2020)
--  The divergence time of the novel population is set to be no later than 1863 and not earlier than 1843. This gives the possibility that _C. edentula_ had arrived two decades earlier, but had not been recorded. (After Byrne et al. 2022 "Bitou")
+-  The divergence time of the novel population is set to be no later than 1863 and not earlier than 1843. This gives the possibility that *C. edentula* had arrived two decades earlier (mentioned by Cousens that locals on Phillip Island had seen C. edentula around for two decades prior to the first collection being made) - but had not been recorded. (After Byrne et al. 2022 “Bitou”)
 - These prior settings correspond conservatively to the first observations of  _C. edentula_ in Victoria in 1863 (Rodman 1986).
 - _C. edentula_ is annual so generation time equals years. We take the present as 2019:
 	- 156 generations/years between 1863-2019
 	- 176 generations/years between 1843-2019
 - So divergence time of novel AUS _C. edentula_ population is 156-176
 
-- Given the paucity of information regarding the natural population sizes of _C. edentula_, a prior distribution characterized by a uniform distribution with a wide interval (10-10,000) was adopted for effective population sizes pertaining to the ancestral population, the various source populations within the endemism area, and the sampled populations. (Barrès et al. 2012)
+- Mthods -> Given the paucity of information regarding the natural population sizes of _C. edentula_, a prior distribution characterized by a uniform distribution with a wide interval (10-10,000) was adopted for effective population sizes pertaining to the ancestral population, the various source populations within the endemism area, and the sampled populations. (Barrès et al. 2012)
 - All priors will be first set to uniform distributions but final models should be simulated under a range of different distributions a la (Barrès et al. 2012) e.g. divergence time should be simulated under a log-uniform distribution.
 - "Other distributions (a log-uniform distribution on interval (10–100 000) and a normal distribution with mean 10 000 and standard deviation 20 000) were tested and all results were similar" (Barrès et al. 2012)
 - (Barrès et al. 2012): Using a log-uniform distribution also has the advantage that it can help avoid the bias that can result from using a uniform distribution, especially when the range of possible values spans several orders of magnitude. In a uniform distribution, the range of possible values is divided into equal intervals on a linear scale, which can result in an overemphasis on the lower end of the range and an underemphasis on the higher end of the range. <- this isn't really a problem for us as our range doesn't span orders of magnitude as (Barrès et al. 2012)'s did (16-500).
@@ -310,7 +310,7 @@ This means that effective population at time ancestral `tanc>t1` is **always** l
 
 ![[Pasted image 20230421114847.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230421114847.png "Model 1, Pool A")
 
-#### Interpretation
+#### INTERPRETATION:
 Interpretation: The expected scenario was scenario 2, which was that the Australian novel population [pop 3] diverged from the Nova Scotian population [pop 1]. This received little support:
 
 ![[Pasted image 20230421114952.png]]
