@@ -17,7 +17,7 @@
 - [24APR13](#24APR23)
 	- [Scenario Choice: *C. edentula* Pool A](#edentula_sc_24)
 	- [Parameter Estimation: *C. edentula* Pool A](#edentula_pe_24)
-	- [Error:Prior Intervals](#error2)
+	- [Error: Prior Intervals](#error2)
 	- [Dataset Simulation: *C. edentula* Pool A, v.3](#edentula_sim_24) 
 - [25APR13](#25APR23)
 	- [Scenario Choice: *C. edentula* Pool A](#edentula_sc_25)
@@ -591,7 +591,7 @@ Based on these calculations, the most strongly supported prior set is P1, and th
 
  ![[Pasted image 20230425170437.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230425170437.png)
 
-### Scenario Choice: *C. edentula* Pool A (v.3)<a name="#edentula_sc_25"></a>
+### Scenario Choice: *C. edentula* Pool A (v.3)<a name="edentula_sc_25"></a>
 - Analysis (sub-project) name:
 	- 'edentula_pool_A_scenario_choice'
 - 1000 trees
@@ -621,7 +621,7 @@ Description: Population 1 [AUS] is derived from population 2[NS] at time [taus].
 
 
 
-### Dataset Simulation: *C. edentula* Pool B<a name="#edentula_sim_26"></a>
+### Dataset Simulation: *C. edentula* Pool B<a name="edentula_sim_26"></a>
 - Project name: 'edentula_B'
 - Data file: 'Cakile_e-Admixture_edentula_abc_test.DIYABC.snp'
 - Priors as per spreadsheet for pool B priors
@@ -637,7 +637,7 @@ Description: Population 1 [AUS] is derived from population 2[NS] at time [taus].
 - 10,000 extra simulated datasets added, total will be 160,000 for 7 scenarios.
 
 ## 28APR23
-### Scenario Choice: *C. edentula* Pool B<a name="#edentula_sc_27"></a>
+### Scenario Choice: *C. edentula* Pool B<a name="edentula_sc_27"></a>
 
 ![[Pasted image 20230428133038.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/Pasted%20image%2020230428133038.png)
 
@@ -650,7 +650,7 @@ Description: Population 1 [AUS] is derived from population 2[NS] at time [taus].
 
 ![[modelchoice_out_graph_error_versus_ntrees 2.png]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/edentula_pool_A_v3.JPG)
 
-### Model Tournament: *C. edentula* Model 2 Pool A vs Model 4 Pool B<a name="#edentula_tourn_28"></a>
+### Model Tournament: *C. edentula* Model 2 Pool A vs Model 4 Pool B<a name="edentula_tourn_28"></a>
 - Two scenarios: 
 	1. scenario 2 from Pool A
 	2. scenario 4 from Pool B
@@ -667,7 +667,7 @@ Model 1 (Scenario 2 pool A) selected
 In *C. edentula* the most strongly supported scenario involved the bottlenecked founding of the Australian cluster by divergence from the Nova Scotian cluster with a posterior probability (PP) of ~0.68. 
 
 ## 29APR23
-### Parameter Estimation: *C. edentula* Scenario 2 Pool A<a name="#edentula_pe_29"></a>
+### Parameter Estimation: *C. edentula* Scenario 2 Pool A<a name="edentula_pe_29"></a>
 - 100,000 simulations under the scenario of interest are needed for parameter estimation.
 - I will run this in a new project that just contains one scenario, scenario 2 Pool A.
 - Project name: 'edentula_scenario2A_param_est'
@@ -681,7 +681,7 @@ In *C. edentula* the most strongly supported scenario involved the bottlenecked 
 
 ## 01MAY23
 
-### Parameter Estimation: *C. edentula* Scenario 2 Pool A<a name="#edentula_pe_30"></a>
+### Parameter Estimation: *C. edentula* Scenario 2 Pool A<a name="edentula_pe_30"></a>
 - Number of trees: 1000
 
 ### Ancestral Effective Population (Nanc)
