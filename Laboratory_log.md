@@ -1184,22 +1184,22 @@ At time [tanc], there is an ancestral population which has a effective populatio
 ### Parameter Estimation: *C. maritima*<a name="maritima_pe_25"></a>
 #### FILE: [maritima_scenario4C_param_est]()
 ###### SIMULATION SETTINGS:
--  simulated datasets
+-  100,000 simulated datasets
 -  Conditons as per 'Priors_maritima tab' in 'Scenarii' Spreadsheet
 - 1 scenario
 	- Start: 1719 25MAY23
-	- End:
-	- Duration:
+	- End: 1518 26MAY23
+	- Duration: ~22 hours
 
 
 ---
 
-#### Parameter Name
-###### FILE:
+#### Ancestral Effective Population
+###### FILE: [maritima_param_est_Nanc]
 ###### RF ANALYSIS SETTINGS:
-- Number of trees = 
+- Number of trees = 1000
 - Scenario: 4C 
-- Parameter: 
+- Parameter: Nanc 
 ###### RESULTS:
 - Expectation: 
 
@@ -1209,3 +1209,32 @@ At time [tanc], there is an ancestral population which has a effective populatio
 
 ---
 
+### Ghost 1 Bottlenecked Effective Population
+###### FILE: [maritima_param_est_NBgst1]
+###### RF ANALYSIS SETTINGS:
+- Number of trees = 1000
+- Scenario: 4C 
+- Parameter: NBgst1 
+###### RESULTS:
+- Expectation: 
+
+![[]]()
+
+###### INTERPRETATION
+
+---
+
+### Ghost 1 Bottlenecked Effective Population
+###### FILE: [maritima_parameter_est_NBgst] <- note, parameter_est not param_est
+###### RF ANALYSIS SETTINGS:
+- Number of trees = 1000
+- Scenario: 4C 
+- Parameter: NBgst2 
+###### RESULTS:
+- Expectation: 
+
+![[]]()
+
+###### INTERPRETATION
+
+---
