@@ -1191,6 +1191,7 @@ At time [tanc], there is an ancestral population which has a effective populatio
 	- End: 1518 26MAY23
 	- Duration: ~22 hours
 
+## 26MAY23
 
 ---
 
@@ -1225,7 +1226,7 @@ At time [tanc], there is an ancestral population which has a effective populatio
 ---
 
 ### Ghost 1 Bottlenecked Effective Population
-###### FILE: [maritima_parameter_est_NBgst] <- note, parameter_est not param_est
+###### FILE: [maritima_parameter_est_NBgst2] <- note, parameter_est not param_est
 ###### RF ANALYSIS SETTINGS:
 - Number of trees = 1000
 - Scenario: 4C 
@@ -1238,3 +1239,202 @@ At time [tanc], there is an ancestral population which has a effective populatio
 ###### INTERPRETATION
 
 ---
+
+### Baltic Effective Population
+###### FILE: [maritima_parameter_est_Nbl] <- note, parameter_est not param_est
+###### RF ANALYSIS SETTINGS:
+- Number of trees = 1000
+- Scenario: 4C 
+- Parameter: Nbl 
+###### RESULTS:
+- Expectation: 
+
+![[]]()
+
+###### INTERPRETATION
+
+---
+
+### Ghost 1 Effective Population
+###### FILE: [maritima_parameter_est_Ngst1] <- note, parameter_est not param_est
+###### RF ANALYSIS SETTINGS:
+- Number of trees = 1000
+- Scenario: 4C 
+- Parameter: Ngst1
+###### RESULTS:
+- Expectation: 
+
+![[]]()
+
+###### INTERPRETATION
+
+---
+
+### Ghost 2 Effective Population
+###### FILE: [maritima_parameter_est_Ngst2] <- note, parameter_est not param_est
+###### RF ANALYSIS SETTINGS:
+- Number of trees = 1000
+- Scenario: 4C 
+- Parameter: Ngst2
+###### RESULTS:
+- Expectation: 
+
+![[]]()
+
+###### INTERPRETATION
+
+
+## 27MAY23
+---
+
+### Ghost 3 Effective Population
+###### FILE: [maritima_parameter_est_Ngst3] <- note, parameter_est not param_est
+###### RF ANALYSIS SETTINGS:
+- Number of trees = 1000
+- Scenario: 4C 
+- Parameter: Ngst3
+###### RESULTS:
+- Expectation: 
+
+![[]]()
+
+###### INTERPRETATION
+
+---
+
+
+### Mediterraanean Effective Population
+###### FILE: [maritima_parameter_est_Nmd] <- note, parameter_est not param_est
+###### RF ANALYSIS SETTINGS:
+- Number of trees = 1000
+- Scenario: 4C 
+- Parameter: Nmd
+###### RESULTS:
+- Expectation: 
+
+![[]]()
+
+###### INTERPRETATION
+
+---
+
+### Western North American Effective Population
+###### FILE: [maritima_parameter_est_Nwna] <- note, parameter_est not param_est
+###### RF ANALYSIS SETTINGS:
+- Number of trees = 1000
+- Scenario: 4C 
+- Parameter: Nwna
+###### RESULTS:
+- Expectation: 
+
+![[]]()
+
+###### INTERPRETATION
+
+---
+
+### Rate of Admixture
+###### FILE: [maritima_parameter_est_ra] <- note, parameter_est not param_est
+###### RF ANALYSIS SETTINGS:
+- Number of trees = 1000
+- Scenario: 4C 
+- Parameter: ra
+###### RESULTS:
+- Expectation: 
+
+![[]]()
+
+###### INTERPRETATION
+
+---
+
+### Time of Ancestral Population Divergence
+###### FILE: [maritima_parameter_est_tanc] <- note, parameter_est not param_est
+###### RF ANALYSIS SETTINGS:
+- Number of trees = 1000
+- Scenario: 4C 
+- Parameter: tanc
+###### RESULTS:
+- Expectation: 
+
+![[]]()
+
+###### INTERPRETATION
+
+---
+
+### Time/Duration of Bottlneck in Western North America (initial introduction)
+###### FILE: [maritima_parameter_est_tBwna] <- note, parameter_est not param_est
+###### RF ANALYSIS SETTINGS:
+- Number of trees = 1000
+- Scenario: 4C 
+- Parameter: tBwna
+###### RESULTS:
+- Expectation: 
+
+![[]]()
+
+###### INTERPRETATION
+
+---
+
+### Time/Duration of Bottlneck in Western North America (secondary introduction)
+###### FILE: [maritima_parameter_est_tBwna2] <- note, parameter_est not param_est
+###### RF ANALYSIS SETTINGS:
+- Number of trees = 1000
+- Scenario: 4C 
+- Parameter: tBwna2
+###### RESULTS:
+- Expectation: 
+
+![[]]()
+
+###### INTERPRETATION
+
+---
+
+### Time of Post-Introduction Admixture
+###### FILE: [maritima_parameter_est_tpost] <- note, parameter_est not param_est
+###### RF ANALYSIS SETTINGS:
+- Number of trees = 1000
+- Scenario: 4C 
+- Parameter: tpost
+###### RESULTS:
+- Expectation: 
+
+![[]]()
+
+###### INTERPRETATION
+
+---
+
+### Time of Western North American divergence (initial introduction)
+###### FILE: [maritima_parameter_est_twna] <- note, parameter_est not param_est
+###### RF ANALYSIS SETTINGS:
+- Number of trees = 1000
+- Scenario: 4C 
+- Parameter: twna
+###### RESULTS:
+- Expectation: 
+
+![[]]()
+
+###### INTERPRETATION
+
+---
+
+### Time of Second Western North American divergence (secondary introduction) 
+###### FILE: [maritima_parameter_est_twna2] <- note, parameter_est not param_est
+###### RF ANALYSIS SETTINGS:
+- Number of trees = 1000
+- Scenario: 4C 
+- Parameter: twna2
+###### RESULTS:
+- Expectation: 
+
+![[]]()
+
+###### INTERPRETATION
+
+---
+
