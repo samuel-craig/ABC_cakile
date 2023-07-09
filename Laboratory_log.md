@@ -1474,5 +1474,10 @@ At time [tanc], there is an ancestral population which has a effective populatio
 
 ## 09JUN23
 ### Updating Log: June - July<a name="Updating_log_Jun_Jul"></a>
+< 09JUN23
+#### *C. edentula*
+- M3 used to generate datasets from a run of all 25 *C. edentula* scenarios at once IOT improve overlap between simulated and observed data (in LDA plots) and reduce overall prior error. Datasets of 500,000 and 1,000,000 were generated and model choice conducted with 10,000 trees, with the same result and marginal difference in prior error, but both with greatly improved LDA plots.
+- See three confusion tables, followed by LDA below: (1) *C. edentula* pooled scenarios (2) 500,000 datasets, all *C. edentula* scenarios (3) 1,000,0000 datasets, alll *C. edentula* scenarios
+1. []
 
 
