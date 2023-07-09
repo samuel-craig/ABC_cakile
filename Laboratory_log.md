@@ -1475,7 +1475,7 @@ At time [tanc], there is an ancestral population which has a effective populatio
 
 
 ## 09JUN23
-### Updating Log: June - July <a name="Updating_log:_Jun-Jul"></a>
+### Updating Log: June - July<a name="Updating_log:_Jun-Jul"></a>
 
 
 
