@@ -80,6 +80,33 @@
 - [03JUN23](#01JUN23)
 - [04JUN23](#01JUN23)
 
+- [09JUL23](#09JUL23)
+	- [Updating log: Jun-Jul](#Updating_log:_Jun-Jul)
+- [10JUL23](#10JUL23)
+- [11JUL23](#11JUL23)
+- [12JUL23](#12JUL23)
+- [13JUL23](#13JUL23)
+- [14JUL23](#14JUL23)
+- [15JUL23](#15JUL23)
+- [16JUL23](#16JUL23)
+- [17JUL23](#17JUL23)
+- [18JUL23](#18JUL23)
+- [19JUL23](#19JUL23)
+- [20JUL23](#20JUL23)
+- [21JUL23](#21JUL23)
+- [22JUL23](#22JUL23)
+- [23JUL23](#23JUL23)
+- [24JUL23](#24JUL23)
+- [25JUL23](#25JUL23)
+- [26JUL23](#26JUL23)
+- [27JUL23](#27JUL23)
+- [28JUL23](#28JUL23)
+- [29JUL23](#29JUL23)
+- [30JUL23](#30JUL23)
+- [31JUL23](#31JUL23)
+
+
+
 
 
 
@@ -1439,5 +1466,19 @@ At time [tanc], there is an ancestral population which has a effective populatio
 ---
 
 - Parameter estimation, *C. maritima* scenario 4, Pool C, complete 1931 27MAY23.
+
+
+
+
+
+
+
+
+## 09JUN23
+### Updating Log: June - July <a name="Updating_log:_Jun-Jul"></a>
+
+
+
+
 
 
