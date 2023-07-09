@@ -1491,6 +1491,7 @@ At time [tanc], there is an ancestral population which has a effective populatio
 Note: Scenario 8 is *C. edentula* scenario 23.
 
 ![[Scenario Diagram]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/Output/edentula_all_scenarios_v.1/Scenario_23_edentula.png)
+
 Description: At time [tanc], which has a effective population [Nanc], pop2[ns] and pop3[gl] split. At time [taus] pop 4 [gst1] splits off pop2[ns] and is bottlenecked for time [tBaus] resulting in Ne of [NBgst1]. Later (earlier) at time [tBaus2] pop 5 [gst2] splits off pop2[ns] and is bottlenecked for time [tBaus2] resulting in a Ne of [NBgst2]. Then at time [tpost] pop1 [aus] is given rise to from the admixture of pop5[gst2] and pop4[gst1] at a rate of [ra]. 
 
 ##### 2. *C. edentula* all scenarios, 1,000,0000 datasets:
@@ -1502,5 +1503,6 @@ Description: At time [tanc], which has a effective population [Nanc], pop2[ns] a
 [Model Choice Table](https://github.com/samuel-craig/ABC_cakile/blob/main/Output/edentula_all_scenarios_v.1/modelchoice_out.predictions)
 
 ![[Scenario Diagram]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/Output/edentula_all_scenarios_v.1/Scenario_23_edentula.png)
+
 Description: At time [tanc], which has a effective population [Nanc], pop2[ns] and pop3[gl] split. At time [taus] pop 4 [gst1] splits off pop2[ns] and is bottlenecked for time [tBaus] resulting in Ne of [NBgst1]. Later (earlier) at time [tBaus2] pop 5 [gst2] splits off pop2[ns] and is bottlenecked for time [tBaus2] resulting in a Ne of [NBgst2]. Then at time [tpost] pop1 [aus] is given rise to from the admixture of pop5[gst2] and pop4[gst1] at a rate of [ra]. 
 
