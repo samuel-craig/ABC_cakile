@@ -1,0 +1,198 @@
+debut
+headerRF.txt found, choosing it over header.txt
+simulating data sets with all summary statistics
+I have read RNGs' states from file ./RNG_state_0000.bin
+debut de l'action r
+./Cakile_e-Admixture_edentula_abc_test.DIYABC.snp.bin
+edentula_test <NM=1NF> <MAF=hudson>
+Fichier ./Cakile_e-Admixture_edentula_abc_test.DIYABC.snp : SNP
+lecture du fichier binaire
+smaf=hudson's algorithm
+THIS->MAF=0
+sexratio=0.5
+nloc=3877
+nsample=3
+ type 0   catexist =1
+ type 1   catexist =0
+ type 2   catexist =0
+ type 3   catexist =0
+ type 4   catexist =0
+type 0
+100   40   40   
+this->maf=0
+dans libin     
+this->locus[0].haplosnp[0][0]=1
+sexratio=0.5
+fin de la lecture du fichier binaire
+avant missingdata
+apres missingdata
+nparamtot=20
+nstat=50
+----------------------------------------apres readHeaderDebut
+25 scenario(s)
+----------------------------------------apres readHeaderScenarios
+historical parameters priors (20,23)
+----------------------------------------apres readHeaderHistParam
+fichier SNP dans redheaderLoci
+3877 <A> G1 from 1
+prem = 0
+groupe[1].nloc=3877
+avant recopie des locus
+dataobs.locus.size()=3877
+dataobs.nloc = 3877
+----------------------------------------apres readHeaderLoci
+----------------------------------------apres readHeaderGroupPrior
+----------------------------------------apres buildSuperScen
+debut de readHeaderAllStat
+nsamp=3    nstat=50   nparamut=0
+./headerRFRF.txt
+nstat=50
+
+
+this->entete=
+scenario NBaus Nanc Naus Nns Ngl Ngst Ngst1 NBgst2 NBgst1 Ngst2 Ngst3 tBaus tanc taus tgst tadm tpost tBaus2 taus2 ra    ML1p_1        ML1p_2        ML1p_3       ML2p_1.2      ML2p_1.3      ML2p_2.3       HWm_1         HWm_2         HWm_3         HWv_1         HWv_2         HWv_3        HBm_1.2       HBm_1.3       HBm_2.3       HBv_1.2       HBv_1.3       HBv_2.3       FST1m_1       FST1m_2       FST1m_3       FST1v_1       FST1v_2       FST1v_3      FST2m_1.2     FST2m_1.3     FST2m_2.3     FST2v_1.2     FST2v_1.3     FST2v_2.3      NEIm_1.2      NEIm_1.3      NEIm_2.3      NEIv_1.2      NEIv_1.3      NEIv_2.3     AMLm_1.2.3    AMLm_2.1.3    AMLm_3.1.2    AMLv_1.2.3    AMLv_2.1.3    AMLv_3.1.2   FST3m_1.2.3   FST3v_1.2.3    F3m_1.2.3     F3m_2.1.3     F3m_3.1.2     F3v_1.2.3     F3v_2.1.3     F3v_3.1.2   
+----------------------------------------apres readHeaderAllStat
+----------------------------------------apres buildMutParam
+fin de readheader  nloc retenus=3877
+Renaming headerRFRF.txt to headerRF.txt
+calstatobs (./statobsRF.txt)
+stat_obs[0]=0.304101
+stat_obs[1]=0.733815
+stat_obs[2]=0.734847
+stat_obs[3]=0.140831
+stat_obs[4]=0.0972401
+   .../...
+stat_obs[44]=0.04966
+stat_obs[45]=-0.00322767
+stat_obs[46]=0.0583966
+stat_obs[47]=0.0335864
+stat_obs[48]=0.00461536
+stat_obs[49]=0.0336918
+
+verification de l'integrite de la table de reference 
+fichier./reftableRF.bin
+nrec = 120
+nrecscen[0] = 7
+nrecscen[1] = 10
+nrecscen[2] = 3
+nrecscen[3] = 2
+nrecscen[4] = 6
+nrecscen[5] = 1
+nrecscen[6] = 3
+nrecscen[7] = 2
+nrecscen[8] = 4
+nrecscen[9] = 5
+nrecscen[10] = 6
+nrecscen[11] = 3
+nrecscen[12] = 7
+nrecscen[13] = 4
+nrecscen[14] = 5
+nrecscen[15] = 4
+nrecscen[16] = 5
+nrecscen[17] = 10
+nrecscen[18] = 5
+nrecscen[19] = 6
+nrecscen[20] = 1
+nrecscen[21] = 5
+nrecscen[22] = 4
+nrecscen[23] = 9
+nrecscen[24] = 3
+nparam[0] = 7
+nparam[1] = 8
+nparam[2] = 8
+nparam[3] = 5
+nparam[4] = 6
+nparam[5] = 6
+nparam[6] = 9
+nparam[7] = 10
+nparam[8] = 10
+nparam[9] = 11
+nparam[10] = 12
+nparam[11] = 12
+nparam[12] = 13
+nparam[13] = 13
+nparam[14] = 13
+nparam[15] = 13
+nparam[16] = 15
+nparam[17] = 15
+nparam[18] = 15
+nparam[19] = 16
+nparam[20] = 16
+nparam[21] = 16
+nparam[22] = 15
+nparam[23] = 16
+nparam[24] = 16
+nstat = 50
+25 scenario(s)
+4080120
+fichier reftable OK
+
+dans rt.readheader this->filerefscen = ./reftabscen.txt
+nparam[0] = 7
+nparam[1] = 8
+nparam[2] = 8
+nparam[3] = 5
+nparam[4] = 6
+nparam[5] = 6
+nparam[6] = 9
+nparam[7] = 10
+nparam[8] = 10
+nparam[9] = 11
+nparam[10] = 12
+nparam[11] = 12
+nparam[12] = 13
+nparam[13] = 13
+nparam[14] = 13
+nparam[15] = 13
+nparam[16] = 15
+nparam[17] = 15
+nparam[18] = 15
+nparam[19] = 16
+nparam[20] = 16
+nparam[21] = 16
+nparam[22] = 15
+nparam[23] = 16
+nparam[24] = 16
+debut de sethistparamname
+nparamut=0    nscenarios=25
+avant la boucle des scenarios  nscenarios =25
+scenario 0   scenario[i].nparam=7  nparamvar=7
+scenario 1   scenario[i].nparam=8  nparamvar=8
+scenario 2   scenario[i].nparam=8  nparamvar=8
+scenario 3   scenario[i].nparam=5  nparamvar=5
+scenario 4   scenario[i].nparam=6  nparamvar=6
+scenario 5   scenario[i].nparam=6  nparamvar=6
+scenario 6   scenario[i].nparam=9  nparamvar=9
+scenario 7   scenario[i].nparam=10  nparamvar=10
+scenario 8   scenario[i].nparam=10  nparamvar=10
+scenario 9   scenario[i].nparam=11  nparamvar=11
+scenario 10   scenario[i].nparam=12  nparamvar=12
+scenario 11   scenario[i].nparam=12  nparamvar=12
+scenario 12   scenario[i].nparam=13  nparamvar=13
+scenario 13   scenario[i].nparam=13  nparamvar=13
+scenario 14   scenario[i].nparam=13  nparamvar=13
+scenario 15   scenario[i].nparam=13  nparamvar=13
+scenario 16   scenario[i].nparam=15  nparamvar=15
+scenario 17   scenario[i].nparam=15  nparamvar=15
+scenario 18   scenario[i].nparam=15  nparamvar=15
+scenario 19   scenario[i].nparam=16  nparamvar=16
+scenario 20   scenario[i].nparam=16  nparamvar=16
+scenario 21   scenario[i].nparam=16  nparamvar=16
+scenario 22   scenario[i].nparam=15  nparamvar=15
+scenario 23   scenario[i].nparam=16  nparamvar=16
+scenario 24   scenario[i].nparam=16  nparamvar=16
+fin de sethistparamname
+apres readheader   k=0
+
+ nloc = 3877   nsample = 3   k=0
+DEBUT  nrecneeded=160   rt.nrec=120    rt.nstat=50   nscenarios=25
+
+Ouverture du fichier
+./reftableRF.bin
+
+nparammax=23
+n simu data = 160
+Total number of simulated loci : 155080
+
+fermeture du fichier ./reftableRF.bin taille=40612
+
