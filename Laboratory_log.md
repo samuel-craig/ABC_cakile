@@ -1522,6 +1522,8 @@ Description: Same as scenario 5 but now diverge from population 2[ns] earlier (p
 (Scenario 5) At time [tanc], there is an ancestral population which has a effective population [Nanc], pop2[ns],  pop3[gl] and pop6[gst3] split. At time [taus] pop4 [gst1] splits off pop3[gl] and is bottlenecked for time [tBaus] resulting in Ne of [NBgst1]. Later (more recently) at time [tBaus2] pop 5[gst2] splits off pop6[gst3] and is bottlenecked for time [tBaus2] resulting in a Ne of [NBgst2]. Then at time [tpost] pop1 [aus] is given rise to from the admixture of pop5[gst2] and pop4[gst1] at a rate of [ra]. 
 
 
+Note: the scenario chosen in the extended priors only differed from scenario 23 by having one ghost population branch off Nova Scotia, as opposed to two ghost populations branching off Nova Scotia - as in scenario 23. Extending priors did not dramatically reduced prior error rate.
+
 ---
 
 ### Next steps 09JUL23
