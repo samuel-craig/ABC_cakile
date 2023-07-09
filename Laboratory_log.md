@@ -1527,6 +1527,7 @@ Note: the scenario chosen in the extended priors only differed from scenario 23 
 ---
 
 ### Next steps 09JUL23
-
+- Need to decide whether to continue with parameter estimation on scenario 23 for *C. edentula* or re-run pool A (the pool with the lowest prior error, good LDA overlap and highest posterior probability) on M3
+- This seems like an important next step ^, re-run pool A on M3, 1,000,000 datasets, 10,000 trees.
 
 
