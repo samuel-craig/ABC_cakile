@@ -1533,20 +1533,23 @@ Note: the scenario chosen in the extended priors only differed from scenario 23 
 ---
 ### M3 Procedure
 - Using WSL-Ubuntu-22.04 + MobaXTerm
-- ssh ___@m3.massive.org.au
+- `ssh ___@m3.massive.org.au`
 - om62>diyabc_RF>edentula_all_scenarios_v.4
 - [contains .SNP file, headerRF.txt, reftableRF.bin, statobsRF.txt]
 
-- Set up slurm session (interactive session)
-- smux new-session --ntasks=20 --time=20:00:00
+Set up slurm session (interactive session)
+- `smux new-session --ntasks=20 --time=20:00:00`
 
-- module load diyabc/v1.1.27
+Load diyabcRF
+- `module load diyabc/v1.1.27`
 
-- diyabc-RF-linux-v1.1.27 -p ./ -n "t:20"  #generate RNG seed
-- # diyabc-RF-<os>-<version> -p ./ -n "t:<n_core>"
+Generating RNG seed
+- `diyabc-RF-linux-v1.1.27 -p ./ -n "t:20"`
+- `# diyabc-RF-<os>-<version> -p ./ -n "t:<n_core>"`
 
-- diyabc-RF-linux-v1.1.27 -p ./ -R "ALL" -m -t 20 -g 50 -r 1000000
-- # diyabc-RF-<os>-<version> -p ./ -R "ALL" -m -t <n_core> -g <batch_size> -r <n_simu>
+Training Set Simulation
+- `diyabc-RF-linux-v1.1.27 -p ./ -R "ALL" -m -t 20 -g 50 -r 1000000`
+- `# diyabc-RF-<os>-<version> -p ./ -R "ALL" -m -t <n_core> -g <batch_size> -r <n_simu>`
 
 
 
