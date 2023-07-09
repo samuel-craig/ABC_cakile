@@ -1509,13 +1509,17 @@ Description: At time [tanc], which has a effective population [Nanc], pop2[ns] a
 
 #### 3. 500,000 datasets, all *C. edentula scenarios, extended priors
 
-[Confusion Table]
+[Confusion Table](https://github.com/samuel-craig/ABC_cakile/blob/main/Output/edentula_extended_priors/edentula_extended_priors_model_choice/modelchoice_out.confusion)
 
-![[LDA]]()
+![[LDA]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/Output/edentula_extended_priors/edentula_extended_priors_model_choice/modelchoice_out_graph_lda.png)
 
-[Model Choice Table]()
+[Model Choice Table](https://github.com/samuel-craig/ABC_cakile/blob/main/Output/edentula_extended_priors/edentula_extended_priors_model_choice/modelchoice_out.predictions)
 
-![[Scenario Diagram]]()
+![[Scenario Diagram]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/Output/edentula_extended_priors/edentula_extended_priors_model_choice/Scenario_25_edentula.png)
+
+Description: Same as scenario 5 but now diverge from population 2[ns] earlier (pop5[gst2] diverges from pop6[gst3] later). In the figure it appear like pop3[gl] emerges from pop6[gst3] but the lines are just lying ontop of each other. Pop3[gl] isnt involved in this scenario at all.
+
+(Scenario 5) At time [tanc], there is an ancestral population which has a effective population [Nanc], pop2[ns],  pop3[aus] and pop6[gst3] split. At time [taus] pop4 [gst1] splits off pop3[gl] and is bottlenecked for time [tBaus] resulting in Ne of [NBgst1]. Later (more recently) at time [tBaus2] pop 5[gst2] splits off pop6[gst3] and is bottlenecked for time [tBaus2] resulting in a Ne of [NBgst2]. Then at time [tpost] pop3 [aus] is given rise to from the admixture of pop5[gst2] and pop4[gst1] at a rate of [ra]. 
 
 
 ---
