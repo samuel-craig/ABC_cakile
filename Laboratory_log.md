@@ -1530,4 +1530,27 @@ Note: the scenario chosen in the extended priors only differed from scenario 23 
 - Need to decide whether to continue with parameter estimation on scenario 23 for *C. edentula* or re-run pool A (the pool with the lowest prior error, good LDA overlap and highest posterior probability) on M3
 - This seems like an important next step ^, re-run pool A on M3, 1,000,000 datasets, 10,000 trees.
 
+---
+### M3 Procedure
+- Using WSL-Ubuntu-22.04 + MobaXTerm
+- ssh ___@m3.massive.org.au
+- om62>diyabc_RF>edentula_all_scenarios_v.4
+- [contains .SNP file, headerRF.txt, reftableRF.bin, statobsRF.txt]
+
+- Set up slurm session (interactive session)
+- smux new-session --ntasks=20 --time=20:00:00
+
+- module load diyabc/v1.1.27
+
+- diyabc-RF-linux-v1.1.27 -p ./ -n "t:20"  #generate RNG seed
+- # diyabc-RF-<os>-<version> -p ./ -n "t:<n_core>"
+
+- diyabc-RF-linux-v1.1.27 -p ./ -R "ALL" -m -t 20 -g 50 -r 1000000
+- # diyabc-RF-<os>-<version> -p ./ -R "ALL" -m -t <n_core> -g <batch_size> -r <n_simu>
+
+
+
+
+
+
 
