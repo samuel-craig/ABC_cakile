@@ -81,7 +81,7 @@
 - [04JUN23](#01JUN23)
 
 - [09JUL23](#09JUL23)
-	- [Updating log: Jun-Jul](#Updating_log:_Jun-Jul)
+	- [Updating log: Jun-Jul](#Updating_log_Jun_Jul)
 - [10JUL23](#10JUL23)
 - [11JUL23](#11JUL23)
 - [12JUL23](#12JUL23)
@@ -1472,13 +1472,7 @@ At time [tanc], there is an ancestral population which has a effective populatio
 
 
 
-
-
 ## 09JUN23
-### Updating Log: June - July<a name="Updating_log:_Jun-Jul"></a>
-
-
-
-
+### Updating Log: June - July<a name="Updating_log_Jun_Jul"></a>
 
 
