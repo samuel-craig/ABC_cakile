@@ -1477,12 +1477,12 @@ At time [tanc], there is an ancestral population which has a effective populatio
 < 09JUN23
 #### *C. edentula*
 - M3 used to generate datasets from a run of all 25 *C. edentula* scenarios at once IOT improve overlap between simulated and observed data (in LDA plots) and reduce overall prior error. Datasets of 500,000 and 1,000,000 were generated and model choice conducted with 10,000 trees, with the same result and marginal difference in prior error, but both with greatly improved LDA plots.
-- See confusion tables, LDA, and scenario diagram: (1) *C. edentula* pooled scenarios  (2) 1,000,0000 datasets, all *C. edentula* scenarios
+- See confusion tables, LDA, and scenario diagram: (1) *C. edentula* pooled scenarios  (2) 500,0000 datasets, all *C. edentula* scenarios
 ##### 1. *C. edentula* pooled scenarios:
 [Confusion Table](https://github.com/samuel-craig/ABC_cakile/blob/main/Output/edentula_A_B_C_v.2/edentula_A_B_C_v.2_scenario_choice/modelchoice_out.confusion)
-![[LDA]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/PoolCmodel4.JPG)
-##### 2. *C. edentula* all scenarios, 1,000,0000 datasets:
-[Confusion Table](https://github.com/samuel-craig/ABC_cakile/blob/main/Output/edentula_all_scenarios_v.1/modelchoice_out.confusion)
+![[LDA]]()
+##### 2. *C. edentula* all scenarios, 500,0000 datasets:
+[Confusion Table]([https://github.com/samuel-craig/ABC_cakile/blob/main/Output/edentula_all_scenarios_v.1/modelchoice_out.confusion](https://github.com/samuel-craig/ABC_cakile/blob/main/Output/edentula_all_scenarios_v.1/modelchoice_out.confusion))
 ![[LDA]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/Output/edentula_all_scenarios_v.1/LDA_plot_edentula_all_scenario.png)
 
 
