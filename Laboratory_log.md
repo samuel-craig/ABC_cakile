@@ -1483,7 +1483,6 @@ At time [tanc], there is an ancestral population which has a effective populatio
 ![[LDA]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/PoolCmodel4.JPG)
 ##### 2. *C. edentula* all scenarios, 1,000,0000 datasets:
 [Confusion Table](https://github.com/samuel-craig/ABC_cakile/blob/main/Output/edentula_all_scenarios_v.1/modelchoice_out.confusion)
-![[LDA]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/DIYABC_screengrabs/PoolCmodel4.JPG)
-
+![[LDA]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/Output/edentula_all_scenarios_v.1/LDA_plot_edentula_all_scenario.png)
 
 
