@@ -1484,13 +1484,18 @@ At time [tanc], there is an ancestral population which has a effective populatio
 
 ##### 1. *C. edentula* pooled scenarios:
 [Confusion Table](https://github.com/samuel-craig/ABC_cakile/blob/main/Output/edentula_A_B_C_v.2/edentula_A_B_C_v.2_scenario_choice/modelchoice_out.confusion)
+
 ![[LDA]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/Output/edentula_A_B_C_v.2/edentula_A_B_C_v.2_scenario_choice/modelchoice_out_graph_lda.png)
+
 [Model Choice Table]
+
 ![[Scenario Diagram]]()
 
 
 ##### 2. *C. edentula* all scenarios, 1,000,0000 datasets:
-[Confusion Table]([https://github.com/samuel-craig/ABC_cakile/blob/main/Output/edentula_all_scenarios_v.1/modelchoice_out.confusion](https://github.com/samuel-craig/ABC_cakile/blob/main/Output/edentula_all_scenarios_v.1/modelchoice_out.confusion))
+
+[Confusion Table](https://github.com/samuel-craig/ABC_cakile/blob/main/Output/edentula_all_scenarios_v.1/modelchoice_out.confusion)
+
 ![[LDA]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/Output/edentula_all_scenarios_v.1/LDA_plot_edentula_all_scenario.png)
 
 
