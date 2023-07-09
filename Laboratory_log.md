@@ -1487,7 +1487,8 @@ At time [tanc], there is an ancestral population which has a effective populatio
 
 ![[LDA]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/Output/edentula_A_B_C_v.2/edentula_A_B_C_v.2_scenario_choice/modelchoice_out_graph_lda.png)
 
-[Model Choice Table]
+[Model Choice Table](https://github.com/samuel-craig/ABC_cakile/blob/main/Output/edentula_A_B_C_v.2/edentula_A_B_C_v.2_scenario_choice/modelchoice_out.predictions)
+Note: Scenario 8 is *C. edentula* scenario 23.
 
 ![[Scenario Diagram]]()
 
