@@ -1474,15 +1474,16 @@ At time [tanc], there is an ancestral population which has a effective populatio
 
 ## 09JUN23
 ### Updating Log: June - July<a name="Updating_log_Jun_Jul"></a>
-< 09JUN23
+< 09JUL23
 #### *C. edentula*
 - M3 used to generate datasets from a run of all 25 *C. edentula* scenarios at once IOT improve overlap between simulated and observed data (in LDA plots) and reduce overall prior error. Datasets of 500,000 and 1,000,000 were generated and model choice conducted with 10,000 trees, with the same result and marginal difference in prior error, but both with greatly improved LDA plots.
 - See confusion tables, LDA, and scenario diagram:
 1. *C. edentula* pooled scenarios
 2.  1,000,0000 datasets, all *C. edentula* scenarios
+3.  500,000 datasets, all *C. edentula scenarios, extended priors
 
 
-##### 1. *C. edentula* pooled scenarios:
+#### 1. *C. edentula* pooled scenarios:
 [Confusion Table](https://github.com/samuel-craig/ABC_cakile/blob/main/Output/edentula_A_B_C_v.2/edentula_A_B_C_v.2_scenario_choice/modelchoice_out.confusion)
 
 ![[LDA]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/Output/edentula_A_B_C_v.2/edentula_A_B_C_v.2_scenario_choice/modelchoice_out_graph_lda.png)
@@ -1494,7 +1495,7 @@ Note: Scenario 8 is *C. edentula* scenario 23.
 
 Description: At time [tanc], which has a effective population [Nanc], pop2[ns] and pop3[gl] split. At time [taus] pop 4 [gst1] splits off pop2[ns] and is bottlenecked for time [tBaus] resulting in Ne of [NBgst1]. Later (earlier) at time [tBaus2] pop 5 [gst2] splits off pop2[ns] and is bottlenecked for time [tBaus2] resulting in a Ne of [NBgst2]. Then at time [tpost] pop1 [aus] is given rise to from the admixture of pop5[gst2] and pop4[gst1] at a rate of [ra]. 
 
-##### 2. *C. edentula* all scenarios, 1,000,0000 datasets:
+#### 2. *C. edentula* all scenarios, 1,000,0000 datasets:
 
 [Confusion Table](https://github.com/samuel-craig/ABC_cakile/blob/main/Output/edentula_all_scenarios_v.1/modelchoice_out.confusion)
 
@@ -1505,4 +1506,21 @@ Description: At time [tanc], which has a effective population [Nanc], pop2[ns] a
 ![[Scenario Diagram]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/Output/edentula_all_scenarios_v.1/Scenario_23_edentula.png)
 
 Description: At time [tanc], which has a effective population [Nanc], pop2[ns] and pop3[gl] split. At time [taus] pop 4 [gst1] splits off pop2[ns] and is bottlenecked for time [tBaus] resulting in Ne of [NBgst1]. Later (earlier) at time [tBaus2] pop 5 [gst2] splits off pop2[ns] and is bottlenecked for time [tBaus2] resulting in a Ne of [NBgst2]. Then at time [tpost] pop1 [aus] is given rise to from the admixture of pop5[gst2] and pop4[gst1] at a rate of [ra]. 
+
+#### 3. 500,000 datasets, all *C. edentula scenarios, extended priors
+
+[Confusion Table]
+
+![[LDA]]()
+
+[Model Choice Table]()
+
+![[Scenario Diagram]]()
+
+
+---
+
+### Next steps 09JUL23
+
+
 
