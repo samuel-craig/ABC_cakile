@@ -1472,7 +1472,7 @@ At time [tanc], there is an ancestral population which has a effective populatio
 
 
 
-## 09JUN23
+## 09JUL23
 ### Updating Log: June - July<a name="Updating_log_Jun_Jul"></a>
 < 09JUL23
 #### *C. edentula*
@@ -1544,15 +1544,26 @@ Load diyabcRF
 - `module load diyabc/v1.1.27`
 
 Generating RNG seed
-- `diyabc-RF-linux-v1.1.27 -p ./ -n "t:20"`
+- `diyabc-RF-linux-v1.1.27 -p ./ -n "t:30"`
 - `# diyabc-RF-<os>-<version> -p ./ -n "t:<n_core>"`
 
 Training Set Simulation
-- `diyabc-RF-linux-v1.1.27 -p ./ -R "ALL" -m -t 20 -g 50 -r 1000000`
+- `diyabc-RF-linux-v1.1.27 -p ./ -R "ALL" -m -t 30 -g 50 -r 1000000`
 - `# diyabc-RF-<os>-<version> -p ./ -R "ALL" -m -t <n_core> -g <batch_size> -r <n_simu>`
 
 
+## 10JUL23
 
+### Starting *C. maritima* all scenarios on M3.
+File: maritima_all_scenarios_v.1
+M3 job ID: _222
+Procedure as above
+
+## 12JUL23
+
+### *C. maritima*
+- Change job name to --916
+- Start new session with increased RAM per CPU ```smux new-session --ntasks=30 --time=24:00:00 --mem=32```
 
 
 
