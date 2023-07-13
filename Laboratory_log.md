@@ -1562,9 +1562,24 @@ Procedure as above
 ## 12JUL23
 
 ### *C. maritima*
-- Change job name to --916
+- Change job name to __916
 - Start new session with increased RAM per CPU ```smux new-session --ntasks=30 --time=24:00:00 --mem=32```
 
 
+## 14JUL:
+### *C. maritima*
+- Change job name to 30468618
+- Start new session with increased RAM per CPU ```smux new-session --ntasks=30 --time=24:00:00 --mem=64G```
+- Good speed of simulation, use these settings.
 
+### *C. edentula* Pool A: Model Choice
+- File (om62>diyabc_RF): edentula_all_scenarios_v.4
+- Start RF analysis of edentula Pool A simulations
+- Again, ```smux new-session --ntasks=30 --time=24:00:00 --mem=64G```
+- Job name: 30468626
+  
+- `module load diyabc/v1.1.27`
+- `abcranger-linux-v1.16.44 -t 10000 -j 30`
+- 'abcranger-<os>-<version> -t <n_tree> -j <n_core>'
+- 30 CPU, 10,000 trees, start 0849 14JUL17
 
