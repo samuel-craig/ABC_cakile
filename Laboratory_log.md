@@ -1584,6 +1584,9 @@ Procedure as above
 - 30 CPU, 10,000 trees, start 0849 14JUL17
 
 ## 15JUL23
-- Dataset simulation for *C. maritima* continuning
-- RF analysis/model selection for *C. edentula* pool A continuing
+- Dataset simulation for *C. maritima* continuning on Job ID: 30503015
+- RF analysis/model selection for *C. edentula* pool A continuing on Job ID: 30479624
 - Next task: model selection for *C. maritima* <- attempt to use same session running RF analysis on *C. edentula* Pool A
+- ^x: instead running *C. maritima* RF analysis on Job ID: 3050315 <- however, RAM / time of session may be insufficient.
+- Closing session 30503015 opening new: `smux new-session --ntasks=30 --time=2-00:00:00 --mem=64G` Job ID: 30505089, waiting for connection.
+-  
