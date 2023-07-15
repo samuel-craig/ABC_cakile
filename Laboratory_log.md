@@ -1566,7 +1566,7 @@ Procedure as above
 - Start new session with increased RAM per CPU ```smux new-session --ntasks=30 --time=24:00:00 --mem=32```
 
 
-## 14JUL:
+## 14JUL23
 ### *C. maritima*
 - Change job name to 30468618
 - Start new session with increased RAM per CPU ```smux new-session --ntasks=30 --time=24:00:00 --mem=64G```
@@ -1583,3 +1583,7 @@ Procedure as above
 - 'abcranger-<os>-<version> -t <n_tree> -j <n_core>'
 - 30 CPU, 10,000 trees, start 0849 14JUL17
 
+## 15JUL23
+- Dataset simulation for *C. maritima* continuning
+- RF analysis/model selection for *C. edentula* pool A continuing
+- Next task: model selection for *C. maritima* <- attempt to use same session running RF analysis on *C. edentula* Pool A
