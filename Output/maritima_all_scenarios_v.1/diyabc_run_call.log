@@ -1,0 +1,284 @@
+debut
+simulating data sets with all summary statistics
+I have read RNGs' states from file ./RNG_state_0000.bin
+debut de l'action r
+./Cakile_e-Admixture_maritima_abc_test.DIYABC.snp.bin
+maritima_test <NM=1NF> <MAF=hudson>
+Fichier ./Cakile_e-Admixture_maritima_abc_test.DIYABC.snp : SNP
+
+lecture du fichier txt
+k0=23
+s=<MAF=hudson>
+k1=11
+s=hudson
+MAF=0
+this->nloc = 9793
+recherche du nombre d'échantillons
+3 échantillons : BL  MD  WNA  
+échantillon 1 : 28 individus
+échantillon 2 : 23 individus
+échantillon 3 : 50 individus
+genotype[0][0][12]=0
+genotype[1][0][12]=2
+genotype[1][1][12]=2
+genotype[0][1][12]=2
+genotype[0][2][12]=2
+genotype[0][3][12]=1
+genotype[1][2][12]=2
+genotype[0][4][12]=2
+genotype[0][5][12]=2
+genotype[0][6][12]=2
+genotype[1][3][12]=2
+genotype[1][4][12]=2
+genotype[0][7][12]=2
+genotype[0][8][12]=2
+genotype[0][9][12]=1
+genotype[1][5][12]=2
+genotype[1][6][12]=1
+genotype[0][10][12]=2
+genotype[1][7][12]=2
+genotype[0][11][12]=2
+genotype[0][12][12]=1
+genotype[1][8][12]=1
+genotype[1][9][12]=2
+genotype[0][13][12]=1
+genotype[1][10][12]=2
+genotype[0][14][12]=2
+genotype[0][15][12]=1
+genotype[1][11][12]=2
+genotype[1][12][12]=2
+genotype[0][16][12]=2
+genotype[1][13][12]=1
+genotype[1][14][12]=2
+genotype[0][17][12]=2
+genotype[1][15][12]=1
+genotype[1][16][12]=2
+genotype[0][18][12]=1
+genotype[1][17][12]=1
+genotype[1][18][12]=2
+genotype[0][19][12]=2
+genotype[1][19][12]=2
+genotype[1][20][12]=2
+genotype[1][21][12]=1
+genotype[1][22][12]=2
+genotype[0][20][12]=2
+genotype[0][21][12]=2
+genotype[0][22][12]=2
+genotype[0][23][12]=2
+genotype[0][24][12]=2
+genotype[0][25][12]=2
+genotype[0][26][12]=2
+genotype[0][27][12]=2
+genotype[2][0][12]=1
+genotype[2][1][12]=1
+genotype[2][2][12]=1
+genotype[2][3][12]=0
+genotype[2][4][12]=1
+genotype[2][5][12]=1
+genotype[2][6][12]=2
+genotype[2][7][12]=0
+genotype[2][8][12]=1
+genotype[2][9][12]=1
+genotype[2][10][12]=0
+genotype[2][11][12]=2
+genotype[2][12][12]=2
+genotype[2][13][12]=2
+genotype[2][14][12]=2
+genotype[2][15][12]=0
+genotype[2][16][12]=1
+genotype[2][17][12]=2
+genotype[2][18][12]=1
+genotype[2][19][12]=2
+genotype[2][20][12]=0
+genotype[2][21][12]=1
+genotype[2][22][12]=1
+genotype[2][23][12]=1
+genotype[2][24][12]=1
+genotype[2][25][12]=1
+genotype[2][26][12]=0
+genotype[2][27][12]=2
+genotype[2][28][12]=0
+genotype[2][29][12]=1
+genotype[2][30][12]=2
+genotype[2][31][12]=1
+genotype[2][32][12]=1
+genotype[2][33][12]=1
+genotype[2][34][12]=1
+genotype[2][35][12]=1
+genotype[2][36][12]=2
+genotype[2][37][12]=0
+genotype[2][38][12]=0
+genotype[2][39][12]=1
+genotype[2][40][12]=1
+genotype[2][41][12]=1
+genotype[2][42][12]=1
+genotype[2][43][12]=2
+genotype[2][44][12]=0
+genotype[2][45][12]=1
+genotype[2][46][12]=2
+genotype[2][47][12]=2
+genotype[2][48][12]=1
+genotype[2][49][12]=1
+
+avant les delete
+fin de la lecture du fichier txt
+fin de la lecture
+tous les locus sont polymorphes
+fin de la purge des monomorphes
+sexratio=0.5
+apres le' traitement' des snp
+reecriture dans le fichier binaire ./Cakile_e-Admixture_maritima_abc_test.DIYABC.snp.bin
+ecribin   this->ssize[0][0]=56
+ecribin   this->ssize[0][1]=46
+ecribin   this->ssize[0][2]=100
+fin de ecribin
+ouverture du fichier ./Cakile_e-Admixture_maritima_abc_test.DIYABC.snpbin.txt OK
+apres maf  nloc=9793
+apres la deuxième ligne
+relecture du fichier binaire
+smaf=hudson's algorithm
+THIS->MAF=0
+sexratio=0.5
+nloc=9793
+nsample=3
+ type 0   catexist =1
+ type 1   catexist =0
+ type 2   catexist =0
+ type 3   catexist =0
+ type 4   catexist =0
+type 0
+56   46   100   
+this->maf=0
+dans libin     
+this->locus[0].haplosnp[0][0]=1
+fin de la lecture du fichier binaire
+apres le calcul des coefficients de coalescence
+
+avant missingdata
+apres missingdata
+nparamtot=20
+nstat=1
+----------------------------------------apres readHeaderDebut
+25 scenario(s)
+----------------------------------------apres readHeaderScenarios
+historical parameters priors (20,23)
+----------------------------------------apres readHeaderHistParam
+fichier SNP dans redheaderLoci
+9793 <A> G1 from 1
+prem = 0
+groupe[1].nloc=9793
+avant recopie des locus
+dataobs.locus.size()=9793
+dataobs.nloc = 9793
+----------------------------------------apres readHeaderLoci
+----------------------------------------apres readHeaderGroupPrior
+----------------------------------------apres buildSuperScen
+debut de readHeaderAllStat
+nsamp=3    nstat=1   nparamut=0
+./headerRF.txt
+nstat=50
+
+
+this->entete=
+scenario NBwna Nanc Nbl Nmd Nwna Ngst Ngst1 NBgst2 NBgst1 Ngst2 Ngst3 tBwna tanc twna tgst tadm tpost tBwna2 twna2 ra    ML1p_1        ML1p_2        ML1p_3       ML2p_1.2      ML2p_1.3      ML2p_2.3       HWm_1         HWm_2         HWm_3         HWv_1         HWv_2         HWv_3        HBm_1.2       HBm_1.3       HBm_2.3       HBv_1.2       HBv_1.3       HBv_2.3       FST1m_1       FST1m_2       FST1m_3       FST1v_1       FST1v_2       FST1v_3      FST2m_1.2     FST2m_1.3     FST2m_2.3     FST2v_1.2     FST2v_1.3     FST2v_2.3      NEIm_1.2      NEIm_1.3      NEIm_2.3      NEIv_1.2      NEIv_1.3      NEIv_2.3     AMLm_1.2.3    AMLm_2.1.3    AMLm_3.1.2    AMLv_1.2.3    AMLv_2.1.3    AMLv_3.1.2   FST3m_1.2.3   FST3v_1.2.3    F3m_1.2.3     F3m_2.1.3     F3m_3.1.2     F3v_1.2.3     F3v_2.1.3     F3v_3.1.2   
+----------------------------------------apres readHeaderAllStat
+----------------------------------------apres buildMutParam
+fin de readheader  nloc retenus=9793
+calstatobs (./statobsRF.txt)
+stat_obs[0]=0.324722
+stat_obs[1]=0.0918003
+stat_obs[2]=0.150414
+stat_obs[3]=0.05024
+stat_obs[4]=0.0413561
+   .../...
+stat_obs[44]=0.0783449
+stat_obs[45]=0.00536238
+stat_obs[46]=0.0365191
+stat_obs[47]=0.0218102
+stat_obs[48]=0.00470158
+stat_obs[49]=0.00760839
+
+verification de l'integrite de la table de reference 
+fichier./reftableRF.bin
+nrec = 0
+fichier reftable.bin vide
+
+apres readheader   k=1
+
+ nloc = 9793   nsample = 3   k=1
+general k==1
+general avant rt.writeheader
+nparam=7
+nparam=8
+nparam=8
+nparam=5
+nparam=6
+nparam=6
+nparam=9
+nparam=10
+nparam=10
+nparam=11
+nparam=12
+nparam=12
+nparam=13
+nparam=13
+nparam=13
+nparam=13
+nparam=15
+nparam=15
+nparam=15
+nparam=16
+nparam=16
+nparam=16
+nparam=15
+nparam=16
+nparam=16
+debut de sethistparamname
+nparamut=0    nscenarios=25
+avant la boucle des scenarios  nscenarios =25
+scenario 0   scenario[i].nparam=7  nparamvar=7
+scenario 1   scenario[i].nparam=8  nparamvar=8
+scenario 2   scenario[i].nparam=8  nparamvar=8
+scenario 3   scenario[i].nparam=5  nparamvar=5
+scenario 4   scenario[i].nparam=6  nparamvar=6
+scenario 5   scenario[i].nparam=6  nparamvar=6
+scenario 6   scenario[i].nparam=9  nparamvar=9
+scenario 7   scenario[i].nparam=10  nparamvar=10
+scenario 8   scenario[i].nparam=10  nparamvar=10
+scenario 9   scenario[i].nparam=11  nparamvar=11
+scenario 10   scenario[i].nparam=12  nparamvar=12
+scenario 11   scenario[i].nparam=12  nparamvar=12
+scenario 12   scenario[i].nparam=13  nparamvar=13
+scenario 13   scenario[i].nparam=13  nparamvar=13
+scenario 14   scenario[i].nparam=13  nparamvar=13
+scenario 15   scenario[i].nparam=13  nparamvar=13
+scenario 16   scenario[i].nparam=15  nparamvar=15
+scenario 17   scenario[i].nparam=15  nparamvar=15
+scenario 18   scenario[i].nparam=15  nparamvar=15
+scenario 19   scenario[i].nparam=16  nparamvar=16
+scenario 20   scenario[i].nparam=16  nparamvar=16
+scenario 21   scenario[i].nparam=16  nparamvar=16
+scenario 22   scenario[i].nparam=15  nparamvar=15
+scenario 23   scenario[i].nparam=16  nparamvar=16
+scenario 24   scenario[i].nparam=16  nparamvar=16
+fin de sethistparamname
+DEBUT  nrecneeded=100   rt.nrec=0    rt.nstat=50   nscenarios=25
+
+Ouverture du fichier
+./reftableRF.bin
+
+nparammax=23
+n simu data = 10
+n simu data = 20
+n simu data = 30
+n simu data = 40
+n simu data = 50
+n simu data = 60
+n simu data = 70
+n simu data = 80
+n simu data = 90
+n simu data = 100
+Total number of simulated loci : 979300
+
+fermeture du fichier ./reftableRF.bin taille=25148
+
