@@ -1596,8 +1596,41 @@ Procedure as above
 
 - *C. edentula* Pool A
 - Saved as "edentula_all_scenarios_v.4" in om62
-- Showed almost identical prior error rate whether conducted with 4 x 10^4 (0.192751) or 2 x 10^4  datasets per scenario (0.19569).
 - Prediction file Using M3, 4 x 10^4 per scenario
 -         model1        model2        model3        model4        model5        model6        model7        model8        model9 selected model  post proba
           1611          2718            59           902           794            48           853          2736           279              8       0.618
+
+- Prediction file Using M3, 2 x 10^4 per scenario
+-          model1        model2        model3        model4        model5        model6        model7        model8        model9 selected model  post proba
+           162           259            11            95           103             2            96           246            26              2       0.630
    
+- Showed almost identical overall prior error rate whether conducted with 4 x 10^4 (0.192751) or 2 x 10^4  datasets per scenario (0.19569).
+- However class-specific error rates were higher using 2 x 10^4 per scenario.
+- Note below that model 2 (selected under the 2 x 10^4  datasets per scenario) has a class-specific error rate of ~23%, while scenario 8 (selected under the 4 x 10^4 datasets per scenario) has a class-specific error rate of ~3%
+----
+- 2 x 10^4 per scenario
+`Class specific prediction errors:
+                1     2     3     4     5     6     7     8     9 class.error
+predicted 1     21090 98    101   2438  5     6     3392  845   773    0.266384
+predicted 2     38    18850 1     27    4503  1     46    1283  0      0.238353
+predicted 3     19    5     18822 19    4     4569  32    0     1220   0.237667
+predicted 4     391   32    39    18120 35    29    3503  570   603    0.223051
+predicted 5     1     3035  1     30    17709 6     3     61    0      0.150485
+predicted 6     0     1     3132  40    6     17460 3     0     48     0.156114
+predicted 7     496   48    47    1562  12    12    14272 2139  2224   0.314242
+predicted 8     39    302   0     52    50    0     267   17138 46     0.0422488
+predicted 9     33    0     295   52    0     48    381   41    17409  0.0465524`
+----
+- 4 x 10^4 per scenario
+`Class specific prediction errors:
+                1     2     3     4     5     6     7     8     9 class.error
+predicted 1     106218430   480   12345 23    27    17757 3921  3973   0.26834
+predicted 2     123   93984 13    93    22702 9     183   6446  0      0.239322
+predicted 3     112   7     93711 73    10    22851 146   1     6390   0.239982
+predicted 4     2018  149   161   90780 172   163   17011 2700  2789   0.217029
+predicted 5     3     14895 1     159   87935 26    11    254   0      0.14861
+predicted 6     1     2     14996 142   19    87854 7     0     268    0.149435
+predicted 7     2243  210   217   7182  40    43    73121 10940 11016  0.303689
+predicted 8     126   1414  1     214   270   0     1163  87193 154    0.0369139
+predicted 9     137   2     1441  227   1     255   1255  143   86473  0.0384838
+`
