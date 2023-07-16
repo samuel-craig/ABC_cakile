@@ -1611,9 +1611,9 @@ Procedure as above
 - Model 2 (selected under the 2 x 10^4  datasets per scenario) has a class-specific error rate of ~23%, while scenario 8 (selected under the 4 x 10^4 datasets per scenario) has a class-specific error rate of ~3%
 ----
 - 2 x 10^4 per scenario
-- Confusion file: 
+[Confusion Table]() 
 ----
 - 4 x 10^4 per scenario
-- Confusion file:
+[Confusion Table]() 
 ----
 
