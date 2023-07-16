@@ -1609,8 +1609,8 @@ Procedure as above
 - Note below that model 2 (selected under the 2 x 10^4  datasets per scenario) has a class-specific error rate of ~23%, while scenario 8 (selected under the 4 x 10^4 datasets per scenario) has a class-specific error rate of ~3%
 ----
 - 2 x 10^4 per scenario
-`Class specific prediction errors:
-                1     2     3     4     5     6     7     8     9 class.error
+`Class specific prediction errors:`
+`                1     2     3     4     5     6     7     8     9 class.error
 predicted 1     21090 98    101   2438  5     6     3392  845   773    0.266384
 predicted 2     38    18850 1     27    4503  1     46    1283  0      0.238353
 predicted 3     19    5     18822 19    4     4569  32    0     1220   0.237667
