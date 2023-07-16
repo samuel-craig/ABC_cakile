@@ -1589,4 +1589,15 @@ Procedure as above
 - Next task: model selection for *C. maritima* <- attempt to use same session running RF analysis on *C. edentula* Pool A
 - ^x: instead running *C. maritima* RF analysis on Job ID: 3050315 <- however, RAM / time of session may be insufficient.
 - Closing session 30503015 opening new: `smux new-session --ntasks=30 --time=2-00:00:00 --mem=64G` Job ID: 30505089, waiting for connection.
--  
+
+
+## 17JUL23
+- Simulations complete.
+
+- *C. edentula* Pool A
+- Saved as "edentula_all_scenarios_v.4" in om62
+- Showed almost identical prior error rate whether conducted with 4 x 10^4 (0.192751) or 2 x 10^4  datasets per scenario (0.19569).
+- Prediction file Using M3, 4 x 10^4 per scenario
+-         model1        model2        model3        model4        model5        model6        model7        model8        model9 selected model  post proba
+          1611          2718            59           902           794            48           853          2736           279              8       0.618
+   
