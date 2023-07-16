@@ -1596,9 +1596,11 @@ Procedure as above
 
 - *C. edentula* Pool A
 - Saved as "edentula_all_scenarios_v.4" in om62
+
 - Prediction file Using M3, 4 x 10^4 per scenario
 -         model1        model2        model3        model4        model5        model6        model7        model8        model9 selected model  post proba
           1611          2718            59           902           794            48           853          2736           279              8       0.618
+
 
 - Prediction file Using M3, 2 x 10^4 per scenario
 -          model1        model2        model3        model4        model5        model6        model7        model8        model9 selected model  post proba
