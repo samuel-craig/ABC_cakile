@@ -1594,7 +1594,7 @@ Procedure as above
 ## 17JUL23
 - Simulations complete.
 
-- *C. edentula* Pool A
+### *C. edentula* Pool A
 - Saved as "edentula_all_scenarios_v.4" in om62
 
 - Prediction file Using M3, 4 x 10^4 per scenario
@@ -1609,7 +1609,8 @@ Procedure as above
 ![[Scenario Diagram: *C. edentula, Pool A, scenario 2]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/Output/edentula_A/edentula_pool_A_scenario_choice/edentula_Pool_A_scenario_2.png)
 
    
-- Showed almost identical overall prior error rate whether conducted with 4 x 10^4 (0.192751) or 2 x 10^4  datasets per scenario (0.19569).
+- Note: the only difference between scenario 2 and scenario 8 in edentula pool A is the presence of a ghost population diverging from Nova Scotia sometime prior to the invasion of Australia (prior interval allows paramter tgst to vary between 177-10,000 years ago.) Does this imply the presence of a unsampled/ghost population in Nova Scotia? What we can say is that in either case, the scenario selected always involves an invasion consisting of a population of Nova Scotian origin.
+- Simulations showed almost identical overall prior error rate whether conducted with 4 x 10^4 (0.192751) or 2 x 10^4  datasets per scenario (0.19569).
 - However class-specific error rates were higher using 2 x 10^4 per scenario.
 - Model 2 (selected under the 2 x 10^4  datasets per scenario) has a class-specific error rate of ~23%, while scenario 8 (selected under the 4 x 10^4 datasets per scenario) has a class-specific error rate of ~3%
 ----
@@ -1619,4 +1620,16 @@ Procedure as above
 - 4 x 10^4 per scenario
 [Confusion Table](https://github.com/samuel-craig/ABC_cakile/blob/main/Output/edentula_all_scenarios_v.4/modelchoice_out.confusion) 
 ----
+- Does this mean we are able to rely/trust the predictions made by the simulation with lower class-specific error rate?
+- Next steps:
+1. Graph the LDAs for both simulations and compare.
+2. Determine whether error (prior and class-specific are low enough to move forward with parameter estimation).
+
+
+### *C. maritima* All scenarios
+- Prediction file, using M3, 4 x 10^4 per scenario
+-         model1        model2        model3        model4        model5        model6        model7        model8        model9       model10       model11       model12       model13       model14       model15       model16       model17       model18       model19       model20       model21       model22       model23       model24       model25 selected model  post proba
+           113           474           113           139           320            70           277           192           133           248           166           182           132           107           147           175           166          1190          1220           812           782           263           789           939           851             19       0.492
+
+
 
