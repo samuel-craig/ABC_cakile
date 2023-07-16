@@ -1621,7 +1621,7 @@ Procedure as above
 [Confusion Table](https://github.com/samuel-craig/ABC_cakile/blob/main/Output/edentula_all_scenarios_v.4/modelchoice_out.confusion) 
 ----
 - Does this mean we are able to rely/trust the predictions made by the simulation with lower class-specific error rate?
-- Next steps:
+- Next steps, *C. edentula*:
 1. Graph the LDAs for both simulations and compare.
 2. Determine whether error (prior and class-specific are low enough to move forward with parameter estimation).
 
@@ -1637,4 +1637,8 @@ Note: scenario 18 (runner up to scenario 19) is almost identical to scenario 19,
 
 [Confusion Table](https://github.com/samuel-craig/ABC_cakile/blob/main/Output/maritima_all_scenarios_v.1/modelchoice_out.confusion)
 
-
+- For *C. maritima* all scenarios, both the overall prior error rate, and the class-specific error rates for the simulation appear very high - likely too high to say anything meaningful if we were to estimate paramters.
+- Next steps *C. maritima*
+- Looking at the initial simulations by pool, *maritima* pool A showed the lowest overal prior error (0.16434) however, just like in the *edentula* pool A scenarios, the lowest class-specific errors came from scenarios with similar topologies that inserted a ghost population between the source population and the invasive population. Does this extra ghost population contrivance allow the analysis greater flexibility and make the error rate lower? Would additional ghost populations added to the topologie make the class-specific error even lower as the analysis can use these as a kind of placeholder/wildcard? <- e.g. fill the gap but is not acutally based on any observation?
+- Additionally, Pool A *maritima* scenarios showed a poor correspondence between observed and simulation data in their LDA graph.
+1. Graph the LDAs for *maritima* all scenarios and compare.
