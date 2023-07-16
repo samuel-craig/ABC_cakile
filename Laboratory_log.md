@@ -1631,5 +1631,10 @@ Procedure as above
 -         model1        model2        model3        model4        model5        model6        model7        model8        model9       model10       model11       model12       model13       model14       model15       model16       model17       model18       model19       model20       model21       model22       model23       model24       model25 selected model  post proba
            113           474           113           139           320            70           277           192           133           248           166           182           132           107           147           175           166          1190          1220           812           782           263           789           939           851             19       0.492
 
+![[*C. maritima*, scenario 19]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/Output/maritima_all_scenarios_v.1/maritima_scenario_19.png)
+
+Note: scenario 18 (runner up to scenario 19) is almost identical to scenario 19, except with the order of the ghost populations reversed.
+
+[Confusion Table](https://github.com/samuel-craig/ABC_cakile/blob/main/Output/maritima_all_scenarios_v.1/modelchoice_out.confusion)
 
 
