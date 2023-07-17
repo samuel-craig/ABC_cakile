@@ -90,6 +90,7 @@
 - [15JUL23](#15JUL23)
 - [16JUL23](#16JUL23)
 - [17JUL23](#17JUL23)
+	- [Results from JUL simulations](#JUL_simulations)
 - [18JUL23](#18JUL23)
 - [19JUL23](#19JUL23)
 - [20JUL23](#20JUL23)
@@ -1473,7 +1474,7 @@ At time [tanc], there is an ancestral population which has a effective populatio
 
 
 ## 09JUL23
-### Updating Log: June - July<a name="Updating_log_Jun_Jul"></a>
+### Updating Log: June - July<a name="Updating_log_Jun_Jul"></a> 
 < 09JUL23
 #### *C. edentula*
 - M3 used to generate datasets from a run of all 25 *C. edentula* scenarios at once IOT improve overlap between simulated and observed data (in LDA plots) and reduce overall prior error. Datasets of 500,000 and 1,000,000 were generated and model choice conducted with 10,000 trees, with the same result and marginal difference in prior error, but both with greatly improved LDA plots.
@@ -1592,7 +1593,7 @@ Procedure as above
 
 
 ## 17JUL23
-- Simulations complete.
+- Simulations complete.<a name="#JUL_simulations"></a>
 
 ### *C. edentula* Pool A
 - Saved as "edentula_all_scenarios_v.4" in om62
