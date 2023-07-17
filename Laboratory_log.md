@@ -1677,6 +1677,27 @@ Selected model 19 is in green, non-transparent. Observed data in dark blue.
 ### *C. edentula* Pool D
 - Pool B is a consideration of bridgehead introduction on *C. edentula*'s invasion of Australia. The scenarios were adapted from van Boheemen et al 2017. All scenarios in Pool D begin with a polytomy between the Nova Scotian, Great Lakes and Western North American *C. edentula*. This is because, in lew of any insight into the source of Western North American *C. edentula* or it's hybrid status, this was necessary to reduce the number of scenarios considered. As far as the distant past is concerned the scenarios treat the origin of the Western North American *C. edentula* as simultaneous to the split between the Great Lakes and Nova Scotia populations.
 - Additionally, no attempt has been made to determine the presence of a bottleneck in the Western North American *C. edentula*. This is not the target.
+- Using the method above (start of log) samples where filtered for cluster and monomorphic loci. Elements are shown below:
+- create keep file "keep_edentula_incl_wna.txt"
+
+- Filtering using ID file
+`/mnt/c/Users/___/Documents/Monash/BIO3990$ bcftools view -S keep_edentula_incl_wna.txt Cakile_e-Admixture_downsampled17721_rn_poly > Cakile_edentula_incl_wna`  
+
+- Checking rows match between sample ID file and remaining file:
+`bcftools query -l Cakile_edentula_incl_wna | wc -l` 154           
+
+- Before filtering for monomorphic: `bcftools view -H  Cakile_edentula_incl_wna | wc -l`     10000  
+
+- After filtering for monomorphic: `bcftools view -H  Cakile_edentula_incl_wna_abc | wc -l` 5105          
+
+- Convert to SNP, follow instructions in log (above), don't forget to include entire path to file:  
+
+`/mnt/c/Users/___/Documents/Monash/BIO3990/Cakile_edentula_incl_wna_abc.vcf`
+
+`/mnt/c/Users/___/Documents/Monash/BIO3990/diyabc2vcf_edentula_wna.txt`
+
+- Output:
+`Cakile_edentula_incl_wna_abc.DIYABC.snp`
 
 
 ### *C. edentula* Pool A, scenario 8, parameter estimation
