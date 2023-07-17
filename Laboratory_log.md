@@ -1623,6 +1623,9 @@ Procedure as above
 - Does this mean we are able to rely/trust the predictions made by the simulation with lower class-specific error rate?
 - Next steps, *C. edentula*:
 1. Graph the LDAs for both simulations and compare.
+
+![[LDA plot, edentula scenario 8, 4 x 10^4 per scenario]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/Output/edentula_all_scenarios_v.4/edentula_pool_A_model_choice_8_v.1.png)
+
 2. Determine whether error (prior and class-specific are low enough to move forward with parameter estimation).
 
 
