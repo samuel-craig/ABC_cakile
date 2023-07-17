@@ -1661,6 +1661,9 @@ Selected model 19 is in green, non-transparent. Observed data in dark blue.
 - Next steps *C. maritima*
 - Looking at the initial simulations by pool, *maritima* pool A showed the lowest overal prior error (0.16434) however, just like in the *edentula* pool A scenarios, the lowest class-specific errors came from scenarios with similar topologies that inserted a ghost population between the source population and the invasive population. Does this extra ghost population contrivance allow the analysis greater flexibility and make the error rate lower? Would additional ghost populations added to the topologie make the class-specific error even lower as the analysis can use these as a kind of placeholder/wildcard? <- e.g. fill the gap but is not acutally based on any observation?
 - Additionally, Pool A *maritima* scenarios showed a poor correspondence between observed and simulation data in their LDA graph.
-1. Graph the LDAs for *maritima* all scenarios and compare.
+1. Graph the LDAs for *maritima* all scenarios and compare (see above).
 2. Consider running a *maritima* extended priors scenario, as was done with *edentula* to see whether prior error (or LDA correspondence) is reduced.
+3. Consider using pseudo-observed-datasets (PODs) to generater a baseline for what is the expected result of a given scenario.
+4. Review clustering approach, could diyabc be struggling to resolve due to there being more/less clusters than expected?
+	- Consider Stone et al on bitou bush, could the wNA population be clustered any differently?
 
