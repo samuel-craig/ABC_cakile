@@ -1633,6 +1633,12 @@ Fig.x LDA plot, edentula scenario 8 predicted, 4 x 10^4 per scenario
 Fig.x LDA plot, edentula scenario 2, 2 x 10^4 per scenario
 
 2. Determine whether error (prior and class-specific are low enough to move forward with parameter estimation).
+- unanswered, consult papers re: level of priors they accepted
+- Moving forward with new dataset simulation for parameter estimation of scenario 8
+- Job ID: 30522154
+- Parameter estimation requires 10^5 datasets simulated.
+- File name: `edentula_pool_A_param_est_m3`
+
 
 
 ### *C. maritima* All scenarios
@@ -1656,3 +1662,4 @@ Selected model 19 is in green, non-transparent. Observed data in dark blue.
 - Additionally, Pool A *maritima* scenarios showed a poor correspondence between observed and simulation data in their LDA graph.
 1. Graph the LDAs for *maritima* all scenarios and compare.
 2. Consider running a *maritima* extended priors scenario, as was done with *edentula* to see whether prior error (or LDA correspondence) is reduced.
+
