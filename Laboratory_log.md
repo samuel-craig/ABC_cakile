@@ -1666,4 +1666,5 @@ Selected model 19 is in green, non-transparent. Observed data in dark blue.
 3. Consider using pseudo-observed-datasets (PODs) to generater a baseline for what is the expected result of a given scenario.
 4. Review clustering approach, could diyabc be struggling to resolve due to there being more/less clusters than expected?
 	- Consider Stone et al on bitou bush, could the wNA population be clustered any differently?
+ 	- What were the cut-offs for inclusion in a cluster, what were the reasons these cut-offs were chosen? Are these fallible?
 
