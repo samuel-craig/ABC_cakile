@@ -1668,3 +1668,7 @@ Selected model 19 is in green, non-transparent. Observed data in dark blue.
 	- Consider Stone et al on bitou bush, could the wNA population be clustered any differently?
  	- What were the cut-offs for inclusion in a cluster, what were the reasons these cut-offs were chosen? Are these fallible?
 
+5. Consider bridgehead invasion. "species more likely to be introduced to, and spread from, highly connected hubs" Bertelsmeier and Keller (2018).
+	- For *C. edentula* this would involve including the invasive Western North American population as the source of the invasion of Australia by *C. edentula*.
+ 	- For *C. maritima* this would involve including the invasive Australia population of *C. maritima* as the source of the invasion of WNA by *C. maritima*.
+	- Justification(?): sequential gold rushes, starting in WNA, then being rapidly followed by Australia may have meant that Victoria and San Francisco formed a highly connected hub sometime around 1849. 
