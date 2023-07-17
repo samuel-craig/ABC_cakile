@@ -1628,7 +1628,9 @@ Procedure as above
 
 Fig.x LDA plot, edentula scenario 8 predicted, 4 x 10^4 per scenario
 
+![[LDA plot, edentula scenario 2, 2 x 10^4 per scenario]](https://raw.githubusercontent.com/samuel-craig/ABC_cakile/main/Output/edentula_A/edentula_pool_A_model_choice_8_v.2_20K_per_scen.png)
 
+Fig.x LDA plot, edentula scenario 2, 2 x 10^4 per scenario
 
 2. Determine whether error (prior and class-specific are low enough to move forward with parameter estimation).
 
