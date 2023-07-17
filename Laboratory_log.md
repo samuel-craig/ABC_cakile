@@ -1671,4 +1671,17 @@ Selected model 19 is in green, non-transparent. Observed data in dark blue.
 5. Consider bridgehead invasion. "species more likely to be introduced to, and spread from, highly connected hubs" Bertelsmeier and Keller (2018).
 	- For *C. edentula* this would involve including the invasive Western North American population as the source of the invasion of Australia by *C. edentula*.
  	- For *C. maritima* this would involve including the invasive Australia population of *C. maritima* as the source of the invasion of WNA by *C. maritima*.
-	- Justification(?): sequential gold rushes, starting in WNA, then being rapidly followed by Australia may have meant that Victoria and San Francisco formed a highly connected hub sometime around 1849. 
+	- Justification(?): sequential gold rushes, starting in WNA, then being rapidly followed by Australia may have meant that Victoria and San Francisco formed a highly connected hub sometime around 1849.
+
+## 18JUL23
+### *C. edentula* Pool D
+- Pool B is a consideration of bridgehead introduction on *C. edentula*'s invasion of Australia. The scenarios were adapted from van Boheemen et al 2017. All scenarios in Pool D begin with a polytomy between the Nova Scotian, Great Lakes and Western North American *C. edentula*. This is because, in lew of any insight into the source of Western North American *C. edentula* or it's hybrid status, this was necessary to reduce the number of scenarios considered. As far as the distant past is concerned the scenarios treat the origin of the Western North American *C. edentula* as simultaneous to the split between the Great Lakes and Nova Scotia populations.
+- Additionally, no attempt has been made to determine the presence of a bottleneck in the Western North American *C. edentula*. This is not the target.
+
+
+### *C. edentula* Pool A, scenario 8, parameter estimation
+- 10 x 10^4 new datasets simulated for use in parameter estimation.
+- Parameter estimation will continue only after dataset simulation and model choice has been conducted for *C. edentula* pool D. If a scenario in Pool D fits the data better, the estimation of parameters from the winning scenario in Pool A will be a waste.
+
+### *C. maritima* extended priors
+- In lew of having the Australian *C. maritima* data to create a bridgehead pool, testing whether widening the priors for *C. maritima* is the next simulation to be conducted.
