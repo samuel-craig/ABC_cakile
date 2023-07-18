@@ -1716,5 +1716,5 @@ Selected model 19 is in green, non-transparent. Observed data in dark blue.
 - See extended priors in excel sheet for details
 `Job ID  Job Name
 30535597        interactive_session`
-  
+`diyabc-RF-linux-v1.1.27 -p ./ -R "ALL" -m -t 30 -g 50 -r 500000` <- at least 25,000 per scenario, may need 10K more to make sure. 
 
