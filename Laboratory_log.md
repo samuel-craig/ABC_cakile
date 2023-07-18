@@ -1699,10 +1699,16 @@ Selected model 19 is in green, non-transparent. Observed data in dark blue.
 - Output:
 `Cakile_edentula_incl_wna_abc.DIYABC.snp`
 
+- Dataset simulation, n = 350K - at least 20K per scenario. M3, 30 cores, 64G per core, start 1028 18JUL23
+-  
+
+
 
 ### *C. edentula* Pool A, scenario 8, parameter estimation
 - 10 x 10^4 new datasets simulated for use in parameter estimation.
 - Parameter estimation will continue only after dataset simulation and model choice has been conducted for *C. edentula* pool D. If a scenario in Pool D fits the data better, the estimation of parameters from the winning scenario in Pool A will be a waste.
 
+
 ### *C. maritima* extended priors
 - In lew of having the Australian *C. maritima* data to create a bridgehead pool, testing whether widening the priors for *C. maritima* is the next simulation to be conducted.
+- See extended priors in excel sheet for details
