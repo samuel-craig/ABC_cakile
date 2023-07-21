@@ -1596,7 +1596,7 @@ Procedure as above
 - Simulations complete.<a name="#JUL_simulations"></a>
 
 ### *C. edentula* Pool A
-- Saved as "edentula_all_scenarios_v.4" in om62
+- Saved as "edentula_all_scenarios_v.4" (<- but is actually just Pool A) in om62
 
 - Prediction file Using M3, 4 x 10^4 per scenario
 -         model1        model2        model3        model4        model5        model6        model7        model8        model9 selected model  post proba
@@ -1725,3 +1725,18 @@ RF: Model Choice:
 ### *C. edentula* Pool D
         model1        model2        model3        model4        model5        model6        model7        model8        model9       model10       model11       model12       model13 selected model  post proba
            464           405            17           620           322            80           968            78           897             6           152           119           872              7       0.646
+- Surprisingly(?) *C. edentula* Pool D, scenario 7, showed the highest posterior probability of any of the *C. edentula* Pools.
+- Is this simpply because of the inclusion of thw Western North American *C. edentula*? That it is more confident because it has a new population, greater SNPs, and a place to place them within the scenarios? -> new Psuedo-Observed Datasets (PODs) to check this behaviour.
+However, *C. edentula* Pool D included scenatios that were similar to pools A, B, C. Scenario 2 in Pool D ("Single Origin: Nova Scotia") is not fundamentally different from Scenario 2 in Pool A, and Scenario 8 in Pool A is the same as Scenario 2 in Pool A except with an interceding unsmapled popualtion between the source and invaded ranges. Yet of the top three scenarios in *C. edentula* Pool D, 7D (1st) involves initial introduction from Nova Scotia followed by a secondary introduction from Western North America, 9D (2nd) involves an initial introduction from Western North America, followed by a secondary introduction from Nova Scotia, and 13D (3rd) involves initial AND secondary introductions from Western North America. Only the 6th most supported scenario only includes a single introduction from Nova Scotia - which is the winning scenario under the Pool A scenario simulations (named "edentula_all_scenarios_v.4") and the 7th most supported involves initial and sceondary introductions from Nova Scotia - which is the winning scenario under the "All scenarios" simulations.
+- Additionally, as secondary introduction priors were allow to go to 0, until parameter estimation is conducted we don't know whether these secondary introductions are >0 and thus exist (but it seems as though they would otherwise the single introduction scenarios would surely recieve more support.)
+#### Next Steps: *C. edentula* Pool D
+- Check Hanna's population structure analysis, is there any plausible possibility that Western North America *C. edentula* could contribute to the Australian *C. edentula*. In particular answer the following:
+1. When did *C. edentula* reach Western North America? What is the strength of the evidence/how sure are we in this estimation?
+2. When did *C. edentula* reach Australia? What is strength of the evidence/how sure are we in this estimation?
+3. Do the admixture results support this sequence of events? If not, why? What is th strength of the evidence for not considering Western North American *C. edentula* as a source for the Australian introduction?
+ 
+ - Pseudo-Observed Datasets (PODs): does adding more populations inherently increase the posterior probability of the RF model choice analysis?
+ - Classification error is not as low as in Pool A scenario simulations (named "edentula_all_scenarios_v.4"), Scenario 8, what - precisely - does classification error tell us?
+ - LDA plots showed observed data was not in the centre of the simulated data of scenario 7, and that scenario 7, 9, and 13 each overlapped under the observed data. What is causing this imprecision, is it that all source populations in Pool D diverge from the ancestral population simulatenously as a polytomy? Would having the Western North American *C. edentula* diverge *later* than the Nova Scotian and Great Lakes *C. edentula* result in lower prior and class errors? or does that fact that the polytomy 'motif' is repeated in each scenatio 'cancel-out' its effect (may not cancel out, but may create a higher baseline of classification error).
+ - Additionally need to consider the issue of resolution. High classification error may point to diyabc being unable to resolve between scenarios, and in Pool D the lowest classification error (2%) was held by the 5th most voted scenario (1D) which was 4-way polytomy scenario in which wNA, Nova Scotia, Great Lakes and Australian *C. edentula* all simulatenously diverged from an ancestral population.
+ 
