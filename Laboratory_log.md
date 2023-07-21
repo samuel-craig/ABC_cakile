@@ -1700,9 +1700,12 @@ Selected model 19 is in green, non-transparent. Observed data in dark blue.
 `Cakile_edentula_incl_wna_abc.DIYABC.snp`
 
 - Dataset simulation, n = 350K - at least 20K per scenario. M3, 30 cores, 64G per core, start 1028 18JUL23
-`Job ID  Job Name`
-`30522154        interactive_session`
+- `Job ID  Job Name`
+- `30522154        interactive_session`
 
+RF: Model Choice:
+- `abcranger-linux-v1.16.44 -t 5000 -j 30`
+- 5000 trees because, reaistically, error begins to fall off well before 1000 trees.
 
 
 
@@ -1714,7 +1717,11 @@ Selected model 19 is in green, non-transparent. Observed data in dark blue.
 ### *C. maritima* extended priors
 - In lew of having the Australian *C. maritima* data to create a bridgehead pool, testing whether widening the priors for *C. maritima* is the next simulation to be conducted.
 - See extended priors in excel sheet for details
-`Job ID  Job Name
-30535597        interactive_session`
-`diyabc-RF-linux-v1.1.27 -p ./ -R "ALL" -m -t 30 -g 50 -r 500000` <- at least 25,000 per scenario, may need 10K more to make sure. 
+- `Job ID  Job Name`
+- `30535597        interactive_session`
+- `diyabc-RF-linux-v1.1.27 -p ./ -R "ALL" -m -t 30 -g 50 -r 500000` <- at least 25,000 per scenario, may need 10K more to make sure. 
 
+## 21JUL23
+### *C. edentula* Pool D
+        model1        model2        model3        model4        model5        model6        model7        model8        model9       model10       model11       model12       model13 selected model  post proba
+           464           405            17           620           322            80           968            78           897             6           152           119           872              7       0.646
