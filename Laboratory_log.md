@@ -1760,3 +1760,31 @@ Next steps:
 
 Posterior probability is higher than most previous *C. maritima* scenarios (the exception is Pool B), however the prior error rate: 0.441808 is high, as is all scenario's classification error rates.
 Ultimately I think we need to test *C. maritima* for bridgehead scenarios, and thus need the Australian *C. maritima* data.
+
+
+## 25JUL23
+### Parameter Estiamtion: *C. edentula* scenario 8 (from Pool A)
+#### Effective Population parameters
+1. Naus
+2. Nns
+3. Ngl
+4. Ngst
+5. NBaus
+6. Nanc
+#### Time parameters (in generations since present)
+1. tBaus
+2. taus
+3. tgst
+4. tanc
+
+#### Naus: Effective population of the comtemporary Australian *C. edentula* population
+`abcranger-linux-v1.16.44 -t 1000 -j 30 --parameter Naus --chosenscen 1 --noob 10000 --plsmaxvar 0.95`
+
+
+
+
+
+
+
+
+
