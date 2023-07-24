@@ -1792,7 +1792,9 @@ Note: for command line
 ###### RESULTS:
 - Expectation: 
 Parameter estimation (point estimates)
+
 `Expectation        Median Quantile_0.05 Quantile_0.95      Variance`
+
 `7109.69          7344       3306.22          9816   4.36853e+0`
   
 ![[]]()
