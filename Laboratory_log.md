@@ -1787,6 +1787,8 @@ Mote notes:
 https://github.com/diyabc/abcranger/blob/master/README.md
 
  - ABC Random Forest - Model choice or parameter estimation command line options
+
+```
 Usage:
   ../build/abcranger [OPTION...]
 
@@ -1814,7 +1816,7 @@ Usage:
                           parameter estimation)
   -g, --groups arg        Groups of models
       --help              Print help
-
+```
 
 
 
