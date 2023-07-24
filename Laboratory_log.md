@@ -1780,7 +1780,7 @@ Ultimately I think we need to test *C. maritima* for bridgehead scenarios, and t
 Note: for command line
 `-t` is number of tree used for RF analysis
 `-j` is number of cores used
-`--noob` is number of out-of-the-bag error datasets used
+`--noob` is number of out-of-the-bag error datasets used, if computing power isn't an issue, typically 30% of number of datasets should be used
 `--plsmaxvar` PLS components explaining 95% of variance added to the feature vector
 
 Mote notes:
@@ -1817,31 +1817,13 @@ Usage:
   -g, --groups arg        Groups of models
       --help              Print help
 ```
-
-
-
-
-
----
-
-#### Naus: Effective population of the comtemporary Australian *C. edentula* populationn
-###### FILE: []
-###### RF ANALYSIS SETTINGS:
-- `abcranger-linux-v1.16.44 -t 1000 -j 30 --parameter Naus --chosenscen 1 --noob 10000 --plsmaxvar 0.95`
-###### RESULTS:
-- Parameter estimation (point estimates)
-
-`Expectation        Median Quantile_0.05 Quantile_0.95      Variance`
-
-`7139.59          7356          3362          9848   4.20737e+06`
-
 Excerpt of output:
 - Confidence interval measures
-- 90% coverage : 0.9169 # It indicates that 90% of the model's predictions fall within the calculated confidence intervals.
-- Mean 90% CI : 8165.480984890733 # This means that the model's mean point estimate is likely to be within this interval with 90% confidence.
-- Mean relative 90% CI : 9.112022271783205 # It is approximately 9.11. This represents the relative size of the mean confidence interval compared to the mean point estimate.
-- Median 90% CI : 8305.5 # It is approximately 8305.5. This means that the model's median point estimate is likely to be within this interval with 90% confidence.
-- Median relative 90% CI : 1.6284894206245 #It is approximately 1.63. This represents the relative size of the median confidence interval compared to the median point estimate.
+- 90% coverage : 0.9169 				# It indicates that 90% of the model's predictions fall within the calculated confidence intervals.
+- Mean 90% CI : 8165.480984890733 			# This means that the model's mean point estimate is likely to be within this interval with 90% confidence.
+- Mean relative 90% CI : 9.112022271783205 		# It is approximately 9.11. This represents the relative size of the mean confidence interval compared to the mean point estimate.
+- Median 90% CI : 8305.5 				# It is approximately 8305.5. This means that the model's median point estimate is likely to be within this interval with 90% confidence.
+- Median relative 90% CI : 1.6284894206245 		# It is approximately 1.63. This represents the relative size of the median confidence interval compared to the median point estimate.
 
 - Local (posterior) errors
 - Computed from the mean taken as point estimate
@@ -1859,34 +1841,127 @@ Excerpt of output:
 
 - NMSE (Normalized Mean Squared Error): For the mean point estimate, it is approximately 863.09, and for the median point estimate, it is approximately 726.64.
 
+
+---
+
+#### Naus: Effective population of the comtemporary Australian *C. edentula* populationn
+###### FILE: []
+###### RF ANALYSIS SETTINGS:
+- `abcranger-linux-v1.16.44 -t 1000 -j 30 --parameter Naus --chosenscen 1 --noob 30000 --plsmaxvar 0.95`
+###### RESULTS:
+- Parameter estimation (point estimates)
+
+`Expectation        Median Quantile_0.05 Quantile_0.95      Variance`
+
+`7139.59          7356          3362          9848   4.20737e+06`
+
+
+
   
 ![[]]()
 
 ###### INTERPRETATION
+Based on the provided information, we can make the following observations about the overall accuracy of the predictions for the parameter:
+1. Confidence Interval Measures:
+- The 90% coverage is approximately 0.9169, which indicates that 90% of the model's predictions fall within the calculated confidence intervals. This suggests that the model's predictions are reasonably consistent and have good coverage.
+- The mean 90% confidence interval (CI) is approximately 8165.48, and the median 90% CI is approximately 8305.5. These confidence intervals provide an estimate of the uncertainty in the point estimates (mean and median). A smaller confidence interval indicates higher precision in the predictions.
+- The mean relative 90% CI is approximately 9.11, and the median relative 90% CI is approximately 1.63. These values represent the relative size of the confidence intervals compared to the corresponding point estimates. A lower relative CI indicates better precision in the predictions.
+
+2. Local (Posterior) Errors:
+- The Normalized Mean Absolute Error (NMAE) and Normalized Mean Squared Error (NMSE) are provided for both the mean and median point estimates. These errors give an indication of how well the model's point estimates match the actual data. Smaller NMAE and NMSE values indicate higher accuracy in the predictions.
+- Based on the provided output, the overall accuracy of the predictions appears to be relatively good.
+- The confidence intervals are not too wide, suggesting reasonable precision in the point estimates.
+- Additionally, the normalized errors (NMAE and NMSE) are relatively low for both the mean and median point estimates, indicating a good fit of the model to the data.
+
 
 ---
 
-### Ghost 1 Bottlenecked Effective Population
-###### FILE: [maritima_param_est_NBgst1]
+### Nns: Effective Population of the contemporary Nova Scotia *C. edentula* population
+###### FILE: []
 ###### RF ANALYSIS SETTINGS:
-- 
+- `abcranger-linux-v1.16.44 -t 1000 -j 30 --parameter Nns --chosenscen 1 --noob 30000 --plsmaxvar 0.95`
 ###### RESULTS:
-- Expectation: 
+```
+Parameter estimation (point estimates)
+   Expectation        Median Quantile_0.05 Quantile_0.95      Variance
+       1828.52          1762           734          3008        362172
+Global (prior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 0.17084884954278357
+                      MSE : 936503.900392661
+                     NMSE : 201.0897618279319
+Computed from the median taken as point estimate
+                     NMAE : 0.1719575875450304
+                      MSE : 974646.6045420705
+                     NMSE : 213.82504280035124
+Confidence interval measures
+             90% coverage : 0.9194333333333333
+              Mean 90% CI : 3034.812336382666
+     Mean relative 90% CI : 0.7029673858726022
+            Median 90% CI : 3353.9265873015875
+   Median relative 90% CI : 0.6273540669962386
+
+Local (posterior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 0.360309164673462
+                      MSE : 362172.17469716066
+                     NMSE : 323.00425745187965
+Computed from the median taken as point estimate
+                     NMAE : 0.3647809604430795
+                      MSE : 414613.4827095233
+                     NMSE : 356.65576099317786
+
+
+```
+
 
 ![[]]()
 
 ###### INTERPRETATION
 
+
+
+
+
+
 ---
 
-### Ghost 1 Bottlenecked Effective Population
-###### FILE: [maritima_parameter_est_NBgst2] <- note, parameter_est not param_est
+### Ngl: Effective Population of the contemporary Great Lakes *C. edentula* population
+###### FILE: []
 ###### RF ANALYSIS SETTINGS:
-- Number of trees = 1000
-- Scenario: 4C 
-- Parameter: NBgst2 
+- `abcranger-linux-v1.16.44 -t 1000 -j 30 --parameter Ngl --chosenscen 1 --noob 30000 --plsmaxvar 0.95`
 ###### RESULTS:
-- Expectation: 
+```
+Parameter estimation (point estimates)
+   Expectation        Median Quantile_0.05 Quantile_0.95      Variance
+       2019.56          1943           736          3583        473856
+Global (prior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 0.16938766376995976
+                      MSE : 941231.6242344182
+                     NMSE : 202.18021503697776
+Computed from the median taken as point estimate
+                     NMAE : 0.17002155248354459
+                      MSE : 974973.7464518519
+                     NMSE : 213.41688843769043
+Confidence interval measures
+             90% coverage : 0.9201
+              Mean 90% CI : 3024.5328537875025
+     Mean relative 90% CI : 0.6957211269360178
+            Median 90% CI : 3344
+   Median relative 90% CI : 0.6246851228065549
+
+Local (posterior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 0.377500330295025
+                      MSE : 473856.0098001814
+                     NMSE : 367.73967270581926
+Computed from the median taken as point estimate
+                     NMAE : 0.27758070991552414
+                      MSE : 340896.05559480516
+                     NMSE : 211.16890408357094
+
+```
 
 ![[]]()
 
