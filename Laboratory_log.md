@@ -1791,7 +1791,9 @@ Note: for command line
 - `abcranger-linux-v1.16.44 -t 1000 -j 30 --parameter Naus --chosenscen 1 --noob 10000 --plsmaxvar 0.95`
 ###### RESULTS:
 - Expectation: 
-
+`Parameter estimation (point estimates)`
+   `Expectation        Median Quantile_0.05 Quantile_0.95      Variance`
+       `7109.69          7344       3306.22          9816   4.36853e+0`
 ![[]]()
 
 ###### INTERPRETATION
@@ -1801,9 +1803,7 @@ Note: for command line
 ### Ghost 1 Bottlenecked Effective Population
 ###### FILE: [maritima_param_est_NBgst1]
 ###### RF ANALYSIS SETTINGS:
-- Number of trees = 1000
-- Scenario: 4C 
-- Parameter: NBgst1 
+- 
 ###### RESULTS:
 - Expectation: 
 
