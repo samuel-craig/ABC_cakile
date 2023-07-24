@@ -1748,3 +1748,15 @@ However, *C. edentula* Pool D included scenatios that were similar to pools A, B
  Fig.x: This a a qucik side by side comparsion of the winning scenarios in each Pool, the second image being of the 'runner-up' scenarios of Pool D, as well as scenario 2 (6th most votes) which I though would have been the favoured scenario based on the previous *C. edentula* results. Note, Great Lakes population has been blanked out for simplicity.
  
 ### Pool D is moot, it is out of chronological sequence that *C. edentula* was in WNA before it was in Australia. Barbour and Rodman 1970 illustrate that it's earlier confirmed appearance in WNA was not before 1880, some 20 to 40 years later than *C. edentula* being thought to be in Australia. The only way around this would be to cast doubt on the comprehensiveness of two expeditions in the area in which *C. edentula* was found in California. Even if you checked using approximations of GPS coords where the expeditions collected their specimens and identified a blindspot where *C. edentula* was eventually found, there would be no postive identification of *C. edentula* in California prior to 1882. Thus Pool D is moot and regardless, should have included scenarios that involved the WNA population occuring after the Australian population, rather than all scenarios being the opposite of this.
+
+Next steps:
+-Paramter estimation for *C. edentula* Pool A, Scenario 8 could continue. Onbly had a moderate posterior probability, but a very low classification error.
+
+## 22JUL23
+*C. maritima* extended priors
+
+	model1        model2        model3        model4        model5        model6        model7        model8        model9       model10       model11       model12       model13       model14       model15       model16       model17       model18       model19       model20       model21       model22       model23       model24       model25 selected model  post proba
+             8           355            26            18           160            20            56            91            57           112            54            69            68            39            59            85            79           886           765           222           425            61           468           369           448             18       0.508
+
+Posterior probability is higher than most previous *C. maritima* scenarios (the exception is Pool B), however the prior error rate: 0.441808 is high, as is all scenario's classification error rates.
+Ultimately I think we need to test *C. maritima* for bridgehead scenarios, and thus need the Australian *C. maritima* data.
