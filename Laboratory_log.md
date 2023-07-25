@@ -1969,14 +1969,42 @@ Computed from the median taken as point estimate
 
 ---
 
-### Baltic Effective Population
-###### FILE: [maritima_parameter_est_Nbl] <- note, parameter_est not param_est
+### Ngst: Effective Population of the historical ghost/unsampled *C. edentula* population
+###### FILE: []
 ###### RF ANALYSIS SETTINGS:
-- Number of trees = 1000
-- Scenario: 4C 
-- Parameter: Nbl 
+- `abcranger-linux-v1.16.44 -t 1000 -j 30 --parameter Ngst --chosenscen 1 --noob 30000 --plsmaxvar 0.95`
 ###### RESULTS:
-- Expectation: 
+```
+Parameter estimation (point estimates)
+   Expectation        Median Quantile_0.05 Quantile_0.95      Variance
+       2533.55          1104            83          8821   8.13432e+06
+Global (prior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 1.4660950883832635
+                      MSE : 3057579.5047704554
+                     NMSE : 3772.0493519559554
+Computed from the median taken as point estimate
+                     NMAE : 0.6786640442897515
+                      MSE : 3174895.193822814
+                     NMSE : 1853.8978923334073
+Confidence interval measures
+             90% coverage : 0.9335
+              Mean 90% CI : 5546.753823514015
+     Mean relative 90% CI : 5.095665781580014
+            Median 90% CI : 5594
+   Median relative 90% CI : 1.049096118147193
+
+Local (posterior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 5.730780831477075
+                      MSE : 8134324.463134088
+                     NMSE : 11905.104925135598
+Computed from the median taken as point estimate
+                     NMAE : 0.9649422615344964
+                      MSE : 9997974.152359674
+                     NMSE : 1920.2504394220264
+
+```
 
 ![[]]()
 
@@ -1984,14 +2012,42 @@ Computed from the median taken as point estimate
 
 ---
 
-### Ghost 1 Effective Population
-###### FILE: [maritima_parameter_est_Ngst1] <- note, parameter_est not param_est
+### NBaus: Effective Population during the historical demographic bottleneck of *C. edentula*'s Australian population
+###### FILE: []
 ###### RF ANALYSIS SETTINGS:
-- Number of trees = 1000
-- Scenario: 4C 
-- Parameter: Ngst1
+- `abcranger-linux-v1.16.44 -t 1000 -j 30 --parameter NBaus --chosenscen 1 --noob 30000 --plsmaxvar 0.95`
 ###### RESULTS:
-- Expectation: 
+```
+Parameter estimation (point estimates)
+   Expectation        Median Quantile_0.05 Quantile_0.95      Variance
+       543.471           560            51           969       84770.5
+Global (prior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 1.4263479882179713
+                      MSE : 54509.92932638424
+                     NMSE : 441.8754800835807
+Computed from the median taken as point estimate
+                     NMAE : 1.0731831228548148
+                      MSE : 55855.356839755215
+                     NMSE : 359.5918725119365
+Confidence interval measures
+             90% coverage : 0.9099
+              Mean 90% CI : 768.0406111185799
+     Mean relative 90% CI : 4.782234779350768
+            Median 90% CI : 773
+   Median relative 90% CI : 1.5356088366863236
+
+Local (posterior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 1.8777239923824474
+                      MSE : 84770.50673940415
+                     NMSE : 881.30834808988
+Computed from the median taken as point estimate
+                     NMAE : 3.0274747368773083
+                      MSE : 99603.88149749859
+                     NMSE : 1566.708253435489
+
+```
 
 ![[]]()
 
@@ -1999,31 +2055,58 @@ Computed from the median taken as point estimate
 
 ---
 
-### Ghost 2 Effective Population
-###### FILE: [maritima_parameter_est_Ngst2] <- note, parameter_est not param_est
+### Nanc: Ancestral Effective Population
+###### FILE: []
 ###### RF ANALYSIS SETTINGS:
-- Number of trees = 1000
-- Scenario: 4C 
-- Parameter: Ngst2
+- `abcranger-linux-v1.16.44 -t 1000 -j 30 --parameter Nanc --chosenscen 1 --noob 30000 --plsmaxvar 0.95`
 ###### RESULTS:
-- Expectation: 
+```
+Parameter estimation (point estimates)
+   Expectation        Median Quantile_0.05 Quantile_0.95      Variance
+       1657.04       1439.79       79.4697          4068        636137
+Global (prior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 0.6004814047751295
+                      MSE : 1122734.3577655065
+                     NMSE : 774.3208949364891
+Computed from the median taken as point estimate
+                     NMAE : 0.554997800399845
+                      MSE : 1141318.8806662243
+                     NMSE : 685.3310669761307
+Confidence interval measures
+             90% coverage : 0.9337333333333333
+              Mean 90% CI : 3674.418239220548
+     Mean relative 90% CI : 1.9288759225600096
+            Median 90% CI : 3803.3777777777777
+   Median relative 90% CI : 0.7636581013838213
+
+Local (posterior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 2.4037966545457485
+                      MSE : 636136.5306030855
+                     NMSE : 2290.0336531596004
+Computed from the median taken as point estimate
+                     NMAE : 2.2287145894755582
+                      MSE : 604860.7682614337
+                     NMSE : 1753.401879574987
+
+```
 
 ![[]]()
 
 ###### INTERPRETATION
 
 
-## 27MAY23
 ---
 
-### Ghost 3 Effective Population
-###### FILE: [maritima_parameter_est_Ngst3] <- note, parameter_est not param_est
+### tBaus: Time fo Demographic Bottleneck in Australian *C. edentula*
+###### FILE: []
 ###### RF ANALYSIS SETTINGS:
-- Number of trees = 1000
-- Scenario: 4C 
-- Parameter: Ngst3
+- `abcranger-linux-v1.16.44 -t 1000 -j 30 --parameter tBaus --chosenscen 1 --noob 30000 --plsmaxvar 0.95`
 ###### RESULTS:
-- Expectation: 
+ ```
+
+```
 
 ![[]]()
 
@@ -2031,51 +2114,6 @@ Computed from the median taken as point estimate
 
 ---
 
-
-### Mediterraanean Effective Population
-###### FILE: [maritima_parameter_est_Nmd] <- note, parameter_est not param_est
-###### RF ANALYSIS SETTINGS:
-- Number of trees = 1000
-- Scenario: 4C 
-- Parameter: Nmd
-###### RESULTS:
-- Expectation: 
-
-![[]]()
-
-###### INTERPRETATION
-
----
-
-### Western North American Effective Population
-###### FILE: [maritima_parameter_est_Nwna] <- note, parameter_est not param_est
-###### RF ANALYSIS SETTINGS:
-- Number of trees = 1000
-- Scenario: 4C 
-- Parameter: Nwna
-###### RESULTS:
-- Expectation: 
-
-![[]]()
-
-###### INTERPRETATION
-
----
-
-### Rate of Admixture
-###### FILE: [maritima_parameter_est_ra] <- note, parameter_est not param_est
-###### RF ANALYSIS SETTINGS:
-- Number of trees = 1000
-- Scenario: 4C 
-- Parameter: ra
-###### RESULTS:
-- Expectation: 
-
-![[]]()
-
-###### INTERPRETATION
-
----
 
 ### Time of Ancestral Population Divergence
 ###### FILE: [maritima_parameter_est_tanc] <- note, parameter_est not param_est
