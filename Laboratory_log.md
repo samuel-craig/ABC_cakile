@@ -1843,6 +1843,14 @@ Excerpt of output:
 
 - NMSE (Normalized Mean Squared Error): For the mean point estimate, it is approximately 863.09, and for the median point estimate, it is approximately 726.64.
 
+### Overview of Global Prior errors
+- Global prior errors quantify how well the prior distribution (inoput assumptions) fit the observed data. Smaller values indicate better fit.
+| very low (<0.1)  | low (<0.5) | moderate (<1)  | high (>1) | very high (>1.5) | unknown (Nans/NAs) |
+| ---------------- | ---------- | -------------- | --------- | ---------------- | ------------------ | 
+| taus             | tanc       | Nanc           | NBaus     | Naus             | tBaus              | 
+| 		   | tgst       |  		 | Ngst      | 		        | 		     |
+|		   | Ngl        |		 | 	     | 			|  		     | 
+| 		   | Nns        |		 | 	     | 		        | 		     |
 
 ---
 
@@ -1851,12 +1859,37 @@ Excerpt of output:
 ###### RF ANALYSIS SETTINGS:
 - `abcranger-linux-v1.16.44 -t 1000 -j 30 --parameter Naus --chosenscen 1 --noob 30000 --plsmaxvar 0.95`
 ###### RESULTS:
-- Parameter estimation (point estimates)
+```
+Parameter estimation (point estimates)
+Expectation        Median Quantile_0.05 Quantile_0.95      Variance
+7139.59          7356          3362          9848   4.20737e+06
+Global (prior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 2.8165834514264025
+                      MSE : 6906372.0283317175
+                     NMSE : 8861.335133326796
+Computed from the median taken as point estimate
+                     NMAE : 1.9315531320315993
+                      MSE : 7099114.18592274
+                     NMSE : 5078.268898802937
+Confidence interval measures
+             90% coverage : 0.9169       
+              Mean 90% CI : 8165.480984890733
+     Mean relative 90% CI : 9.112022271783205
+            Median 90% CI : 8305.5       
+   Median relative 90% CI : 1.6284894206245
 
-`Expectation        Median Quantile_0.05 Quantile_0.95      Variance`
+Local (posterior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 0.3116706907605381
+                      MSE : 4207368.068653854
+                     NMSE : 863.0894781958593
+Computed from the median taken as point estimate
+                     NMAE : 0.2727621036004322
+                      MSE : 3576430.6412997865
+                     NMSE : 726.6421767976168
 
-`7139.59          7356          3362          9848   4.20737e+06`
-
+```
 
 
   
