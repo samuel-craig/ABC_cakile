@@ -99,6 +99,7 @@
 - [23JUL23](#23JUL23)
 - [24JUL23](#24JUL23)
 - [25JUL23](#25JUL23)
+	- [Parameter Estimation: *C. edentula*](#edentula_pe_25)
 - [26JUL23](#26JUL23)
 - [27JUL23](#27JUL23)
 - [28JUL23](#28JUL23)
@@ -1763,7 +1764,8 @@ Ultimately I think we need to test *C. maritima* for bridgehead scenarios, and t
 
 
 ## 25JUL23
-### Parameter Estiamtion: *C. edentula* scenario 8 (from Pool A)
+### Parameter Estimation: *C. edentula* Scenario 8 Pool A<a name="edentula_pe_25"></a>
+
 #### Effective Population parameters
 1. Naus
 2. Nns
@@ -2099,12 +2101,41 @@ Computed from the median taken as point estimate
 
 ---
 
-### tBaus: Time fo Demographic Bottleneck in Australian *C. edentula*
+### tBaus: Time of Demographic Bottleneck in Australian *C. edentula*
 ###### FILE: []
 ###### RF ANALYSIS SETTINGS:
 - `abcranger-linux-v1.16.44 -t 1000 -j 30 --parameter tBaus --chosenscen 1 --noob 30000 --plsmaxvar 0.95`
 ###### RESULTS:
  ```
+
+Parameter estimation (point estimates)
+   Expectation        Median Quantile_0.05 Quantile_0.95      Variance
+        139.26           148            89           170       674.738
+Global (prior) errors
+Computed from the mean taken as point estimate
+                     NMAE : inf
+                      MSE : 1368.7735710692182
+                     NMSE : inf
+Computed from the median taken as point estimate
+                     NMAE : inf
+                      MSE : 1391.5154061523842
+                     NMSE : inf
+Confidence interval measures
+             90% coverage : 0.917
+              Mean 90% CI : 124.19453922220228
+     Mean relative 90% CI : inf
+            Median 90% CI : 130
+   Median relative 90% CI : 1.5625
+
+Local (posterior) errors
+Computed from the mean taken as point estimate
+                     NMAE : -nan
+                      MSE : 674.7379102962527
+                     NMSE : -nan
+Computed from the median taken as point estimate
+                     NMAE : -nan
+                      MSE : 821.0411260746658
+                     NMSE : -nan
 
 ```
 
@@ -2115,14 +2146,42 @@ Computed from the median taken as point estimate
 ---
 
 
-### Time of Ancestral Population Divergence
-###### FILE: [maritima_parameter_est_tanc] <- note, parameter_est not param_est
+### taus: Time of Australian Population Divergence from native ghost/unsampled population
+###### FILE: []
 ###### RF ANALYSIS SETTINGS:
-- Number of trees = 1000
-- Scenario: 4C 
-- Parameter: tanc
+- `abcranger-linux-v1.16.44 -t 1000 -j 30 --parameter taus --chosenscen 1 --noob 30000 --plsmaxvar 0.95`
 ###### RESULTS:
-- Expectation: 
+```
+Parameter estimation (point estimates)
+   Expectation        Median Quantile_0.05 Quantile_0.95      Variance
+       166.253           166           157           176       38.3548
+Global (prior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 0.030261396863771668
+                      MSE : 33.80165851936896
+                     NMSE : 0.20410390068866918
+Computed from the median taken as point estimate
+                     NMAE : 0.030402151791947583
+                      MSE : 34.512375958435875
+                     NMSE : 0.2085676276973177
+Confidence interval measures
+             90% coverage : 0.9436666666666667
+              Mean 90% CI : 17.901459825450655
+     Mean relative 90% CI : 0.1078063413743078
+            Median 90% CI : 18
+   Median relative 90% CI : 0.10778443113772455
+
+Local (posterior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 0.03238749502426019
+                      MSE : 38.35477539932196
+                     NMSE : 0.23160453515201515
+Computed from the median taken as point estimate
+                     NMAE : 0.0329459564876774
+                      MSE : 39.793786671664904
+                     NMSE : 0.24001967494213675
+
+```
 
 ![[]]()
 
@@ -2130,14 +2189,42 @@ Computed from the median taken as point estimate
 
 ---
 
-### Time/Duration of Bottlneck in Western North America (initial introduction)
-###### FILE: [maritima_parameter_est_tBwna] <- note, parameter_est not param_est
+### tgst: Time of ghost/unsampled Population Divergence from Nova Scotian population
+###### FILE: []
 ###### RF ANALYSIS SETTINGS:
-- Number of trees = 1000
-- Scenario: 4C 
-- Parameter: tBwna
+- `abcranger-linux-v1.16.44 -t 1000 -j 30 --parameter tgst --chosenscen 1 --noob 30000 --plsmaxvar 0.95`
 ###### RESULTS:
-- Expectation: 
+```
+Parameter estimation (point estimates)
+   Expectation        Median Quantile_0.05 Quantile_0.95      Variance
+       1697.13       1335.54           292          4393        650065
+Global (prior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 0.1938636029912249
+                      MSE : 544215.4151602681
+                     NMSE : 162.78620279468453
+Computed from the median taken as point estimate
+                     NMAE : 0.18878703610207925
+                      MSE : 541148.4601782203
+                     NMSE : 161.5856214977815
+Confidence interval measures
+             90% coverage : 0.9424
+              Mean 90% CI : 2461.5476669412906
+     Mean relative 90% CI : 0.8771522001359372
+            Median 90% CI : 2425
+   Median relative 90% CI : 0.767771847747448
+
+Local (posterior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 0.5048699829389669
+                      MSE : 650064.6496694869
+                     NMSE : 487.0710325717762
+Computed from the median taken as point estimate
+                     NMAE : 0.527613945508123
+                      MSE : 610342.8977600795
+                     NMSE : 504.3555629913807
+
+```
 
 ![[]]()
 
@@ -2145,14 +2232,43 @@ Computed from the median taken as point estimate
 
 ---
 
-### Time/Duration of Bottlneck in Western North America (secondary introduction)
+### tanc: Time of ancestral divergence of Nova Scotian and Great Lakes population
 ###### FILE: [maritima_parameter_est_tBwna2] <- note, parameter_est not param_est
 ###### RF ANALYSIS SETTINGS:
-- Number of trees = 1000
-- Scenario: 4C 
-- Parameter: tBwna2
+- `abcranger-linux-v1.16.44 -t 1000 -j 30 --parameter tanc --chosenscen 1 --noob 30000 --plsmaxvar 0.95`
 ###### RESULTS:
-- Expectation: 
+```
+Parameter estimation (point estimates)
+   Expectation        Median Quantile_0.05 Quantile_0.95      Variance
+       5408.06          5218          1868          9273   4.18024e+06
+Global (prior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 0.16073529274314674
+                      MSE : 1365086.6970050826
+                     NMSE : 260.5407587603991
+Computed from the median taken as point estimate
+                     NMAE : 0.15995974921651254
+                      MSE : 1377517.2084777204
+                     NMSE : 269.59874766558937
+Confidence interval measures
+             90% coverage : 0.9224333333333333
+              Mean 90% CI : 4019.3438208068046
+     Mean relative 90% CI : 0.6726334482340078
+            Median 90% CI : 4081.2
+   Median relative 90% CI : 0.5977268952695247
+
+Local (posterior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 0.4888354635706539
+                      MSE : 4180239.400671882
+                     NMSE : 1489.7612988134429
+Computed from the median taken as point estimate
+                     NMAE : 0.4843190812500596
+                      MSE : 4617726.405150501
+                     NMSE : 1703.496201786689
+
+
+```
 
 ![[]]()
 
@@ -2160,50 +2276,6 @@ Computed from the median taken as point estimate
 
 ---
 
-### Time of Post-Introduction Admixture
-###### FILE: [maritima_parameter_est_tpost] <- note, parameter_est not param_est
-###### RF ANALYSIS SETTINGS:
-- Number of trees = 1000
-- Scenario: 4C 
-- Parameter: tpost
-###### RESULTS:
-- Expectation: 
-
-![[]]()
-
-###### INTERPRETATION
-
----
-
-### Time of Western North American divergence (initial introduction)
-###### FILE: [maritima_parameter_est_twna] <- note, parameter_est not param_est
-###### RF ANALYSIS SETTINGS:
-- Number of trees = 1000
-- Scenario: 4C 
-- Parameter: twna
-###### RESULTS:
-- Expectation: 
-
-![[]]()
-
-###### INTERPRETATION
-
----
-
-### Time of Second Western North American divergence (secondary introduction) 
-###### FILE: [maritima_parameter_est_twna2] <- note, parameter_est not param_est
-###### RF ANALYSIS SETTINGS:
-- Number of trees = 1000
-- Scenario: 4C 
-- Parameter: twna2
-###### RESULTS:
-- Expectation: 
-
-![[]]()
-
-###### INTERPRETATION
-
----
 
 
 
