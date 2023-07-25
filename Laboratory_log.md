@@ -1845,6 +1845,7 @@ Excerpt of output:
 
 ### Overview of Global Prior errors
 - Global prior errors quantify how well the prior distribution (inoput assumptions) fit the observed data. Smaller values indicate better fit.
+
 | very low (<0.1)  | low (<0.5) | moderate (<1)  | high (>1) | very high (>1.5) | unknown (Nans/NAs) |
 | ---------------- | ---------- | -------------- | --------- | ---------------- | ------------------ | 
 | taus             | tanc       | Nanc           | NBaus     | Naus             | tBaus              | 
