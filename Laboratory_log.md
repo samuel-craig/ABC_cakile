@@ -1844,7 +1844,7 @@ Excerpt of output:
 - NMSE (Normalized Mean Squared Error): For the mean point estimate, it is approximately 863.09, and for the median point estimate, it is approximately 726.64.
 
 ### Overview of Global Prior errors
-- Global prior errors quantify how well the prior distribution (inoput assumptions) fit the observed data. Smaller values indicate better fit.
+- Global prior errors quantify how well the ***prior distribution (input assumptions)** fit the observed data. Smaller values indicate better fit.
 
 | very low (<0.1)  | low (<0.5) | moderate (<1)  | high (>1) | very high (>1.5) | unknown (Nans/NAs) |
 | ---------------- | ---------- | -------------- | --------- | ---------------- | ------------------ | 
@@ -1852,6 +1852,32 @@ Excerpt of output:
 | 		   | tgst       |  		 | Ngst      | 		        | 		     |
 |		   | Ngl        |		 | 	     | 			|  		     | 
 | 		   | Nns        |		 | 	     | 		        | 		     |
+
+- Based on the above:
+	- Revising whether tBaus has to have a minimum of 0 should be considered, as there are scenarios for "no bottleneck" already.
+	- The goal should be to reduce global prior errors to the level of 'very low', note that most of the larger global prior errors regard Effective Population - try reducing these to see if fit is improved- intuitively a demographic bottleneck with max Ne of 1000 was probably too large.
+ 	- Additionally, see what reducing the maximum for tgst and tanc does to the global prior error.
+
+### Overview of Local Prior Errors
+- Local (posterior) errors: Similar to global errors, these metrics are computed based on the posterior distribution, reflecting the fit of the ***estimated distribution** to the observed data. They provide an assessment of how well the model's output aligns with the actual data.
+
+| very low (<0.1)  | low (<0.5) | moderate (<1)  | high (>1) | very high (>1.5) | unknown (Nans/NAs) |
+| ---------------- | ---------- | -------------- | --------- | ---------------- | ------------------ | 
+| taus             | tanc       | tgst           |           | Ngst             | tBaus              | 
+| 		   | Naus       |  		 |           | NBaus            | 		     |
+|		   | Ngl        |		 | 	     | Nanc		|  		     | 
+| 		   | Nns        |		 | 	     | 		        | 		     |
+
+- Based on the above:
+	- Revise NBaus, Nanc, Ngst, possibly tgst reset tBaus minima to 1,
+
+
+- Based on both the above, parameters with high global and local error that require revision are:
+- tBaus: reset minimum interval value to 1 to correct
+- Ngst: reset maximum interval value to 1000 (also see results from edentula_A_scen8_extended_priors to see whether opening up the priors improves the result)
+- NBaus: reset maximum interval value to 100, a bottleneck should be a bottleneck in Ne after all
+- Nanc: reset maximum interval value to 1000
+- Generally, reduce maximum Ne to 1000 and bottlenecked Ne to 100. taus shows lowest error - which would indicate that the estimated time of arrival of *C. edentula* did occur within the window of time previously thought. (confirms what we already know/have evidence for)
 
 ---
 
