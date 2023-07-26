@@ -2338,6 +2338,24 @@ Computed from the median taken as point estimate
 
 
 
+## 26JUL23
+
+Given the results from the parameter estimation of Pool a using the interval (1) prior set, it is worth exploring the prior parameter space more thoroughly.
+To do this we need to simulate Pool A another two times, once with interval (2) prior set "extended priors" and once with interval (3) prior set "contracted priors".
+
+### Results
+Model choice on interval (2) prior set extended priors chose model 4 (polytomy with no bottleneck), PP = 0.72, ~26% of votes, with model 8 coming in close second with ~24% of votes. Classification error was high for scenario 4, ~0.3, while low for scenario 8.
+One interpretation of this result is that under the extended priors the most probable model does not attempt to discern any order or origin regarding the source of the introduced population, in fact in scenario 4 there is no parameter for a bottleneck nor a time of divergence of an Australian population, this model tells us little. Ulitmately it is most likely but far too simple to be useful.
+It is promising that scenario 8 was the second most chosen scenario, simulation of 100K datatsets under this scenario and evaluation of parameter estimates and global/local errors could be worthwhile.
+
+### Simulating 200K datasets under "edentula_pool_A_contracted_priors"
+
+
+### Next steps
+1. simulate 100K datasets under edentula scenario 8, extened priors to investigate how parameter estimates/errors change
+2. simulate 100K datasets under edentula scenario 8, contracted priors to investigate how parameter estimates/errors change
+3. Consider that you may have to resimulate the orginal prior interval Pool A, so as to change the priors for parameter tBaus from 0-176 to 1-176 <- this may what is causing the NaNs in the local and global errors in the paramater estimation. Note: this has been fixed in the "contracted priors" but not in the "extended priors"
+
 
 
 
