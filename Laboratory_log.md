@@ -2700,7 +2700,35 @@ Computed from the median taken as point estimate
 - `abcranger-linux-v1.16.44 -t 1000 -j 30 --parameter taus --chosenscen 8 --noob 30000 --plsmaxvar 0.95`
 ###### RESULTS:
 ```
+Parameter estimation (point estimates)
+   Expectation        Median Quantile_0.05 Quantile_0.95      Variance
+       166.028           166           157           175       39.1016
 
+Global (prior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 0.030158046860588754
+                      MSE : 33.61812030551442
+                     NMSE : 0.20299487442859498
+Computed from the median taken as point estimate
+                     NMAE : 0.030123088836989883
+                      MSE : 33.94992534279695
+                     NMSE : 0.2052603817525416
+Confidence interval measures
+             90% coverage : 0.9440666666666667
+              Mean 90% CI : 17.89452887982388
+     Mean relative 90% CI : 0.10783216776173268
+            Median 90% CI : 18           
+   Median relative 90% CI : 0.10778443113772455
+
+Local (posterior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 0.03325909963326938
+                      MSE : 39.10159648868577
+                     NMSE : 0.23674429342347322
+Computed from the median taken as point estimate
+                     NMAE : 0.032767395901914735
+                      MSE : 39.02232484115389
+                     NMSE : 0.2365079348574789
 
 ```
 
@@ -2716,6 +2744,34 @@ Computed from the median taken as point estimate
 - `abcranger-linux-v1.16.44 -t 1000 -j 30 --parameter tgst --chosenscen 8 --noob 30000 --plsmaxvar 0.95`
 ###### RESULTS:
 ```
+Parameter estimation (point estimates)
+   Expectation        Median Quantile_0.05 Quantile_0.95      Variance
+       227.085           213           179           312       1522.52
+Global (prior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 0.1484828397422247
+                      MSE : 6783.04415077881
+                     NMSE : 15.750266870271036
+Computed from the median taken as point estimate
+                     NMAE : 0.14516197564751807
+                      MSE : 6663.41664887879
+                     NMSE : 15.477927228081896
+Confidence interval measures
+             90% coverage : 0.9393333333333334
+              Mean 90% CI : 289.74077428753293
+     Mean relative 90% CI : 0.6757115654931868
+            Median 90% CI : 291
+   Median relative 90% CI : 0.6366412996847779
+
+Local (posterior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 0.13381325757410814
+                      MSE : 1522.5153953924619
+                     NMSE : 6.256076741019579
+Computed from the median taken as point estimate
+                     NMAE : 0.12369976728426314
+                      MSE : 1447.886467786049
+                     NMSE : 5.6103101692474375
 
 
 ```
@@ -2732,6 +2788,34 @@ Computed from the median taken as point estimate
 - `abcranger-linux-v1.16.44 -t 1000 -j 30 --parameter tanc --chosenscen 8 --noob 30000 --plsmaxvar 0.95`
 ###### RESULTS:
 ```
+Parameter estimation (point estimates)
+   Expectation        Median Quantile_0.05 Quantile_0.95      Variance
+       448.805           404           258           820       13760.2
+Global (prior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 0.1330001512574732
+                      MSE : 12073.232187002059
+                     NMSE : 20.009101520665357
+Computed from the median taken as point estimate
+                     NMAE : 0.13082195494809792
+                      MSE : 11969.413534525742
+                     NMSE : 20.310845640134897
+Confidence interval measures
+             90% coverage : 0.9248333333333333
+              Mean 90% CI : 384.61782888186013
+     Mean relative 90% CI : 0.5665178955723558
+            Median 90% CI : 389
+   Median relative 90% CI : 0.5266510991092399
+
+Local (posterior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 0.2559710550667836
+                      MSE : 13760.200450279843
+                     NMSE : 36.66628342185207
+Computed from the median taken as point estimate
+                     NMAE : 0.20934444251451284
+                      MSE : 10825.34873612693
+                     NMSE : 27.12751133051221
 
 
 
