@@ -105,9 +105,29 @@
 - [28JUL23](#28JUL23)
 - [29JUL23](#29JUL23)
 - [30JUL23](#30JUL23)
+	- [Parameter Estimation: *C. edentula* scenario 8 contracted priors](#edentula_pe_30)
 - [31JUL23](#31JUL23)
-
-
+- [01AUG23](#01AUG23)
+	- [Parameter Estimation: *C. edentula* scenario 8 extended priors](#edentula_pe_01)
+- [02AUG23](#02AUG23)
+- [03AUG23](#03AUG23)
+- [04AUG23](#04AUG23)
+- [05AUG23](#05AUG23)
+- [06AUG23](#06AUG23)
+- [07AUG23](#07AUG23)
+- [08AUG23](#08AUG23)
+- [09AUG23](#09AUG23)
+- [10AUG23](#10AUG23)
+- [11AUG23](#11AUG23)
+- [12AUG23](#12AUG23)
+- [13AUG23](#13AUG23)
+- [14AUG23](#14AUG23)
+- [15AUG23](#15AUG23)
+- [16AUG23](#16AUG23)
+- [17AUG23](#17AUG23)
+- [18AUG23](#18AUG23)
+- [19AUG23](#19AUG23)
+- [20AUG23](#20AUG23)
 
 
 
@@ -2358,7 +2378,7 @@ It is promising that scenario 8 was the second most chosen scenario, simulation 
 
 ## 30JUL23
 
-### Parameter estimation: *C. edentula* "contracted priors dataset
+### Parameter estimation: *C. edentula* "contracted priors dataset<a name="edentula_pe_30"></a>
 - Load diyabcRF
 - `module load diyabc/v1.1.27`
 - Simulating pramaters of scenario 8
@@ -2827,3 +2847,296 @@ Computed from the median taken as point estimate
 
 ---
 
+
+
+
+
+
+
+
+
+
+
+
+
+## 01AUG23
+
+
+### Parameter estimation: *C. edentula* "extended priors" dataset<a name="edentula_pe_01"></a>
+
+File (M3): edentula_pool_A_scen_8_extended_priors
+- Load diyabcRF
+- `module load diyabc/v1.1.27` 
+
+---
+
+#### Naus: Effective population of the comtemporary Australian *C. edentula* populationn
+###### FILE: []
+###### RF ANALYSIS SETTINGS:
+- `abcranger-linux-v1.16.44 -t 1000 -j 30 --parameter Naus --chosenscen 1 --noob 30000 --plsmaxvar 0.95`
+###### RESULTS:
+```
+Parameter estimation (point estimates)
+   Expectation        Median Quantile_0.05 Quantile_0.95      Variance
+       57324.6       57777.3         12172         97372   7.22974e+08
+
+Global (prior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 4.714663087545209
+                      MSE : 816416213.0198193
+                     NMSE : 207960.90547514308
+Computed from the median taken as point estimate
+                     NMAE : 4.7534236674105115
+                      MSE : 831379381.6443139
+                     NMSE : 240276.83642802
+Confidence interval measures
+             90% coverage : 0.9028666666666667
+              Mean 90% CI : 87429.56629735442
+     Mean relative 90% CI : 9.917273866841462
+            Median 90% CI : 88116.43673639392
+   Median relative 90% CI : 1.745715338635204
+
+Local (posterior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 0.8496219639981991
+                      MSE : 722973642.0881256
+                     NMSE : 31892.038938937727
+Computed from the median taken as point estimate
+                     NMAE : 0.72720885559707
+                      MSE : 714223146.7134335
+                     NMSE : 26106.406254547215
+
+
+
+```
+
+
+![[]]()
+
+###### INTERPRETATION
+
+
+
+
+
+
+---
+
+### Nns: Effective Population of the contemporary Nova Scotia *C. edentula* population
+###### FILE: []
+###### RF ANALYSIS SETTINGS:
+- `abcranger-linux-v1.16.44 -t 1000 -j 30 --parameter Nns --chosenscen 1 --noob 30000 --plsmaxvar 0.95`
+###### RESULTS:
+```
+Parameter estimation (point estimates)
+   Expectation        Median Quantile_0.05 Quantile_0.95      Variance
+       18968.6         18093          9474       32097.7   2.53702e+07
+Global (prior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 0.15834168120994804
+                      MSE : 92102502.99380377
+                     NMSE : 1943.8132763920944
+Computed from the median taken as point estimate
+                     NMAE : 0.15780637858066582
+                      MSE : 92119813.69912624
+                     NMSE : 1989.0430301916958
+Confidence interval measures
+             90% coverage : 0.9211333333333334
+              Mean 90% CI : 30819.67212609741
+     Mean relative 90% CI : 0.6581152001039307
+            Median 90% CI : 33787.253968253965
+   Median relative 90% CI : 0.6030389031702579
+
+Local (posterior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 0.2631159615908127
+                      MSE : 25370153.80754578
+                     NMSE : 1799.636079794665
+Computed from the median taken as point estimate
+                     NMAE : 0.2647587059302592
+                      MSE : 25413069.90941164
+                     NMSE : 1718.3441535666695
+
+
+
+
+
+```
+
+
+![[]]()
+
+###### INTERPRETATION
+
+
+
+
+
+
+---
+
+### Ngl: Effective Population of the contemporary Great Lakes *C. edentula* population
+###### FILE: []
+###### RF ANALYSIS SETTINGS:
+- `abcranger-linux-v1.16.44 -t 1000 -j 30 --parameter Ngl --chosenscen 1 --noob 30000 --plsmaxvar 0.95`
+###### RESULTS:
+```
+Parameter estimation (point estimates)
+   Expectation        Median Quantile_0.05 Quantile_0.95      Variance
+       22361.8         20543         10496       39134.6   3.57484e+07
+Global (prior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 0.1571046945300232
+                      MSE : 92577475.98180525
+                     NMSE : 1939.0896882815007
+Computed from the median taken as point estimate
+                     NMAE : 0.15692956919648868
+                      MSE : 93626645.52819589
+                     NMSE : 2017.6427764374084
+Confidence interval measures
+             90% coverage : 0.921
+              Mean 90% CI : 30759.962543252914
+     Mean relative 90% CI : 0.6529637229248609
+            Median 90% CI : 33744.25
+   Median relative 90% CI : 0.6009355172521584
+
+Local (posterior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 0.2654151077914103
+                      MSE : 35748379.389228605
+                     NMSE : 2171.370604910136
+Computed from the median taken as point estimate
+                     NMAE : 0.24920986229448785
+                      MSE : 34331598.814122856
+                     NMSE : 1960.3028502705376
+
+
+
+```
+
+![[]]()
+
+###### INTERPRETATION
+
+---
+
+### Ngst: Effective Population of the historical ghost/unsampled *C. edentula* population
+###### FILE: []
+###### RF ANALYSIS SETTINGS:
+- `abcranger-linux-v1.16.44 -t 1000 -j 30 --parameter Ngst --chosenscen 1 --noob 30000 --plsmaxvar 0.95`
+###### RESULTS:
+```
+
+
+
+```
+
+![[]]()
+
+###### INTERPRETATION
+
+---
+
+### NBaus: Effective Population during the historical demographic bottleneck of *C. edentula*'s Australian population
+###### FILE: []
+###### RF ANALYSIS SETTINGS:
+- `abcranger-linux-v1.16.44 -t 1000 -j 30 --parameter NBaus --chosenscen 1 --noob 30000 --plsmaxvar 0.95`
+###### RESULTS:
+```
+
+
+
+```
+
+![[]]()
+
+###### INTERPRETATION
+
+---
+
+### Nanc: Ancestral Effective Population
+###### FILE: []
+###### RF ANALYSIS SETTINGS:
+- `abcranger-linux-v1.16.44 -t 1000 -j 30 --parameter Nanc --chosenscen 1 --noob 30000 --plsmaxvar 0.95`
+###### RESULTS:
+```
+
+
+
+```
+
+![[]]()
+
+###### INTERPRETATION
+
+
+---
+
+### tBaus: Time of Demographic Bottleneck in Australian *C. edentula*
+###### FILE: []
+###### RF ANALYSIS SETTINGS:
+- `abcranger-linux-v1.16.44 -t 1000 -j 30 --parameter tBaus --chosenscen 1 --noob 30000 --plsmaxvar 0.95`
+###### RESULTS:
+ ```
+
+
+
+```
+
+![[]]()
+
+###### INTERPRETATION
+
+---
+
+
+### taus: Time of Australian Population Divergence from native ghost/unsampled population
+###### FILE: []
+###### RF ANALYSIS SETTINGS:
+- `abcranger-linux-v1.16.44 -t 1000 -j 30 --parameter taus --chosenscen 1 --noob 30000 --plsmaxvar 0.95`
+###### RESULTS:
+```
+
+
+```
+
+![[]]()
+
+###### INTERPRETATION
+
+---
+
+### tgst: Time of ghost/unsampled Population Divergence from Nova Scotian population
+###### FILE: []
+###### RF ANALYSIS SETTINGS:
+- `abcranger-linux-v1.16.44 -t 1000 -j 30 --parameter tgst --chosenscen 1 --noob 30000 --plsmaxvar 0.95`
+###### RESULTS:
+```
+
+
+
+```
+
+![[]]()
+
+###### INTERPRETATION
+
+---
+
+### tanc: Time of ancestral divergence of Nova Scotian and Great Lakes population
+###### FILE: [maritima_parameter_est_tBwna2] <- note, parameter_est not param_est
+###### RF ANALYSIS SETTINGS:
+- `abcranger-linux-v1.16.44 -t 1000 -j 30 --parameter tanc --chosenscen 1 --noob 30000 --plsmaxvar 0.95`
+###### RESULTS:
+```
+
+
+
+
+```
+
+![[]]()
+
+###### INTERPRETATION
+
+---
