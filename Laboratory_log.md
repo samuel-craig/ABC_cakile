@@ -3252,6 +3252,34 @@ Computed from the median taken as point estimate
 - `abcranger-linux-v1.16.44 -t 1000 -j 30 --parameter tgst --chosenscen 1 --noob 30000 --plsmaxvar 0.95`
 ###### RESULTS:
 ```
+Parameter estimation (point estimates)
+   Expectation        Median Quantile_0.05 Quantile_0.95      Variance
+       35128.4       32167.1       7542.79       69943.3   8.91773e+07
+Global (prior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 0.17722673978311038
+                      MSE : 47052452.59007924
+                     NMSE : 1328.600277574405
+Computed from the median taken as point estimate
+                     NMAE : 0.17353917002361355
+                      MSE : 47659081.07481705
+                     NMSE : 1346.7358444853953
+Confidence interval measures
+             90% coverage : 0.9407333333333333
+              Mean 90% CI : 22198.80035783558
+     Mean relative 90% CI : 0.8069423558072744
+            Median 90% CI : 21482.375    
+   Median relative 90% CI : 0.7028397591965619
+
+Local (posterior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 0.2674858404121542
+                      MSE : 89177265.76015224
+                     NMSE : 3158.758245309657
+Computed from the median taken as point estimate
+                     NMAE : 0.23271357443410282
+                      MSE : 86138572.31766321
+                     NMSE : 2774.5430650487247
 
 
 
