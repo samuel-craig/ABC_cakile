@@ -3026,7 +3026,35 @@ Computed from the median taken as point estimate
 - `abcranger-linux-v1.16.44 -t 1000 -j 30 --parameter Ngst --chosenscen 1 --noob 30000 --plsmaxvar 0.95`
 ###### RESULTS:
 ```
+Parameter estimation (point estimates)
+   Expectation        Median Quantile_0.05 Quantile_0.95      Variance
+       49392.7       48189.2       7665.02       94035.2   2.64147e+08
 
+Global (prior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 0.30069675894890024
+                      MSE : 173145164.50710684
+                     NMSE : 5882.730891133503
+Computed from the median taken as point estimate
+                     NMAE : 0.25677774408882825
+                      MSE : 178265317.83349854
+                     NMSE : 5104.774709652032
+Confidence interval measures
+             90% coverage : 0.9292666666666667
+              Mean 90% CI : 42578.445271175435
+     Mean relative 90% CI : 1.3517241126337234
+            Median 90% CI : 43062.43913828689
+   Median relative 90% CI : 0.7606986349249242
+
+Local (posterior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 0.7048282671798841
+                      MSE : 264147285.60765588
+                     NMSE : 22467.305551537575
+Computed from the median taken as point estimate
+                     NMAE : 1.1857499141204186
+                      MSE : 281493085.68873316
+                     NMSE : 48242.78879029663
 
 
 ```
@@ -3043,7 +3071,35 @@ Computed from the median taken as point estimate
 - `abcranger-linux-v1.16.44 -t 1000 -j 30 --parameter NBaus --chosenscen 1 --noob 30000 --plsmaxvar 0.95`
 ###### RESULTS:
 ```
+Parameter estimation (point estimates)
+   Expectation        Median Quantile_0.05 Quantile_0.95      Variance
+       5465.42          5528          1078          9602    7.6638e+06
 
+Global (prior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 1.3071306878970275
+                      MSE : 4772383.663510339
+                     NMSE : 2762.8489129469203
+Computed from the median taken as point estimate
+                     NMAE : 0.7972918389437088
+                      MSE : 4866588.3892113045
+                     NMSE : 2068.015701310048
+Confidence interval measures
+             90% coverage : 0.9078333333333334
+              Mean 90% CI : 7292.018190046701
+     Mean relative 90% CI : 5.4512230058508555
+            Median 90% CI : 7613         
+   Median relative 90% CI : 1.6299091005283812
+
+Local (posterior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 1.0823843691090898
+                      MSE : 7663797.823473233
+                     NMSE : 4730.309717123097
+Computed from the median taken as point estimate
+                     NMAE : 1.3001341998514473
+                      MSE : 8831902.045122553
+                     NMSE : 6153.930734182746
 
 
 ```
@@ -3060,7 +3116,35 @@ Computed from the median taken as point estimate
 - `abcranger-linux-v1.16.44 -t 1000 -j 30 --parameter Nanc --chosenscen 1 --noob 30000 --plsmaxvar 0.95`
 ###### RESULTS:
 ```
+Parameter estimation (point estimates)
+   Expectation        Median Quantile_0.05 Quantile_0.95      Variance
+       18685.3       16709.7          2287       44220.5   5.31871e+07
 
+Global (prior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 0.6176494456020563
+                      MSE : 100281754.45047075
+                     NMSE : 6302.463724827099
+Computed from the median taken as point estimate
+                     NMAE : 0.7919737045474574
+                      MSE : 101287623.49043712
+                     NMSE : 7583.054159890261
+Confidence interval measures
+             90% coverage : 0.9328       
+              Mean 90% CI : 34746.86588357619
+     Mean relative 90% CI : 2.337811892956105
+            Median 90% CI : 36407.74564537218
+   Median relative 90% CI : 0.7284377213063049
+
+Local (posterior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 1.179511809362565
+                      MSE : 53187107.330034286
+                     NMSE : 12190.151996714209
+Computed from the median taken as point estimate
+                     NMAE : 1.0605841541725525
+                      MSE : 49339454.87056468
+                     NMSE : 11001.193463078307
 
 
 ```
@@ -3078,7 +3162,35 @@ Computed from the median taken as point estimate
 - `abcranger-linux-v1.16.44 -t 1000 -j 30 --parameter tBaus --chosenscen 1 --noob 30000 --plsmaxvar 0.95`
 ###### RESULTS:
  ```
+Parameter estimation (point estimates)
+   Expectation        Median Quantile_0.05 Quantile_0.95      Variance
+        149.43           160            26           235       3779.39
 
+Global (prior) errors
+Computed from the mean taken as point estimate
+                     NMAE : inf          
+                      MSE : 3179.8727820715917
+                     NMSE : inf          
+Computed from the median taken as point estimate
+                     NMAE : inf          
+                      MSE : 3192.05340456152
+                     NMSE : inf          
+Confidence interval measures
+             90% coverage : 0.908        
+              Mean 90% CI : 186.586450431116
+     Mean relative 90% CI : inf          
+            Median 90% CI : 187          
+   Median relative 90% CI : 1.840212765957447
+
+Local (posterior) errors
+Computed from the mean taken as point estimate
+                     NMAE : -nan         
+                      MSE : 3779.387341822533
+                     NMSE : -nan         
+Computed from the median taken as point estimate
+                     NMAE : -nan         
+                      MSE : 3504.328942908285
+                     NMSE : -nan         
 
 
 ```
@@ -3096,6 +3208,34 @@ Computed from the median taken as point estimate
 - `abcranger-linux-v1.16.44 -t 1000 -j 30 --parameter taus --chosenscen 1 --noob 30000 --plsmaxvar 0.95`
 ###### RESULTS:
 ```
+Parameter estimation (point estimates)
+   Expectation        Median Quantile_0.05 Quantile_0.95      Variance
+       205.469           207           159           248       912.347
+Global (prior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 0.11807365413949795
+                      MSE : 751.5950560733475
+                     NMSE : 3.8215385826708728
+Computed from the median taken as point estimate
+                     NMAE : 0.12023431261013948
+                      MSE : 774.5375973592497
+                     NMSE : 4.006839591184013
+Confidence interval measures
+             90% coverage : 0.9078333333333334
+              Mean 90% CI : 84.6468857606226
+     Mean relative 90% CI : 0.4166665355296959
+            Median 90% CI : 85
+   Median relative 90% CI : 0.4056603773584906
+
+Local (posterior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 0.1334891146108628
+                      MSE : 912.3470111038971
+                     NMSE : 4.620586004161377
+Computed from the median taken as point estimate
+                     NMAE : 0.13878808438449028
+                      MSE : 973.8271649702283
+                     NMSE : 4.961508348323051
 
 
 ```
