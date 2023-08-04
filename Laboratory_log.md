@@ -3336,3 +3336,10 @@ Computed from the median taken as point estimate
 ###### INTERPRETATION
 
 ---
+
+
+## 04AUG23
+- Simulation of 500K datasets for edentula_contracted_priors_v2 (See priors spreadsheet for details)
+- Trying to see what is the lowest priors at which global and local error on model selection and parameter estimation stabilises at.
+- Initial contracted priors ("v1") showed large decline in error compared to original prior sets.
+- To ensure that the prior sets do not change the model selected, Pool A is being simulated in toto for each set. Model selection proceeds and paramater estimation is conducted on the winning scenario. In the extended priors set, the model selected polytomy first (edentula scenario 1) but parameter estimation was conducted on the 2nd best model (edentula scenario 8) as it had lowest classification error and allowed the estimation of the parameters of interest. Scenario 1 only had one time parameter (tanc) the time of instanteous ancestral divergence between three populations (two source and one invasive) this model was no informative nor biological plausible.
