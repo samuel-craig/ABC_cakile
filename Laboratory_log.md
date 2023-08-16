@@ -3343,3 +3343,491 @@ Computed from the median taken as point estimate
 - Trying to see what is the lowest priors at which global and local error on model selection and parameter estimation stabilises at.
 - Initial contracted priors ("v1") showed large decline in error compared to original prior sets.
 - To ensure that the prior sets do not change the model selected, Pool A is being simulated in toto for each set. Model selection proceeds and paramater estimation is conducted on the winning scenario. In the extended priors set, the model selected polytomy first (edentula scenario 1) but parameter estimation was conducted on the 2nd best model (edentula scenario 8) as it had lowest classification error and allowed the estimation of the parameters of interest. Scenario 1 only had one time parameter (tanc) the time of instanteous ancestral divergence between three populations (two source and one invasive) this model was no informative nor biological plausible.
+- 
+
+
+
+
+
+### Parameter estimation: *C. edentula* "contracted priors v2" dataset
+
+File (M3): edentula_pool_A_contracted_priors_v.2
+- Load diyabcRF
+- `module load diyabc/v1.1.27` 
+
+---
+
+#### Naus: Effective population of the comtemporary Australian *C. edentula* populationn
+###### FILE: []
+###### RF ANALYSIS SETTINGS:
+- `abcranger-linux-v1.16.44 -t 1000 -j 30 --parameter Naus --chosenscen 8 --noob 30000 --plsmaxvar 0.95`
+###### RESULTS:
+```
+Parameter estimation (point estimates)
+   Expectation        Median Quantile_0.05 Quantile_0.95      Variance
+       76.9188            84            36            99       151.534
+
+Global (prior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 0.3329439077774088
+                      MSE : 169.3395311220825
+                     NMSE : 7.606692324388178
+Computed from the median taken as point estimate
+                     NMAE : 0.29692072800611385
+                      MSE : 172.77012546207575
+                     NMSE : 7.193187429825576
+Confidence interval measures
+             90% coverage : 0.9480666666666666
+              Mean 90% CI : 43.00355966081892
+     Mean relative 90% CI : 1.362392834314676
+            Median 90% CI : 42           
+   Median relative 90% CI : 0.8947368421052632
+
+Local (posterior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 0.15111361917870705
+                      MSE : 151.53402426803325
+                     NMSE : 2.306616821352751
+Computed from the median taken as point estimate
+                     NMAE : 0.12960009042661474
+                      MSE : 122.3703007162916
+                     NMSE : 1.7626741319232557
+
+
+
+```
+
+
+![[]]()
+
+###### INTERPRETATION
+
+
+
+
+
+
+---
+
+### Nns: Effective Population of the contemporary Nova Scotia *C. edentula* population
+###### FILE: []
+###### RF ANALYSIS SETTINGS:
+- `abcranger-linux-v1.16.44 -t 1000 -j 30 --parameter Nns --chosenscen 8 --noob 30000 --plsmaxvar 0.95`
+###### RESULTS:
+```
+Parameter estimation (point estimates)
+   Expectation        Median Quantile_0.05 Quantile_0.95      Variance
+       38.0695            37            22            56       23.3756
+
+Global (prior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 0.10445487494893956
+                      MSE : 51.1286387228629
+                     NMSE : 0.9042681187730858
+Computed from the median taken as point estimate
+                     NMAE : 0.10457421092492895
+                      MSE : 51.97739892875044
+                     NMSE : 0.9370580396206147
+Confidence interval measures
+             90% coverage : 0.9301       
+              Mean 90% CI : 22.22393412057075
+     Mean relative 90% CI : 0.42812475108524634
+            Median 90% CI : 23           
+   Median relative 90% CI : 0.4177215189873418
+
+Local (posterior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 0.10706705360929694
+                      MSE : 23.37558378919444
+                     NMSE : 0.6669848658818268
+Computed from the median taken as point estimate
+                     NMAE : 0.11789683164588724
+                      MSE : 29.510213820229055
+                     NMSE : 0.8229128738769548
+
+
+
+
+
+```
+
+
+![[]]()
+
+###### INTERPRETATION
+
+
+
+
+
+
+---
+
+### Ngl: Effective Population of the contemporary Great Lakes *C. edentula* population
+###### FILE: []
+###### RF ANALYSIS SETTINGS:
+- `abcranger-linux-v1.16.44 -t 1000 -j 30 --parameter Ngl --chosenscen 8 --noob 30000 --plsmaxvar 0.95`
+###### RESULTS:
+```
+Parameter estimation (point estimates)
+   Expectation        Median Quantile_0.05 Quantile_0.95      Variance
+       44.1604            43            28            64       34.2066
+
+Global (prior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 0.10596885565216539
+                      MSE : 48.00158254727956
+                     NMSE : 0.8581241188217111
+Computed from the median taken as point estimate
+                     NMAE : 0.10640777787766302
+                      MSE : 48.76989105455669
+                     NMSE : 0.8889388870272839
+Confidence interval measures
+             90% coverage : 0.9312666666666667
+              Mean 90% CI : 21.259016289334337
+     Mean relative 90% CI : 0.4355364560023165
+            Median 90% CI : 22           
+   Median relative 90% CI : 0.4225352112676056
+
+Local (posterior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 0.11439708325887053
+                      MSE : 34.20656383747114
+                     NMSE : 0.8700626606111783
+Computed from the median taken as point estimate
+                     NMAE : 0.10281837980750223
+                      MSE : 35.371330498259056
+                     NMSE : 0.81146156789446
+
+
+
+```
+
+![[]]()
+
+###### INTERPRETATION
+
+---
+
+### Ngst: Effective Population of the historical ghost/unsampled *C. edentula* population
+###### FILE: []
+###### RF ANALYSIS SETTINGS:
+- `abcranger-linux-v1.16.44 -t 1000 -j 30 --parameter Ngst --chosenscen 8 --noob 30000 --plsmaxvar 0.95`
+###### RESULTS:
+```
+Parameter estimation (point estimates)
+   Expectation        Median Quantile_0.05 Quantile_0.95      Variance
+       48.3266            48             3            96       973.356
+
+Global (prior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 1.6881613649242766
+                      MSE : 819.3240627774544
+                     NMSE : 69.97405448169809
+Computed from the median taken as point estimate
+                     NMAE : 1.7112910382546134
+                      MSE : 830.5831249074944
+                     NMSE : 71.43676308382396
+Confidence interval measures
+             90% coverage : 0.9086333333333333
+              Mean 90% CI : 88.98946241804252
+     Mean relative 90% CI : 4.248512968707676
+            Median 90% CI : 89           
+   Median relative 90% CI : 1.7692307692307692
+
+Local (posterior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 2.7030793733583938
+                      MSE : 973.3558152130588
+                     NMSE : 122.2793116533153
+Computed from the median taken as point estimate
+                     NMAE : 3.1438338688747645
+                      MSE : 1042.467534912913
+                     NMSE : 155.30597173769357
+
+
+```
+
+![[]]()
+
+###### INTERPRETATION
+
+---
+
+### NBaus: Effective Population during the historical demographic bottleneck of *C. edentula*'s Australian population
+###### FILE: []
+###### RF ANALYSIS SETTINGS:
+- `abcranger-linux-v1.16.44 -t 1000 -j 30 --parameter NBaus --chosenscen 8 --noob 30000 --plsmaxvar 0.95`
+###### RESULTS:
+```
+Parameter estimation (point estimates)
+   Expectation        Median Quantile_0.05 Quantile_0.95      Variance
+       3.93803             4             2             6       0.96033
+Global (prior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 0.1877460318197663
+                      MSE : 1.1289528748856357
+                     NMSE : 0.2518568731675331
+Computed from the median taken as point estimate
+                     NMAE : 0.17133842592592755
+                      MSE : 1.2266666666666666
+                     NMSE : 0.26928022486772474
+Confidence interval measures
+             90% coverage : 0.9724333333333334
+              Mean 90% CI : 3.3177828048780493
+     Mean relative 90% CI : 0.7422893284079667
+            Median 90% CI : 3            
+   Median relative 90% CI : 0.6666666666666666
+
+Local (posterior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 0.25348788684875845
+                      MSE : 0.9603295113146916
+                     NMSE : 0.3506374008224051
+Computed from the median taken as point estimate
+                     NMAE : 0.35266491652033827
+                      MSE : 1.3179649141789578
+                     NMSE : 0.6651786611685262
+
+
+
+```
+
+![[]]()
+
+###### INTERPRETATION
+
+---
+
+### Nanc: Ancestral Effective Population
+###### FILE: []
+###### RF ANALYSIS SETTINGS:
+- `abcranger-linux-v1.16.44 -t 1000 -j 30 --parameter Nanc --chosenscen 8 --noob 30000 --plsmaxvar 0.95`
+###### RESULTS:
+```
+Parameter estimation (point estimates)
+   Expectation        Median Quantile_0.05 Quantile_0.95      Variance
+       58.5259            62            11            95       220.861
+
+Global (prior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 0.9219280501666262
+                      MSE : 360.5564249560544
+                     NMSE : 27.25545737603039
+Computed from the median taken as point estimate
+                     NMAE : 0.881312941100955
+                      MSE : 352.66728747752
+                     NMSE : 26.355450930372005
+Confidence interval measures
+             90% coverage : 0.9402       
+              Mean 90% CI : 67.05472073892913
+     Mean relative 90% CI : 2.8916462715182103
+            Median 90% CI : 72           
+   Median relative 90% CI : 1.4081632653061225
+
+Local (posterior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 0.574268323100817
+                      MSE : 220.86100131749396
+                     NMSE : 17.237997049300773
+Computed from the median taken as point estimate
+                     NMAE : 0.4126503082521498
+                      MSE : 246.05255927850453
+                     NMSE : 10.421357979692589
+
+
+
+```
+
+![[]]()
+
+###### INTERPRETATION
+
+
+---
+
+### tBaus: Time of Demographic Bottleneck in Australian *C. edentula*
+###### FILE: []
+###### RF ANALYSIS SETTINGS:
+- `abcranger-linux-v1.16.44 -t 1000 -j 30 --parameter tBaus --chosenscen 8 --noob 30000 --plsmaxvar 0.95`
+###### RESULTS:
+ ```
+ Parameter estimation (point estimates)
+   Expectation        Median Quantile_0.05 Quantile_0.95      Variance
+       8.74978             9             6            10       1.18915
+Global (prior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 0.2867456386094287
+                      MSE : 2.0814071670536958
+                     NMSE : 0.5167464704260506
+Computed from the median taken as point estimate
+                     NMAE : 0.24846256613756654
+                      MSE : 2.1590333333333334
+                     NMSE : 0.48158894179895656
+Confidence interval measures
+             90% coverage : 0.9850333333333333
+              Mean 90% CI : 4.974218526983105
+     Mean relative 90% CI : 1.2329588120412698
+            Median 90% CI : 5            
+   Median relative 90% CI : 1            
+
+Local (posterior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 0.10944587861486174
+                      MSE : 1.1891493170547318
+                     NMSE : 0.16756779476840583
+Computed from the median taken as point estimate
+                     NMAE : 0.10099463185981525
+                      MSE : 1.1993161132748165
+                     NMSE : 0.17964596589344742
+
+
+
+```
+
+![[]]()
+
+###### INTERPRETATION
+
+---
+
+
+### taus: Time of Australian Population Divergence from native ghost/unsampled population
+###### FILE: []
+###### RF ANALYSIS SETTINGS:
+- `abcranger-linux-v1.16.44 -t 1000 -j 30 --parameter taus --chosenscen 8 --noob 30000 --plsmaxvar 0.95`
+###### RESULTS:
+```
+Parameter estimation (point estimates)
+   Expectation        Median Quantile_0.05 Quantile_0.95      Variance
+       165.254           165           157           175        37.656
+Global (prior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 0.030256091357979006
+                      MSE : 33.631361468221556
+                     NMSE : 0.20304489093556177
+Computed from the median taken as point estimate
+                     NMAE : 0.030289121833019107
+                      MSE : 34.06226088303755
+                     NMSE : 0.20552131806255927
+Confidence interval measures
+             90% coverage : 0.9464666666666667
+              Mean 90% CI : 17.957034444444446
+     Mean relative 90% CI : 0.10832538537087127
+            Median 90% CI : 18           
+   Median relative 90% CI : 0.10843373493975904
+
+Local (posterior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 0.03255944553596186
+                      MSE : 37.65600404378304
+                     NMSE : 0.22972529110045542
+Computed from the median taken as point estimate
+                     NMAE : 0.03377950833600038
+                      MSE : 40.84899864926793
+                     NMSE : 0.25083240220372494
+
+
+
+```
+
+![[]]()
+
+###### INTERPRETATION
+
+---
+
+### tgst: Time of ghost/unsampled Population Divergence from Nova Scotian population
+###### FILE: []
+###### RF ANALYSIS SETTINGS:
+- `abcranger-linux-v1.16.44 -t 1000 -j 30 --parameter tgst --chosenscen 8 --noob 30000 --plsmaxvar 0.95`
+###### RESULTS:
+```
+Parameter estimation (point estimates)
+   Expectation        Median Quantile_0.05 Quantile_0.95      Variance
+       196.186           190           178           242       285.177
+
+Global (prior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 0.10382718676882834
+                      MSE : 1438.5931073549025
+                     NMSE : 5.164452109996971
+Computed from the median taken as point estimate
+                     NMAE : 0.10284149041173471
+                      MSE : 1428.2601628741609
+                     NMSE : 5.215015992425905
+Confidence interval measures
+             90% coverage : 0.9221333333333334
+              Mean 90% CI : 123.6317736477631
+     Mean relative 90% CI : 0.432499428709428
+            Median 90% CI : 126          
+   Median relative 90% CI : 0.4229161950862774
+
+Local (posterior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 0.06101205166711395
+                      MSE : 285.17660189530187
+                     NMSE : 1.2924000441459078
+Computed from the median taken as point estimate
+                     NMAE : 0.045073673231891716
+                      MSE : 157.71599297032913
+                     NMSE : 0.7444314478153206
+
+
+```
+
+![[]]()
+
+###### INTERPRETATION
+
+---
+
+### tanc: Time of ancestral divergence of Nova Scotian and Great Lakes population
+###### FILE: [maritima_parameter_est_tBwna2] <- note, parameter_est not param_est
+###### RF ANALYSIS SETTINGS:
+- `abcranger-linux-v1.16.44 -t 1000 -j 30 --parameter tanc --chosenscen 8 --noob 30000 --plsmaxvar 0.95`
+###### RESULTS:
+```
+Parameter estimation (point estimates)
+   Expectation        Median Quantile_0.05 Quantile_0.95      Variance
+       228.773           218           188           307       607.728
+Global (prior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 0.10581383143280983
+                      MSE : 2362.2197002812536
+                     NMSE : 6.777651618466237
+Computed from the median taken as point estimate
+                     NMAE : 0.10415278521683827
+                      MSE : 2349.6034441927377
+                     NMSE : 6.91973964140639
+Confidence interval measures
+             90% coverage : 0.9272666666666667
+              Mean 90% CI : 166.61669530619432
+     Mean relative 90% CI : 0.44112484819466213
+            Median 90% CI : 168          
+   Median relative 90% CI : 0.42038216560509556
+
+Local (posterior) errors
+Computed from the mean taken as point estimate
+                     NMAE : 0.08901621721004327
+                      MSE : 607.7277572530877
+                     NMSE : 2.641753694653239
+Computed from the median taken as point estimate
+                     NMAE : 0.08095566950460734
+                      MSE : 518.2656995521004
+                     NMSE : 2.2092998752621194
+
+
+
+
+```
+
+![[]]()
+
+###### INTERPRETATION
+
+---
+
+
+
+
