@@ -3876,4 +3876,8 @@ Computed from the median taken as point estimate
 
 #### The Point:
 - We want to check our priors for robustness. We have three different sets of priors, "original", "extended" and "contracted". We are running model choice using all 25 scenarios on all sets of priors.
-- Ultimately, we have already proceeded with a simpler set of scenarios (Pool A) based on earlier results. These earlier results involved a tournament analysis between scenarios grouped into "pools" based upon their topology (single introduction, admixed introduction, multiple introduction). 
+- We have also proceeded with a simpler set of scenarios (Pool A) based on earlier results. These earlier results involved a tournament analysis between scenarios grouped into "pools" based upon their topology (single introduction, admixed introduction, multiple introduction).
+- These Pool A scenarios have all been run on the three sets of priors.
+- Extended priors have a prior error rate of 0.1848, choosing scenario 4 with a PP of 0.724 and a scenario classification error rates of 0.292.
+- This is the highest PP achieved, but the scenario is completely uninformative, consisting of polytomy the three populations at some ancestral divergence point.
+-     
