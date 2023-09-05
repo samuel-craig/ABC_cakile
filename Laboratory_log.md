@@ -128,6 +128,33 @@
 - [18AUG23](#18AUG23)
 - [19AUG23](#19AUG23)
 - [20AUG23](#20AUG23)
+- [21AUG23](#21AUG23)
+- [22AUG23](#22AUG23)
+- [23AUG23](#23AUG23)
+- [24AUG23](#24AUG23)
+- [25AUG23](#25AUG23)
+- [26AUG23](#26AUG23)
+- [27AUG23](#27AUG23)
+- [28AUG23](#28AUG23)
+- [29AUG23](#29AUG23)
+- [30AUG23](#30AUG23)
+- [31AUG23](#31AUG23)
+- [01SEP23](#01SEP23)
+- [02SEP23](#02SEP23)
+- [03SEP23](#03SEP23)
+- [04SEP23](#04SEP23)
+- [05SEP23](#05SEP23)
+	- [Graphing prior PCAs and LDAs](#PCAs_LDAs_05)
+- [06SEP23](#06SEP23)
+- [07SEP23](#07SEP23)
+- [08SEP23](#08SEP23)
+- [09SEP23](#09SEP23)
+- [10SEP23](#10SEP23)
+- [11SEP23](#11SEP23)
+- [12SEP23](#12SEP23)
+- [13SEP23](#13SEP23)
+- [14SEP23](#14SEP23)
+- [15SEP23](#15SEP23)   
 
 
 
@@ -3828,6 +3855,25 @@ Computed from the median taken as point estimate
 
 ---
 
+## 05SEP23
 
 
+### PCAs LDAs <a name="PCAs_LDAs_05"></a>
 
+#### *C. edentula* all scenarios "original priors"
+- Summarised pcaloc1 files, graphed prior PCAs and posterior LDAs
+- The proportion of simulated data (summary statistics) (considering 300,000/1000,000 of the training set) that have a value lower than 5% or greater than 95%  of the observed data (summary statistics)
+- Under the original prior set, 26.4% of the simulated summary statistics have a value lower than 5% or greater than 95% of the observed summary statistics.
+
+#### *C. edentula* all scenarios "extended priors"
+- Summarised pcaloc1 files, graphed prior PCAs and posterior LDAs
+- The proportion of simulated data (summary statistics) (500,000 training sets) that have a value lower than 5% or greater than 95%  of the observed data (summary statistics)
+- Under the original prior set, 29.76% of the simulated summary statistics have a value lower than 5% or greater than 95% of the observed summary statistics.
+
+#### *C. edentula* all scenarios "contracted priors"
+- Simulating 200K datasets for model check, if GUI allows 300K, simulating 300K
+
+
+#### The Point:
+- We want to check our priors for robustness. We have three different sets of priors, "original", "extended" and "contracted". We are running model choice using all 25 scenarios on all sets of priors.
+- Ultimately, we have already proceeded with a simpler set of scenarios (Pool A) based on earlier results. These earlier results involved a tournament analysis between scenarios grouped into "pools" based upon their topology (single introduction, admixed introduction, multiple introduction). 
