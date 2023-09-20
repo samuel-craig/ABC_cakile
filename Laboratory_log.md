@@ -3910,3 +3910,22 @@ Computed from the median taken as point estimate
 - Under the CONTRACTED prior set, 26.48% of the simulated summary statistics have a value lower than 5% or greater than 95% of the observed summary statistics.
 - After model selection, prior error rate 0.4458
 - Model choice, scenario 23, posterior probability 0.529
+
+#### Analysis
+- Seems to be low PP with little difference between prior sets, this being emphasised by the little difference between either PCAs created prior to model choice or LDAs after model choice - both show observed data within 'cloud' of simulated data. Classification errors are high across all prior sets.
+- Scenario 23, picked for both the "original" and "contracted" prior sets, involves two separate introductions of unsampled populations diverging from Nova Scotia, these later admixing to form the sampled *C. edentula* population in contemporary Australia.
+- Scenario 25, picked for the "extended" prior set, involves two separate introductions of unsampled populations, first from Nova Scotia and later from an unsampled native range population, these later admixing to from the sampled *C. edentula* population in contemporary Australia.
+- In etiher case, model choice is choosing more complex scenarios that rely on an assumption that there is 2 unsampled populations in the introduced Australian range (for scenario 23) and 3 unsampled populations - 2 in introduced Australian range and 1 in native range - for scenario 25.
+- For me there are a number of possibilities for this:
+- (1) That sampling of native/introduced range was not comprehensive (this is always a possibility),
+- (2) That source populations of the contemporary population may simply have gone extinct(?) and were not able to be sampled
+- (3) That just looking at the *C. edentula* purebreds means that more 'unsampled' populations have to be used to best fit the data
+
+- For the third point, could the initial filtering and use of only the *C. edentula* purebred/non-hybrid *C. edentula* mean that the scenario only fits the data if essentially 'wildcard' unsampled populations are used? That is, what happens if instead of testing the *C. edentula* and *C. maritima* scenarios in isolation from one another we attempt to model them together?
+- The logic for modelling them together could be that:
+- (1) We didn't catch all the hybrids (particularly very old hybrids)(?) <- read more on the process of how this was conducted, could any REALLY have slipped through? If they could have would they have been the older hybrids that since show little sign of hybridisation?
+- (2) *C. edentula* and *C. maritima* did hybridise, and diyabc can be used to model this, so does modelling it result in lower prior error, lower classification error and higher posterior probabilities
+
+- There is also the case for not modelling them together:
+- (1) hybrid classification was thorough, the *C. edentula* that we say are non-hybrid are non-hybrid
+- (2) Introduction scenarios are complex and the point is not to model each twist and turn but to develop a model that is informative. Overwhelmingly, whether we consider all *C. edentula* scenarios, or just those from the simplified scenarios of Pool A, we have determined that the source of the introduction is likely Nova Scotia. This complements other evidence which also implied that the origin of *C. edentula* in Australia was Nova Scotia. Thus it is better to use the results from Pool A (which we already have, including testing of Pool A with the three different prior sets)
