@@ -154,7 +154,17 @@
 - [12SEP23](#12SEP23)
 - [13SEP23](#13SEP23)
 - [14SEP23](#14SEP23)
-- [15SEP23](#15SEP23)   
+- [15SEP23](#15SEP23)
+- [16SEP23](#16SEP23)
+- [17SEP23](#17SEP23)
+- [18SEP23](#18SEP23)
+- [19SEP23](#19SEP23)
+- [20SEP23](#10SEP23)
+- [21SEP23](#21SEP23)
+- [22SEP23](#22SEP23)
+- [23SEP23](#23SEP23)
+- [24SEP23](#24SEP23)
+   
 
 
 
@@ -3868,7 +3878,7 @@ Computed from the median taken as point estimate
 #### *C. edentula* all scenarios "extended priors"
 - Summarised pcaloc1 files, graphed prior PCAs and posterior LDAs
 - The proportion of simulated data (summary statistics) (500,000 training sets) that have a value lower than 5% or greater than 95%  of the observed data (summary statistics)
-- Under the original prior set, 29.76% of the simulated summary statistics have a value lower than 5% or greater than 95% of the observed summary statistics.
+- Under the extended prior set, 29.76% of the simulated summary statistics have a value lower than 5% or greater than 95% of the observed summary statistics.
 
 #### *C. edentula* all scenarios "contracted priors"
 - Simulating 200K datasets for model check, if GUI allows 300K, simulating 300K
@@ -3880,4 +3890,23 @@ Computed from the median taken as point estimate
 - These Pool A scenarios have all been run on the three sets of priors.
 - Extended priors have a prior error rate of 0.1848, choosing scenario 4 with a PP of 0.724 and a scenario classification error rates of 0.292.
 - This is the highest PP achieved, but the scenario is completely uninformative, consisting of polytomy the three populations at some ancestral divergence point.
--     
+
+## 20SEP23
+
+#### *C. edentula* all scenarios "original priors"
+- Summarised pcaloc1 files, graphed prior PCAs and posterior LDAs
+- Under the ORIGINAL prior set, 26.4% of the simulated summary statistics have a value lower than 5% or greater than 95% of the observed summary statistics.
+- After model selection, prior error rate 0.4464
+- Model choice, scenario 23, posterior probability 0.53
+
+#### *C. edentula* all scenarios "extended priors"
+- Summarised pcaloc1 files, graphed prior PCAs and posterior LDAs
+- Under the EXTENDED prior set, 29.76% of the simulated summary statistics have a value lower than 5% or greater than 95% of the observed summary statistics.
+- After model selection, prior error rate 0.469
+- Model choice, scenario 25, posterior probability 0.500
+  
+#### *C. edentula* all scenarios "contracted priors"
+- Summarised pcaloc1 files, graphed prior PCAs and posterior LDAs
+- Under the CONTRACTED prior set, 26.48% of the simulated summary statistics have a value lower than 5% or greater than 95% of the observed summary statistics.
+- After model selection, prior error rate 0.4458
+- Model choice, scenario 23, posterior probability 0.529
