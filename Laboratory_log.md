@@ -3949,5 +3949,42 @@ Computed from the median taken as point estimate
 - Or should all times be between 3,000,000 years ago and 1000 years ago and conditioned to occur one after another? With PCA prior checking to see if the priors accurately reflect the observed data before conducting PCA (this seems best, it's more exploratory). Ultimately, we arn't too concerned with the timing of this step, but rather the topology, so we shouldn't constrain the times in such a way that the data must be forced into improbable scenarios.
 
 
+### Making SNP files for DIYABC
+Made a keep file "keep_step1.txt"
+
+Filtered using keep file: 
+bcftools view -S keep_step1.txt Cakile_e-Admixture_downsampled17721_rn_poly > step_1_cakile
+
+Check number of samples match:
+$ bcftools query -l step_1_cakile | wc -l     
+
+Before filtering for monomorphic: bcftools view -H  step_1_cakile | wc -l
+10000
+
+Filtering for monomorphic:
+$ bcftools filter -e 'AC==0 || AC==AN' step_1_cakile > step_1_cakile_abc
+
+
+After filtering for monomorphic:
+bcftools view -H  step_1_cakile_abc | wc -l
+9733
+
+Make a copy of the file using cp
+
+Use bcftools to convert files into vcf using: $ bcftools convert --output-type v step_1_cakile_abc_cp > step_1_cakile_abc_cp.vcf
+
+Use pwd to get working directory. Make note of the files below. Return home usiong 'cd'
+/mnt/c/Users/Sam/Documents/Monash/BIO3990/step_1_cakile_abc_cp.vcf
+/mnt/c/Users/Sam/Documents/Monash/BIO3990/diyabc2vcf_step1.txt
+
+
+Then $ cd vcf2DIYABC.snp
+Then $ python2 vcf2diyabc.py
+
+You will be prompted to enter your vcf and information files (make sure to include .vcf on the end of the file). Information files are saved as 'diyabc2vcf_edentula' ...
+
+Writing outputfile as: /mnt/c/Users/Sam/Documents/Monash/BIO3990/step_1_cakile_abc_cp.DIYABC.snp
+
+
 
 
