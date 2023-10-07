@@ -3939,11 +3939,14 @@ Computed from the median taken as point estimate
 ## 07OCT23
 
 
-### Priors for step 1
+### One line of thinking for Priors for step 1
 - t1: MAX: 3 mya. Rationale, formation of the Isthmus of Panama, see Rodman (1974): *Cakile* not in the Pacific, did not likely cross Atlantic prior to formation of Isthmus.
 - t1: MIN: 13 kya. Rationale, beginning of the opening of the Champlain Sea (13,000 to 9,000 ybp - see Rodman 1974, update geological citation if necessary). Rodman assumes that  this is the likely window of time in which *C. edentula* could have moved from a maritime to a lacustrine environment, due to the  (forming the Great Lakes cluster(?)). I am using this for a minimum bound because IF this is when *C. edentula* spread to the Great Lakes, then it must have already been present in eNA.
 
-- t2 & t3: MAX: 13 kya. Rationale. Rodman (1974) 
+- t2 & t3: MAX & MIN: 13 kya. Rationale. t2 & t3 need to be identical but conditioned so that one occurs before the other. These need to coincide with the likely times of *C. baltica* divergence (which Rodman 1974 assumes occured during the creation of the Baltic Ice Lake (12,600 - 10,300 ybp)) and that of the divergence of *C. edentula* into the Great Lakes region beginning of the opening of the Champlain Sea (13,000 to 9,000 ybp). Therefore a conservative max bound would be 13,000 and min bound 9,000.
+
+### Another line of thinking for priors for step 1
+- Or should all times be between 3,000,000 years ago and 1000 years ago and conditioned to occur one after another? With PCA prior checking to see if the priors accurately reflect the observed data before conducting PCA (this seems best, it's more exploratory). Ultimately, we arn't too concerned with the timing of this step, but rather the topology, so we shouldn't constrain the times in such a way that the data must be forced into improbable scenarios.
 
 
 
