@@ -164,6 +164,9 @@
 - [22SEP23](#22SEP23)
 - [23SEP23](#23SEP23)
 - [24SEP23](#24SEP23)
+
+
+- [07OCT23](#07OCT23)
    
 
 
@@ -3929,3 +3932,19 @@ Computed from the median taken as point estimate
 - There is also the case for not modelling them together:
 - (1) hybrid classification was thorough, the *C. edentula* that we say are non-hybrid are non-hybrid
 - (2) Introduction scenarios are complex and the point is not to model each twist and turn but to develop a model that is informative. Overwhelmingly, whether we consider all *C. edentula* scenarios, or just those from the simplified scenarios of Pool A, we have determined that the source of the introduction is likely Nova Scotia. This complements other evidence which also implied that the origin of *C. edentula* in Australia was Nova Scotia. Thus it is better to use the results from Pool A (which we already have, including testing of Pool A with the three different prior sets)
+
+
+
+
+## 07OCT23
+
+
+### Priors for step 1
+- t1: MAX: 3 mya. Rationale, formation of the Isthmus of Panama, see Rodman (1974): *Cakile* not in the Pacific, did not likely cross Atlantic prior to formation of Isthmus.
+- t1: MIN: 13 kya. Rationale, beginning of the opening of the Champlain Sea (13,000 to 9,000 ybp - see Rodman 1974, update geological citation if necessary). Rodman assumes that  this is the likely window of time in which *C. edentula* could have moved from a maritime to a lacustrine environment, due to the  (forming the Great Lakes cluster(?)). I am using this for a minimum bound because IF this is when *C. edentula* spread to the Great Lakes, then it must have already been present in eNA.
+
+- t2 & t3: MAX: 13 kya. Rationale. Rodman (1974) 
+
+
+
+
