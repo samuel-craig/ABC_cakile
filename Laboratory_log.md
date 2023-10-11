@@ -167,6 +167,17 @@
 
 
 - [07OCT23](#07OCT23)
+- [08OCT23](#08OCT23)
+- [09OCT23](#09OCT23)
+- [10OCT23](#10OCT23)
+- [11OCT23](#11OCT23)
+	- [All_scenarios_complete_for_Cakile_by_steps](#Cakile_steps_11)
+- [12OCT23](#12OCT23)
+- [13OCT23](#13OCT23)
+- [14OCT23](#14OCT23)
+- [15OCT23](#15OCT23)
+- [16OCT23](#16OCT23)
+- [17OCT23](#17OCT23)
    
 
 
@@ -3982,8 +3993,22 @@ Then $ cd vcf2DIYABC.snp
 Then $ python2 vcf2diyabc.py
 
 You will be prompted to enter your vcf and information files (make sure to include .vcf on the end of the file). Information files are saved as 'diyabc2vcf_edentula' ...
-
 Writing outputfile as: /mnt/c/Users/Sam/Documents/Monash/BIO3990/step_1_cakile_abc_cp.DIYABC.snp
+
+## 11OOCT23
+### All scenarios complete for Cakile_by_steps <a name="Cakile_steps_11"></a>
+
+#### Priors
+Ended up setting the time parameter maximum to 20,000 ybp and the minimum to 500 ybp. Will check fit using pre-scenario choice PCA.
+
+#### Scenarios
+- Step 1: 16 scenarios
+- Step 2: 16 scenarios
+- Step 3: 16 scenarios
+
+In order to reduce Step 2 from 256 scenarios to 16 I removed any instances of two independent introductions of Cakile leading to the formation of the non-hybrid population.
+This wasn't just about reducing the amount of scenarios that had to be tested - the subset of data used for Step 2 did not include any samples designated as hybrids, so, if we take these methods of hybrid assignment to be robust, then this subset's demographic history is likely to only have involved a singular introduction from a singular source. The obvious contradiction to this would be two independent introductions from the same source, e.g. Rosinger -> "However, molecular studies (Cousens et al., 2013; Ohadi et al., 2016; Shaw et al., 2021), have shown that a second introduction of *C. maritima* occurred in South Australia (1918)" <- re-read these papers to determine whether they could conclude whether the second introduction likely came from the same source <- in other words, IS the only way that they could detect this secondary introduction is because it came from a different source population? Given the short amount of time between the first and the second *C. maritima* intoductions into Australia (1st: 1987, 2nd: 1918) this would seem very likely <- (reason: no singular population could diverge that much in 20 years(?) <- but what if each introduction was sampled from different extremes of the population. 
+
 
 
 
