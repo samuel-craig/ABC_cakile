@@ -4010,6 +4010,12 @@ In order to reduce Step 2 from 256 scenarios to 16 I removed any instances of tw
 This wasn't just about reducing the amount of scenarios that had to be tested - the subset of data used for Step 2 did not include any samples designated as hybrids, so, if we take these methods of hybrid assignment to be robust, then this subset's demographic history is likely to only have involved a singular introduction from a singular source. The obvious contradiction to this would be two independent introductions from the same source, e.g. Rosinger -> "However, molecular studies (Cousens et al., 2013; Ohadi et al., 2016; Shaw et al., 2021), have shown that a second introduction of *C. maritima* occurred in South Australia (1918)" <- re-read these papers to determine whether they could conclude whether the second introduction likely came from the same source <- in other words, IS the only way that they could detect this secondary introduction is because it came from a different source population? Given the short amount of time between the first and the second *C. maritima* intoductions into Australia (1st: 1987, 2nd: 1918) this would seem very likely <- (reason: no singular population could diverge that much in 20 years(?) <- but what if each introduction was sampled from different extremes of the population. 
 
 
+## 13OCT23
+
+In order to use DIYABC's "Prior and Scenario checking" function (generates PCAs on simulated compared to observed data - statsobs), maximum file size cannot be exceeded. First, simulate HALF of the scenarios needed (160K/320K)
+
+### Prior and Scenario checking PCAs
+Observed data is NOT in the centre of a 'cloud' of simulated data suggesting poor prior choice and scenarios. Redo priors.
 
 
 
