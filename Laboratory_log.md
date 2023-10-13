@@ -4011,11 +4011,13 @@ This wasn't just about reducing the amount of scenarios that had to be tested - 
 
 
 ## 13OCT23
-
+### Prior and Scenario checking PCAs
 In order to use DIYABC's "Prior and Scenario checking" function (generates PCAs on simulated compared to observed data - statsobs), maximum file size cannot be exceeded. First, simulate HALF of the scenarios needed (160K/320K)
 
-### Prior and Scenario checking PCAs
-Observed data is NOT in the centre of a 'cloud' of simulated data suggesting poor prior choice and scenarios. Redo priors.
+### Results
+Observed data is NOT in the centre of a 'cloud' of simulated data suggesting poor prior choice and scenarios. Redo priors, new file name "cakile_step_1v2" setting maximum time parameters to 3,000,000 (closure of Ishthmus of Panama, see Rodman 1974).
+
+Results from "cakile_step_1v2" are WAY off, perhaps adjusted in the completely wrong direction, will try setting maximum time paramter to 15,000.
 
 
 
